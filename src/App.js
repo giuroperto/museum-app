@@ -3,7 +3,7 @@ import AllRoutes from './routes';
 
 const App = () => {
   return (
-    <div className="routes">
+    <div className="App">
       <AllRoutes />
     </div>
   );
