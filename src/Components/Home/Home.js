@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { CardDeck, Card } from 'react-bootstrap';
 
 import './Home.css';
 
@@ -23,25 +24,49 @@ const Home = () => {
     <div className="home-container">
       <h1 className="app-title">MUSEU DO BIXIGA</h1>
       <div className="btn-container">
-        <Link to={ROUTES.ORIONE}>
-          <div className="btn-menu">
-            <img className="btn-img" src="https://res.cloudinary.com/dxatyucj2/image/upload/v1620354559/museu-bixiga/p._36_ikeey2.jpg" alt="Foto de São Luís Orione"/>
-            <span>SÃO LUÍS ORIONE</span>
-          </div>
-        </Link>
-        <Link to={ROUTES.ACHIROPITA}>
-        <div className="btn-menu">
-          <img className="btn-img" src="https://res.cloudinary.com/dxatyucj2/image/upload/v1620354631/museu-bixiga/visita_2_ksdbec.jpg" alt="Pintura de Nossa Senhora Achiropita"/>
-          <span>NOSSA SENHORA ACHIROPITA</span>
-        </div>
-        </Link>
-        <Link to={ROUTES.BIXIGA}>
-        <div className="btn-menu">
-          <img className="btn-img" src="http://res.cloudinary.com/dxatyucj2/image/upload/v1620355700/museu-bixiga/igrejaachiropita_ecsw14.jpg" alt="Foto da Igreja da Achiropita no Bixiga"/>
-          <span>BIXIGA</span>
-        </div>
-        </Link>
+        <CardDeck className="card-deck">
+          <Card>
+            <Card.Img variant="top" src="https://res.cloudinary.com/dxatyucj2/image/upload/v1620871539/museu-bixiga/p._36_ikeey2.jpg" />
+            <Card.Body>
+              <Card.Title>SÃO LUÍS ORIONE</Card.Title>
+              <Card.Text className="card-text">
+                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.{' '}
+                <Link to={ROUTES.ORIONE}>SAIBA MAIS
+                </Link>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src="https://res.cloudinary.com/dxatyucj2/image/upload/v1620871500/museu-bixiga/visita_2_ksdbec.jpg" />
+            <Card.Body>
+              <Card.Title>NOSSA SENHORA ACHIROPITA</Card.Title>
+              <Card.Text className="card-text">
+                This card has supporting text below as a natural lead-in to additional content.{' '}
+                <Link to={ROUTES.ACHIROPITA}>SAIBA MAIS
+                </Link>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src="https://res.cloudinary.com/dxatyucj2/image/upload/v1620871689/museu-bixiga/igrejaachiropita_ecsw14.jpg" />
+            <Card.Body>
+              <Card.Title>BIXIGA</Card.Title>
+              <Card.Text className="card-text">
+                This is a wider card with supporting text below as a natural lead-in to additional content.{' '}
+                <Link to={ROUTES.BIXIGA}>SAIBA MAIS
+                </Link>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardDeck>
       </div>
+{/* 
+          <div className="btn-menu">
+          </div>
+        <div className="btn-menu">
+        </div>
+        <div className="btn-menu">
+        </div> */}
     </div>
   )
 };
