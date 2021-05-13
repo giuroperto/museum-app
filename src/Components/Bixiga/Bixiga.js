@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import Navbar from '../Navbar/Navbar';
 import "./Bixiga.css";
 
 const Bixiga = () => {
   return (
     <>
+      <Navbar />
       <div className="bixiga-container">
         <Link className="section-menu">Origem do Bairro</Link>
         <Link className="section-menu">Linha do Tempo</Link>

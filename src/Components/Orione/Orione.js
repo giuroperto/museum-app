@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import "./Orione.css";
 import Footer from '../Footer/Footer';
+import Navbar from '../Navbar/Navbar';
 
 const Orione = () => {
   return (
     <>
+      <Navbar />
       <div className="orione-container">
         <Link className="section-menu">
           <div className="section-title">

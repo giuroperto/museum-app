@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import Navbar from '../Navbar/Navbar';
 import "./Achiropita.css";
 
 const Achiropita = () => {
   return (
     <>
+      <Navbar />
       <div className="achiropita-container">
         <Link className="section-menu">Origem da Devoção</Link>
         <Link className="section-menu">Linha do Tempo</Link>
