@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Achiropita from './Components/Achiropita/Achiropita';
 import Orione from './Components/Orione/Orione';
 import Bixiga from './Components/Bixiga/Bixiga';
+import PhotosPage from './Components/PhotosPage/PhotosPage';
 
 import ROUTES from './Components/constants/routes';
 
@@ -27,6 +28,7 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} />
         <Route path={ROUTES.ORIONE} exact component={Orione} />
         <Route path={ROUTES.BIXIGA} exact component={Bixiga} />
+        <Route path={ROUTES.SEMENTEIRA} exact component={PhotosPage} />
 
         {/* <Route path={ROUTES.MENU} exact render={(props) => (
           <Menu getOrderData={propsData.getOrderData} user={propsData.userSignIn} deliveryInfo={propsData.deliveryInfo} {...props} />

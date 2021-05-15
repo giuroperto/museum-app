@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+
+import TOPICS from '../constants/topics';
+
 import "./Orione.css";
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
@@ -8,36 +11,9 @@ const Orione = () => {
     <>
       <Navbar />
       <div className="orione-container">
-        <Link className="section-menu">
-          <div className="section-title">
-          História
-          </div>
-        </Link>
-        <Link className="section-menu">
-          <div className="section-title">
-          Obras
-          </div>
-        </Link>
-        <Link className="section-menu">
-          <div className="section-title">
-          Centenário
-          </div>
-        </Link>
-        <Link className="section-menu">
-          <div className="section-title">
-          Escritos
-          </div>
-        </Link>
-        <Link className="section-menu">
-          <div className="section-title">
-          Biografias
-          </div>
-        </Link>
-        <Link className="section-menu">
-          <div className="section-title">
-          Evolução no Brasil
-          </div>
-        </Link>
+      {
+        TOPICS.ORIONE.map(topic => <Link className="section-menu" to={topic.route}>{topic.item}</Link>)
+      }
       </div>
       <Footer />
     </>
