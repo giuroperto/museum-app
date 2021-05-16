@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Card } from 'react-bootstrap';
 
 import TOPICS from "../constants/topics";
 
@@ -13,7 +14,18 @@ const Achiropita = () => {
       <Navbar />
       <div className="achiropita-container">
       {
-        TOPICS.ACHIROPITA.map(topic => <Link className="section-menu" to={topic.route}>{topic.item}</Link>)
+        TOPICS.ACHIROPITA.map(topic => {
+          return (
+            <Card className="text-center section-card">
+              <Card.Body>
+                <Card.Title>
+                  <Link className="section-menu" to={topic.route}>{topic.item}</Link>
+                  </Card.Title>
+              </Card.Body>
+              <Card.Footer className="text-muted">{topic.resources}</Card.Footer>
+            </Card>
+            )
+          })
       }
       </div>
       <Footer />
