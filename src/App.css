@@ -18,3 +18,33 @@
   text-align: center;
   padding: 10px;
 }
+
+.card-groups {
+  width: 27vw;
+  height: 60vh;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(235, 72, 72);
+}
+
+.card-items {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-item-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(45, 45, 45);
+}
+
+.card-item-link:hover {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(37, 147, 117);
+}
