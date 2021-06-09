@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600&family=Pinyon+Script&family=Roboto:wght@100;300;400;500&display=swap');
+
 .App {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(186, 186, 186);
 }
 

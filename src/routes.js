@@ -2,8 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Home from './Components/Home/Home';
-import Achiropita from './Components/Achiropita/Achiropita';
+
+// ORIONE
 import Orione from './Components/Orione/Orione';
+import Biografia from './Components/Orione/Biografia/Biografia';
+
+import Achiropita from './Components/Achiropita/Achiropita';
 import Bixiga from './Components/Bixiga/Bixiga';
 import PhotosPage from './Components/PhotosPage/PhotosPage';
 
@@ -25,8 +29,17 @@ const AllRoutes = (props) => {
       {/* <Navbar /> */}
       <Switch>
         <Route path={ROUTES.HOME} exact component={Home} />
-        <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} />
+
+        {/* ORIONE ROUTES */}
         <Route path={ROUTES.ORIONE} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_BIOGRAFIA} exact component={Biografia} />
+        <Route path={ROUTES.ORIONE_FILMES} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_FOTOS} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_ICONOLOGIA} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_OBRAS} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES} exact component={Orione} />
+
+        <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} />
         <Route path={ROUTES.BIXIGA} exact component={Bixiga} />
         <Route path={ROUTES.SEMENTEIRA} exact component={PhotosPage} />
 

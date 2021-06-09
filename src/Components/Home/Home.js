@@ -33,7 +33,8 @@ const Home = () => {
               <Card.Body>
                 <Card.Title>SÃO LUÍS ORIONE</Card.Title>
                 <Card.Text className="card-text">
-                  <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.{' '}</p>
+                  <p>“A caridade simpatiza com os defeitos dos outros: é iluminada e prudente”.{' '}</p>
+                  <p>Conheça sobre a vida e obra de Don Orione...</p>
                   <Link to={ROUTES.ORIONE} className="card-link">SAIBA MAIS</Link>
                 </Card.Text>
               </Card.Body>
