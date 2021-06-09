@@ -6,6 +6,7 @@ import Home from './Components/Home/Home';
 // ORIONE
 import Orione from './Components/Orione/Orione';
 import Biografia from './Components/Orione/Biografia/Biografia';
+import Obras from './Components/Orione/Obras/Obras';
 
 import Achiropita from './Components/Achiropita/Achiropita';
 import Bixiga from './Components/Bixiga/Bixiga';
@@ -36,7 +37,7 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ORIONE_FILMES} exact component={Orione} />
         <Route path={ROUTES.ORIONE_FOTOS} exact component={Orione} />
         <Route path={ROUTES.ORIONE_ICONOLOGIA} exact component={Orione} />
-        <Route path={ROUTES.ORIONE_OBRAS} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_OBRAS} exact component={Obras} />
         <Route path={ROUTES.ORIONE_PUBLICACOES} exact component={Orione} />
 
         <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} />
