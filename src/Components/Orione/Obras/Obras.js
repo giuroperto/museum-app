@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Card, Button, CardColumns } from "react-bootstrap";
 
+import ROUTES from '../../constants/routes';
 import "./Obras.css";
 import Navbar from '../../Navbar/Navbar';
 
@@ -17,7 +18,9 @@ const Obras = () => {
               <Card.Text>
               A motivação da evangelização e a vinda de São Orione ao Brasil.
               </Card.Text>
-              <Button variant="secondary">Acessar</Button>
+              <Link to={ROUTES.ORIONE_OBRAS_TXT}>
+                <Button variant="secondary">Acessar</Button>
+              </Link>
             </Card.Body>
           </Card>
           <Card>

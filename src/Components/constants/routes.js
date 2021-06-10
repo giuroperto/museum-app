@@ -5,6 +5,7 @@ const ROUTES = {
   ORIONE: '/orione',
   ORIONE_BIOGRAFIA: '/orione/biografia',
   ORIONE_OBRAS: '/orione/obras',
+  ORIONE_OBRAS_TXT: '/orione/obras/pdf',
   ORIONE_PUBLICACOES: '/orione/publicacoes',
   ORIONE_FOTOS: '/orione/fotos',
   ORIONE_ICONOLOGIA: '/orione/iconologia',
