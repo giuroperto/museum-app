@@ -3,6 +3,7 @@ import { Card } from 'react-bootstrap';
 
 import Footer from "../Footer/Footer";
 import Navbar from '../Navbar/Navbar';
+import SubMenu from '../SubMenu/SubMenuBixiga';
 import "./Bixiga.css";
 
 const Bixiga = () => {
@@ -10,7 +11,8 @@ const Bixiga = () => {
     <>
       <Navbar />
       <div className="bixiga-container">
-        <Card className="text-center">
+        <SubMenu />
+        {/* <Card className="text-center">
           <Card.Body>
             <Card.Title>
               <Link className="section-menu">Origem do Bairro</Link>
@@ -22,9 +24,9 @@ const Bixiga = () => {
         <Link className="section-menu">Linha do Tempo</Link>
         <Link className="section-menu">Famílias</Link>
         <Link className="section-menu">Lugares Icônicos</Link>
-        <Link className="section-menu">Cultura</Link>
+        <Link className="section-menu">Cultura</Link> */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 };

@@ -18,7 +18,8 @@
 .app-subtitle {
   font-family: 'Pinyon Script', cursive;
   margin-left: 35px;
-  font-size: 30px;
+  font-size: 40px;
+  color: yellow;
 }
 
 .icon-home {

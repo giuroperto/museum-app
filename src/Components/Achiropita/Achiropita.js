@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import { Card } from 'react-bootstrap';
 
 import TOPICS from "../constants/topics";
-import CONTENT from "../constants/contentGroups";
 
 import Footer from "../Footer/Footer";
 import Navbar from '../Navbar/Navbar';
+import SubMenu from '../SubMenu/SubMenuAchiropita';
 import "./Achiropita.css";
 
 const Achiropita = () => {
@@ -14,7 +14,8 @@ const Achiropita = () => {
     <>
       <Navbar />
       <div className="achiropita-container">
-          {
+        <SubMenu />
+          {/* {
             CONTENT.map(group => {
               return (
                 <Card className="text-center card-groups">
@@ -33,9 +34,9 @@ const Achiropita = () => {
                 </Card>
               )
             })
-          }
+          } */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 };
