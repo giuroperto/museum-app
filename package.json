@@ -1,6 +1,7 @@
 {
   "name": "museu-bixiga",
   "version": "0.1.0",
+  "homepage": "http://www.bixiga.com.br/temp_museu",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

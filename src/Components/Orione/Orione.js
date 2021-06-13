@@ -7,7 +7,7 @@ import "./Orione.css";
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import videoDonOrione from './centenário - vinheta PT -  AMON - orione - cc.mp4';
-// import videoDonOrione from '../../../public/assets/centenário - vinheta PT -  AMON - orione - cc.mp4';
+// import videoDonOrione from '%PUBLIC_URL%/assets/centenário - vinheta PT -  AMON - orione - cc.mp4';
 
 const Orione = () => {
   return (
