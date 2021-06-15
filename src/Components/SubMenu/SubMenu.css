@@ -1,5 +1,5 @@
 .submenu-container {
-  height: 50vh;
+  height: 60vh;
   width: 90%;
   display: flex;
   flex-wrap: wrap;
@@ -10,4 +10,17 @@
 .item-container {
   display: flex;
   flex-direction: column;
+}
+
+.btn-menu {
+  width: 20vw;
+}
+
+.menu-block {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }

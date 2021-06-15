@@ -6,6 +6,7 @@ import MENU from '../constants/menus';
 import "./Orione.css";
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
+import SubMenu from '../SubMenu/SubMenuOrione';
 import videoDonOrione from './centenário - vinheta PT -  AMON - orione - cc.mp4';
 // import videoDonOrione from '%PUBLIC_URL%/assets/centenário - vinheta PT -  AMON - orione - cc.mp4';
 
@@ -14,8 +15,9 @@ const Orione = () => {
     <>
       <Navbar />
       <div className="orione-container">
+        <SubMenu />
         {/* <div className="picture-background"></div> */}
-        <video src={videoDonOrione} controls="controls" width="60%"/>
+        {/* <video src={videoDonOrione} controls="controls" width="60%"/>
         <div className="menu-block">
           {
             MENU.ORIONE.map(item => {
@@ -27,7 +29,7 @@ const Orione = () => {
               )
             })
           }
-        </div>
+        </div> */}
       </div>
       {/* <Footer /> */}
     </>

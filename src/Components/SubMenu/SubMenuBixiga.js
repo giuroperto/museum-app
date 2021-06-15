@@ -15,7 +15,7 @@ const SubMenu = () => {
           return (
             <div className="item-container">
               <Link to={item.route}>
-                <Button variant="secondary" size="lg"> { item.item } </Button>
+                <Button variant="secondary" size="lg" className="btn-menu"> { item.item } </Button>
               </Link>
               {
                 item.subitems && item.subitems.map(subitem => {
