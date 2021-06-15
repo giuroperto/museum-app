@@ -1,17 +1,22 @@
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
+import { useEffect, useState } from "react";
 
 import MENU from '../constants/menus';
 
 import "./SubMenu.css";
-import Navbar from '../Navbar/Navbar';
 
-const SubMenu = () => {
+const MainSubMenu = (props) => {
+
+  const [ type, setType ] = useState(props.type);
+  const [ typeArray, setTypeArray ] = useState(MENU[type]);
+
+  console.log(type, typeArray);
 
   return (
     <div className="submenu-container">
       {
-        MENU.BIXIGA.map(item => {
+        typeArray && typeArray.map(item => {
           return (
             <div className="item-container">
               <Link to={item.route}>
@@ -25,7 +30,6 @@ const SubMenu = () => {
                 })
               }
             </div>
-            
           )
         })
       }
@@ -33,4 +37,4 @@ const SubMenu = () => {
   )
 };
 
-export default SubMenu;
+export default MainSubMenu;
