@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import MENU from '../constants/menus';
 
 import "./SubMenu.css";
+import videoDonOrione from './centenário - vinheta PT -  AMON - orione - cc.mp4';
 
 const MainSubMenu = (props) => {
 
@@ -16,22 +17,32 @@ const MainSubMenu = (props) => {
   return (
     <div className="submenu-container">
       {
-        typeArray && typeArray.map(item => {
-          return (
-            <div className="item-container">
-              <Link to={item.route}>
-                <Button variant="secondary" size="lg" className="btn-menu"> { item.item } </Button>
-              </Link>
+        type && type === "ORIONE" ? (
+          <>
+            <video src={videoDonOrione} controls="controls" width="60%" />
+            <div className="menu-block">
               {
-                item.subitems && item.subitems.map(subitem => {
+                MENU.ORIONE.map(item => {
                   return (
-                    <p>{subitem.item}</p>
+                    <Link to={item.route}>
+                      <Button variant="secondary" size="lg" className="btn-menu" onClick={() => props.click(1, item.item)}> { item.item } </Button>
+                    </Link>
                   )
                 })
               }
             </div>
-          )
-        })
+          </>
+        ) : (
+          typeArray && typeArray.map(item => {
+            return (
+              <div className="item-container">
+                <Link to={item.route}>
+                  <Button variant="secondary" size="lg" className="btn-menu" onClick={() => props.click(1, item.item)} > { item.item } </Button>
+                </Link>
+              </div>
+            )
+          })
+        )
       }
     </div>
   )
