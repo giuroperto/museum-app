@@ -1,4 +1,15 @@
+/* made to be big screen first which is >1008px */
+
 .pdf-view {
   width: 100%;
   height: 85vh;
+}
+
+/* responsivity to small screens */
+@media only screen and (max-width: 640px) {
+}
+
+/* responsivity to medium screens */
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+  
 }

@@ -1,3 +1,5 @@
+/* made to be big screen first which is >1008px */
+
 .submenu-container {
   height: 60vh;
   width: 90%;
@@ -24,4 +26,13 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+
+/* responsivity to small screens */
+@media only screen and (max-width: 640px) {
+}
+
+/* responsivity to medium screens */
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+
 }
