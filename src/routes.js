@@ -35,14 +35,15 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.HOME} exact component={Home} />
 
         {/* ORIONE ROUTES */}
-        <Route path={ROUTES.ORIONE} exact component={Orione} />
-        <Route path={ROUTES.ORIONE_BIOGRAFIA} exact component={Biografia} />
+        {/* <Route path={ROUTES.ORIONE} exact component={Orione} /> */}
+        <Route path={ROUTES.ORIONE} exact component={ObrasTxt} />
+        {/* <Route path={ROUTES.ORIONE_BIOGRAFIA} exact component={Biografia} />
         <Route path={ROUTES.ORIONE_FILMES} exact component={Orione} />
         <Route path={ROUTES.ORIONE_FOTOS} exact component={Orione} />
         <Route path={ROUTES.ORIONE_ICONOLOGIA} exact component={Orione} />
         <Route path={ROUTES.ORIONE_OBRAS} exact component={Obras} />
         <Route path={ROUTES.ORIONE_OBRAS_TXT} exact component={ObrasTxt} />
-        <Route path={ROUTES.ORIONE_PUBLICACOES} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES} exact component={Orione} /> */}
 
         {/* ACHIROPITA ROUTES */}
         <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} />

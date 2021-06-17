@@ -7,7 +7,7 @@ import "./ObrasTxt.css";
 import Footer from '../../Footer/Footer';
 import Navbar from '../../Navbar/Navbar';
 // import pdf from '../../pdf/assets/FASC1.pdf';
-import PdfView from '../../pdf/single-page';
+import SinglePage from '../../pdf/single-page';
 
 const ObrasTxt = (props) => {
 
@@ -16,7 +16,7 @@ const ObrasTxt = (props) => {
       <Navbar />
       <div className="obras-txt-container">
         {/* <PdfView className="pdf-view" pdf={pdf} /> */}
-        <PdfView />
+        <SinglePage />
       </div>
       {/* <Footer /> */}
     </>

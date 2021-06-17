@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import { Document, Page } from "react-pdf/src/pdf.worker.entry";
+import { Document, Page } from "react-pdf";
 
-const SinglePage = (props) => {
+import pdfFile from './FASC1.pdf';
+
+const SinglePage = () => {
 
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1); //setting 1 to show fisrt page
@@ -26,7 +28,8 @@ const SinglePage = (props) => {
   return (
     <div className="pdf-view-container">
       <Document
-        file="https://github.com/wojtekmaj/react-pdf/blob/master/sample/webpack/sample.pdf"
+        file={pdfFile}
+        // file="https://drive.google.com/file/d/1N2vPZsnaEDS4NPktj-UzwOqF4RdO5bFh/view?usp=sharing"
         options={{ workerSrc: "/pdf.worker.js" }}
         onLoadSuccess={onDocumentLoadSuccess}
       >
