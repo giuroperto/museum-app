@@ -2,32 +2,43 @@
 
 .navbar-container {
   height: 10vh;
-  /* background-color: gray; */
   background-color: rgb(37, 147, 117);
   display: flex;
-  /* justify-content: space-evenly; */
   align-items: center;
+  justify-content: space-between;
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.4);
 }
 
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
 .app-title {
-  font-size: 40px;
+  margin: 0;
+  font-size: 3rem;
   color: white;
-  margin: 0 0 0 10vw;
   font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+  color: white;
+  font-size: 4rem;
 }
 
 .app-subtitle {
   font-family: 'Pinyon Script', cursive;
-  margin-left: 35px;
-  font-size: 40px;
+  margin-left: 4rem;
+  font-size: 4rem;
   color: yellow;
 }
 
 .icon-home {
-  font-size: 40px;
-  color: white;
   margin-left: 2vw;
+}
+
+.icon-menu {
+  margin-right: 2vw;
 }
 
 /* responsivity to small screens */
@@ -36,5 +47,4 @@
 
 /* responsivity to medium screens */
 @media only screen and (min-width: 641px) and (max-width: 1007px) {
-  
 }

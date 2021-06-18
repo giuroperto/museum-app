@@ -30,7 +30,7 @@ const Home = () => {
             <Card className="card-content">
               <Card.Img className="card-img" variant="top" src="https://res.cloudinary.com/dxatyucj2/image/upload/c_scale,h_209/v1620871500/museu-bixiga/visita_2_ksdbec.jpg" />
               <Card.Body>
-                <Card.Title>NOSSA SENHORA ACHIROPITA</Card.Title>
+                <Card.Title className="card-title">NOSSA SENHORA ACHIROPITA</Card.Title>
                 <Card.Text className="card-text">
                   <p>A origem mística dessa devoção à Madonna Achiropita foi trazida ao Brasil pelos imigrantes italianos, e consolidou uma das paróquias mais ativas de São Paulo, em apostolado e obras sociais.</p>
                   <p> Conheça mais sobre nós!{' '}</p>
@@ -41,7 +41,7 @@ const Home = () => {
             <Card className="card-content">
               <Card.Img className="card-img" variant="top" src="https://res.cloudinary.com/dxatyucj2/image/upload/v1623369641/museu-bixiga/centena%CC%81rio_-_logo_collor_-_1_d_NANCI_m1hwts.png" />
               <Card.Body>
-                <Card.Title>SÃO LUÍS ORIONE</Card.Title>
+                <Card.Title className="card-title">SÃO LUÍS ORIONE</Card.Title>
                 <Card.Text className="card-text">
                   <p>“A caridade simpatiza com os defeitos dos outros: é iluminada e prudente”.{' '}</p>
                   <p>Conheça sobre a vida e obra de Don Orione...</p>
@@ -52,7 +52,7 @@ const Home = () => {
             <Card className="card-content">
               <Card.Img className="card-img" variant="top" src="https://res.cloudinary.com/dxatyucj2/image/upload/c_scale,h_204/v1620871689/museu-bixiga/igrejaachiropita_ecsw14.jpg" />
               <Card.Body>
-                <Card.Title>BIXIGA</Card.Title>
+                <Card.Title className="card-title">BIXIGA</Card.Title>
                 <Card.Text className="card-text">
                   <p>Um território especial desde seus primórdios, com a ocupação caracterizada por uma diversidade étnica e cultural, tornam o Bixiga uma localidade especial na Metrópole. Contraditória como pólo de riqueza e pobreza, no Bixiga, sob a devoção mariana, foi cultivada a Paróquia da Achiropita.</p>
                   <p>Conheça aspectos de nosso bairro.{' '}</p>
