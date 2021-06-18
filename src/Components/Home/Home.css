@@ -3,18 +3,8 @@
 .home-container {
   height: 90%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-top: 10px;
+  padding-top: 3%;
 }
-
-/* .app-title {
-  font-size: 60px;
-  color: rgb(37, 147, 117); */
-  /* color: rgb(228, 83, 83);
-} */
 
 .cards-container {
   width: 100%;
@@ -25,20 +15,8 @@
   align-items: center;
 }
 
-.btn-menu {
-  /* height: 200px; */
-  /* width: 300px; */
-  /* background-color: blueviolet; */
-  /* color: black;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-}
-
 .card-deck {
-  max-width: 85%;
+  max-width: 90%;
 }
 
 .card-content {
@@ -57,11 +35,6 @@
   font-size: 20px;
 }
 
-.btn-menu span {
-  background-color: rgba(0, 0, 0, 0.687);
-  color: white;
-}
-
 .card-img {
   height: 30vh;
 }
@@ -72,5 +45,15 @@
 
 /* responsivity to medium screens */
 @media only screen and (min-width: 641px) and (max-width: 1007px) {
+
+  .home-container {
+    height: 90%;
+    width: 100%;
+    padding-top: 2%;
+  }
+  
+  .card-deck {
+    max-width: 85%;
+  }
   
 }

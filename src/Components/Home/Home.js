@@ -25,7 +25,6 @@ const Home = () => {
     <>
       <Navbar />
       <div className="home-container">
-        {/* <h1 className="app-title">MUSEU DO BIXIGA</h1> */}
         <div className="cards-container">
           <CardDeck className="card-deck">
             <Card className="card-content">
