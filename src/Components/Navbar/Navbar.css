@@ -16,20 +16,20 @@
 
 .app-title {
   margin: 0;
-  font-size: 3rem;
+  font-size: 5rem;
   color: white;
   font-family: 'Roboto', sans-serif;
 }
 
 .icon {
   color: white;
-  font-size: 4rem;
+  font-size: 7rem;
 }
 
 .app-subtitle {
   font-family: 'Pinyon Script', cursive;
   margin-left: 4rem;
-  font-size: 4rem;
+  font-size: 6rem;
   color: yellow;
 }
 
@@ -43,8 +43,46 @@
 
 /* responsivity to small screens */
 @media only screen and (max-width: 640px) {
+  .app-title {
+    font-size: 2rem;
+  }
+
+  .app-subtitle {
+    font-size: 3rem;
+  }
+
+  .icon {
+    font-size: 3rem;
+  }
 }
 
 /* responsivity to medium screens */
 @media only screen and (min-width: 641px) and (max-width: 1007px) {
+  .app-title {
+    font-size: 2rem;
+  }
+
+  .app-subtitle {
+    font-size: 3rem;
+  }
+
+  .icon {
+    font-size: 3rem;
+  }
+
+}
+
+@media only screen and (min-width: 1008px) and (max-width: 1400px) {
+  .app-title {
+    font-size: 3rem;
+  }
+
+  .app-subtitle {
+    font-size: 4rem;
+  }
+
+  .icon {
+    font-size: 4rem;
+  }
+
 }
