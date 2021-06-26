@@ -6,25 +6,34 @@ import "./Pages.css";
 
 const TextPage = (props) => {
 
-  const [ menuArray, setMenuArray ] = useState(props.array);
+  const [ content, setContent ] = useState(props.content);
 
   useEffect(() => {
-    setMenuArray(props.array);
+    setContent(props.content);
   }, [props]);
 
+  console.log(content);
+  console.log(content.images);
+
   return (
-    <div className="submenu-container">
+    <div className="page-container">
+      <div className="item-container">
       {
-        menuArray.length > 0 && menuArray.map(item => {
-          return (
-            <div className="item-container" key={`${item.item}-${item.route}`}>
-              <Link to={item.route}>
-                <Button variant="secondary" size="lg" className="btn-menu" onClick={() => props.click(item.item)} > { item.item } </Button>
-              </Link>
-            </div>
-          )
-        })
+        Object.keys(content).length > 0 && (
+          <>
+            <h2 className="page-title"> {content.title} </h2>
+            <p className="page-text"> {content.text} </p>
+          </>
+        )
       }
+      {
+        Object.keys(content).length > 0 && content.images && content.images.map(image => {
+          return (
+            <img src={image} alt="Curadoria do Museu" className="page-image"/>
+          )
+        }) 
+      }
+      </div>
     </div>
   )
 };

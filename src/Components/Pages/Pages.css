@@ -1,0 +1,29 @@
+.page-container {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.item-container {
+  width: 80%;
+  margin-top: 6vh;
+}
+
+.page-title {
+  font-size: 6rem !important;
+  margin-bottom: 3vh;
+}
+
+.page-text {
+  font-size: 4rem;
+  white-space: pre-wrap;
+  text-align: justify;
+  margin-bottom: 5vh;
+}
+
+.page-image {
+  width: 40vw;
+  align-self: center;
+  margin-bottom: 5vh;
+}

@@ -13,7 +13,7 @@ const PhotosPage = (props) => {
   }, [props]);
 
   return (
-    <div className="submenu-container">
+    <div className="page-container">
       {
         menuArray.length > 0 && menuArray.map(item => {
           return (

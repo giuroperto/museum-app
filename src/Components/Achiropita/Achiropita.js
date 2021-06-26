@@ -8,52 +8,76 @@ import SubMenu from '../SubMenu/MainSubMenu';
 import { HistoryContext } from '../../Utils/Context';
 import MENU from '../constants/menus';
 import "./Achiropita.css";
+import TextPage from "../Pages/TextPage";
+import PhotosPage from "../Pages/PhotosPage";
 
 const Achiropita = (props) => {
 
   const PAGE = "ACHIROPITA";
 
-  const [ topic, setTopic ] = useState([PAGE]);
+  const [ topics, setTopics ] = useState([PAGE]);
   const [ filteredArray, setFilteredArray ] = useState(MENU[PAGE]);
-  const [ type, setType ] = useState("menu");
+  const [ pageType, setPageType ] = useState("menu");
+  const [ contentType, setContentType ] = useState(null);
+  const [ content, setContent ] = useState(null);
 
   const onClickSubmenu = (newTopic) => {
     console.log(`new topic: ${newTopic}`);
     fetchArray(newTopic);
     filteredArray.map(e => console.log(e.item))
-    setTopic([...topic, newTopic]);
+    setTopics([...topics, newTopic]);
   };
 
   console.log(filteredArray);
-  console.log(topic);
+  console.log(topics);
   
   const fetchArray = (newTopic) => {
     let newArray = filteredArray.filter(el => el.item === newTopic)[0];
     if (newArray.subitems && newArray.subitems.length > 0) {
       setFilteredArray(newArray.subitems);
-      setType("menu");
+      setPageType("menu");
     } else {
       setFilteredArray([]);
-      setType("page");
+      setPageType("page");
     }
+    if (newArray.resources) {
+      setContent(newArray.resources);
+      setContentType(newArray.resources.type);
+    };
   };
 
-  console.log(type);
+  console.log(pageType);
+  console.log(content);
+  console.log(contentType);
 
   return (
     <>
       <Navbar page={PAGE} />
       {
-        type === "menu" && filteredArray.length > 0 && (
+        pageType === "menu" && content && (
           <div className="achiropita-container">
             <SubMenu click={onClickSubmenu} array={filteredArray} />
           </div>
         )
       }
       {
-        type === "page" && filteredArray.length > 0 && (
+        pageType === "menu" && filteredArray.length > 0 && (
           <div className="achiropita-container">
             <SubMenu click={onClickSubmenu} array={filteredArray} />
+          </div>
+        )
+      }
+      {
+        pageType === "page" && contentType === "text" && (
+          <div className="achiropita-container">
+            <TextPage content={content} />
+          </div>
+        )
+      }
+      {
+        pageType === "page" && contentType === "photo" && (
+          <div className="achiropita-container">
+            <PhotosPage content={content} />
           </div>
         )
       }

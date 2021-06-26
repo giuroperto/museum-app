@@ -1,3 +1,4 @@
+import CONTENT from "./content";
 import ROUTES from "./routes";
 
 const MENU = {
@@ -186,26 +187,32 @@ const MENU = {
     {
       item: "História",
       route: ROUTES.ACHIROPITA_HISTORIA,
+      resources: CONTENT.ACHIROPITA_HISTORIA,
       subitems: [
         {
           item: "Culto à Achiropita: uma longa história",
           route: ROUTES.ACHIROPITA_HISTORIA_1,
+          resources: CONTENT.ACHIROPITA_HISTORIA_1,
           subitems: [],
         }, {
           item: "Significado do ícone Achiropita",
           route: ROUTES.ACHIROPITA_HISTORIA_2,
+          resources: CONTENT.ACHIROPITA_HISTORIA_2,
           subitems: [],
         }, {
           item: "Devoção à N.Sra Achiropita no Bixiga",
           route: ROUTES.ACHIROPITA_HISTORIA_3,
+          resources: CONTENT.ACHIROPITA_HISTORIA_3,
           subitems: [],
         }, {
           item: "Imagem da Madonna aporta no Brasil: memória oral",
           route: ROUTES.ACHIROPITA_HISTORIA_4,
+          resources: CONTENT.ACHIROPITA_HISTORIA_4,
           subitems: [],
         }, {
           item: "Da Capelinha à Igreja",
           route: ROUTES.ACHIROPITA_HISTORIA_5,
+          resources: CONTENT.ACHIROPITA_HISTORIA_5,
           subitems: [],
         }
       ],
