@@ -96,23 +96,58 @@ const CONTENT = {
       text: "A devoção à Mãe Achiropita, cuja festa é celebrada no dia 15 de agosto, surgiu em Rossano Cálabro e data do século XII. Veio com os italianos que deixaram seu país em busca de melhores condições e se estabeleceram em São Paulo, mais precisamente no bairro do Bixiga. A imagem da N. Sra. Achiropita foi trazida pelos imigrantes calabreses nos primeiros anos deste século.\nFicava na casa de José Falcone, onde várias pessoas se reuniam para fazer novenas à Santa, e saía somente durante os festejos de agosto. Era colocada em um altar de madeira erguido na rua Treze de Maio, no qual as missas dos dias 13, 14 e 15 costumavam ser celebradas, e depois voltava ao seu lugar de origem. Essas primeiras manifestações de rua em louvor à Madonna Achiropita começaram em 1910, quando a primeira comissão de festas foi formada. Os calabreses haviam decidido comprar um terreno para construir uma capela para Nossa Senhora e precisavam angariar os recursos necessários. Deu-se início às quermesses de rua e à procissão de N. Sra. Achiropita. A imagem da santa percorria as ruas com fitas nas mãos e os fiéis colocavam sua contribuição, pregando as cédulas de dinheiro com alfinetes.\nEm 1918, com o dinheiro arrecadado nas comemorações de agosto foi erguida uma capelinha de construção simples, sem qualquer imagem, que mais parecia um quarto grande. Quase não havia lugar para sentar; por isso, quando se realizavam novenas, geralmente as mulheres levavam seus banquinhos de dois pés. Posteriormente, os festeiros compraram uma casa ao lado da pequena capela e puderam ampliar o espaço. Faltava à construção grande parte do telhado, somente a nave central estava coberta. Não havia vidros na maioria das janelas. Durante alguns anos, a comissão encarregada das obras, dividida, não deu continuidade aos trabalhos.\nGraças à doação de 500 réis feita por uma senhora do bairro e um laudo precatório que rendeu mais 500 réis, reiniciaram-se as obras e o telhado foi concluído. A imagem de N. Sra. Achiropita, que antes ficava nas casas dos fiéis, foi então instalada no pequeno altar e missas começaram a ser celebradas na igrejinha. Com o decreto de 4 de março de 1926 e elevada à condição de paróquia, a igreja obteve o direito de ter sacrário, batistério, pia batismal, livro do tombo e livro de registros de batizados, casamentos e óbitos. O lucro resultante dos festejos daquele ano serviu para saldar as dívidas anteriores. Um grupo de calabreses fez a doação do altar-mór de mármore. Dois anos mais tarde, comprou-se a casa atrás da igreja, que também seria usada nas funções paroquiais. Em junho de 29, foi colocada a pedra fundamental da fachada da igreja e o sino. Aos poucos foram sendo doadas diversas imagens de santos.\nA igreja foi perdendo os ares de capela e ganhando altares e novas construções. São José era oficialmente o padroeiro, mas o altar principal continuava a ser ocupado por N. Sra. Achiropita. A Santa da devoção dos cerignolanos, N. Sra. da Ripalta, ganhou o altar lateral. Importantes movimentos começaram a se formar na paróquia a partir de 1931 e a revigorar a espiritualidade. Foram fundados a Congregação Mariana de rapazes e, mais tarde, a de moças, a Pia União das Filhas de Maria e a Obras das Vocações Sacerdotais, que vieram juntar-se ao Apostolado da Oração. A Sociedade de São Vicente de Paulo, que existia desde 1916 no bairro, teve inaugurada sua nova sede do Conselho Particular na paróquia no final de 1948. Dom Orione, fundador da congregação responsável pela paróquia, esteve no Bixiga pela segunda vez em 1937 e impulsionou o trabalho desenvolvido pelos padres orionitas desde o começo da década de 20. A comunidade estava ganhando forças. Procissões, romarias e retiros eram realizados freqüentemente e mostravam que a fé do povo continuava a crescer.",
       images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1624679676/museu-bixiga/Screen_Shot_2021-06-26_at_00.54.28_v7f5ms.png"],
     }, 
-    
+    ACHIROPITA_PAROQUIA: {
+      title: "A Paróquia",
+      type: "text",
+      text: "Nossa comunidade que foi frágil em suas origens e que hoje é fortalecida na fé pela tradição, pelos nossos santos de comunidade e pelas histórias de fé e dedicação aos pobres, nunca pode se esquecer daqueles que foram erigindo nossa comunidade. Foram pedras vivas, gente corajosa e sem preguiça, dispostas a dedicarem longas horas e finais de semana para a evangelização. Antes de tudo, fiéis assinalados por uma fé verdadeira e sem limites. Gente com capacidade de doar e ofertar seus bens, para que Maria fosse exaltada com mais alegria e Jesus Cristo fosse acreditado com entusiasmo.",
+      images: [],
+    }, 
+    ACHIROPITA_PAROQUIA_HINO: {
+      title: "Hino da Comunidade Achiropita",
+      type: "text",
+      text: "Apresentamos os versos de Luiz Antonio Bordini, que compôs em ritmo de tarantela, estilo típico italiano,  que resume magistralmente a história, a devoção e a espiritualidade de Nossa Senhora, não pintada por mãos humanas.\n\nNossa história vamos todos relembrar\nFoi um passado de coragem e de amor\nDo sul da Itália pelo mar a navegar\nO imigrante italiano aqui chegou\nE no Brasil de tantas raças, tantas cores\nO arco íris da aliança Deus formou\nNesta São Paulo da garoa, no Bixiga\nA caridade Orione ensinou.\n\nAve Maria, Ave Maria e avante\nNossa Senhora Achiropita está radiante\nAve Maria, Ave Maria e avante\nTantas  estrelas todas de diamante.\n\nAve Maria, Ave Maria e avante\nCom a Madona da Ripalta e São José\nCaminhando sempre em frente\nSob a luz de nossa fé\nFazendo o bem, sempre o bem,\nO mal nunca a ninguém.\n\nE no princípio era só a capelinha\nE a quermesse que o povo alegrava\nA Pia União, os Vicentinos e Marianos\nAchiropita passo a passo se firmava\nE a Divina Providência vendo o esforço\nLá do alto a nossa gente abençoou\nA sementinha com carinho foi tratada.\nA mão de Deus as nossas vidas transformou\n\nAve Maria, Ave Maria e avante...\n\nAmar ao próximo sempre foi o nosso lema.\nAjudando com alegria nosso irmão\nVendo Jesus em cada rosto em cada dia\nSeguimos sempre caminhando com Maria Nossa Senhora Mãe\nQuerida abençoada.\nEste é o presente que hoje queremos te dar.\nAmar Jesus com muita fé por toda vida.\nE aos mais carentes sempre, sempre ajudar.\n",
+      images: [],
+    }, 
+    ACHIROPITA_FESTA: {
+      title: "Festa da Achiropita",
+      type: "text",
+      text: "A Festa da Achiropita faz parte da tradição comunitária de mobilizar-se entorno de um objetivo a ser concretizado; iniciou como uma pequena quermesse para formar a igreja, e hoje é uma grande festa que gera renda para as muitas ações e projetos da ativa Paróquia. Fazem parte da festa barracas de comidas típicas, brincadeiras e jogos, apresentações artísticas, novenas e procissões pelas ruas entorno da igreja. ",
+      images: [],
+    }, 
+    ACHIROPITA_FESTA_APRESENTACAO: {
+      title: "Apresentação da Festa",
+      type: "text",
+      text: "Sobre a grande festa d´Achiropita\n\nTodas as pessoas da comunidade gostam de afirmar que nossa comunidade é muito festiva. Como uma paróquia que une DNA de italianos, caipiras, nordestinos e negros não seria festiva. São muitas as nossas festas. Festas juninas, festas das mães, dos pais, festas de aniversário, festa dos padroeiros e mais e mais.\nDocumentamos as festas, pois elas são muito importantes para nossas comunidades. As  festas são promoções para dinamizar nossos trabalhos, restaurar a igreja, sustentar os trabalhos sociais e, sobretudo, para iniciar novas atividades (creche, espaço social e espaço cultural). As festas são atividades para unir a comunidade, fortalecer os laços, completar s forças e, assim sentir sempre mais a família d’Achiropita.\nAs festas são momentos de crescimento no amor de Deus e todos se sentem parte da família, pois a energia não é um delírio, mas uma mística que nos filia a Deus, sob o manto de Maria.\nDescrevamos as  festas. Festas coloridas e festas em preto e branco, pois nas festas, em todos os tempos, a comunidade se fortaleceu e se sentiu sempre mais família, família cristã, na diversidade cultural, étnica e social.\nÉ uma grande festa, talvez não exista uma festa religiosa mais grandiosa  que a Festa Nossa Senhora Achiropita. A palavra fenômeno tem sido banalizada, mas com certeza esta palavra pode designar nossa festa. A quantidade impressionante de fiéis devotos trabalhando, as equipes, as barracas, a quantidade enorme de todos os quitutes da gastronomia italiana faz de nossa festa a “grande festa”. Podemos mesmo dizer que esta é “a festa” de São Paulo.\nÉ como uma grande engrenagem. À frente, os padres, orientadores espirituais da festa. Com eles, os cinco casais, nos setores da festa. Depois os chamados apoios, que subdividem estes setores, depois os responsáveis de barracas e núcleos e os voluntários. A camiseta com seu símbolo, os bonés e os crachás é a efígie de um exército de Maria que, pelas comilanças, pelas simpatias, pela oração encantam os milhares de convidados.",
+      images: [],
+    }, 
+    ACHIROPITA_FESTA_HISTORICO: {
+      title: "Breve Histórico",
+      type: "text",
+      text: "A origem da Festa da N. Sra. Achiropita remonta ao início do século 20, quando os primeiros imigrantes italianos chegaram ao Bixiga trazendo uma imagem da santa. Ela começou a ser venerada pelos fiéis em 1908 na casa de João Falcone, no número 100 da Rua 13 de Maio. Foi erguido um altar de madeira na rua que na época era de terra batida, e nos dias 13, 14 e 15 de agosto eram celebradas missas e realizadas festas em homenagem à santa, com o objetivo de comprar um terreno para construir uma capela.\nCom o passar dos anos, a capela acabou ficando pequena para abrigar toda a comunidade, e era preciso construir uma igreja maior. Naquela época haviam barracas com sorteios das prendas arrecadadas, leilões sobre carroças, um pau de sebo e a animada banda dos Bersaglieri, vinda da Itália. Havia também uma procissão levando a imagem de N. Sra Achiropita e N. Sra da Ripalta. Sacadas eram enfeitadas com colchas e toalhas, e famílias faziam doações em dinheiro para ajudar na construção da igreja.\nDurante a segunda guerra a quermesse foi suspensa devido a perseguição dos italianos pelo governo de Getúlio Vargas, mas a parte religiosa continuou com missa, novena e procissão. Na década de 50 as festas voltaram e foi feita a primeira barraca da comida: o sanduíche de pernil feito por senhoras da comunidade. Nesta época, as ruas eram enfeitadas com cordões de lâmpadas coloridas.\n\nA FAMOSA FOGAZZA\n\nA partir de 1975 as famílias traziam pratos doces e salgados para vender na festa, que era realizada no pátio atrás da igreja. Em 1979 a festa foi definitivamente para a rua e em 1980 firmou-se com a devida autorização da prefeitura. Neste ano existiam treze barracas e cerca de 200 voluntários. Neste mesmo ano a grande novidade foi a barraca de fogazza que começou a ser feita apenas com 2kg de farinha como experiência.\nA fogazza é uma das grandes atrações da festa no Bixiga.\n\nEm 2003 já eram nove toneladas de farinha. Outra inovação na década de 80 foi a Cantina di Napoli, montada no terreno ao lado da igreja. Mesões foram instalados e um palco feito pela Paulistur para os cantores das cantinas do bairro animar a festa.\nEm 1983 eram 22 barracas com 350 voluntários. Neste ano foi lançada a pedra fundamental das obras sociais. Em 1985 a cantina passa a ser montada no prédio das obras sociais e um palco definitivo foi feito com um conjunto tocando músicas típicas italianas.\nForam colocadas mesas com lugares numerados para cerca de 850 pessoas. Surgia a Cantina Madona Achiropita. Outro costume passou a ser o provolone de dois metros e cerca de 100 quilos, um dos símbolos da festa.\nNa década de 90 a festa teve um grande avanço em relação a patrocinadores, colaboradores e benfeitores. Atualmente visitam a festa mais de 200 mil pessoas vindas de São. Paulo e de todo o Brasil. São 30 barracas e mais de mil voluntários, que trabalham para toda a renda da festa seja revertida para as obras assistenciais.",
+      images: [],
+    }, 
+
   // {
   //   title: "",
+  //   type: "",
   //   text: "",
-  //   images: "",
+  //   images: [],
   // }, 
   // {
   //   title: "",
+  //   type: "",
   //   text: "",
-  //   images: "",
+  //   images: []
+  // }, 
+  // {
+  //   title: "",
+  //   type: "",
+  //   text: "",
+  //   images: []
   // }, 
 
 
-  //  '/achiropita/historia/da-capelinha-a-igreja',
-
-  // ACHIROPITA_PAROQUIA: '/achiropita/paroquia',
-  // ACHIROPITA_PAROQUIA_HINO: '/achiropita/paroquia/hino',
+  //  '/achiropita/paroquia/hino',
   // ACHIROPITA_PAROQUIA_PASTORAL: '/achiropita/paroquia/pastoral',
   // ACHIROPITA_PAROQUIA_PASTORAL_1: '/achiropita/paroquia/pastoral/horarios',
   // ACHIROPITA_PAROQUIA_PASTORAL_2: '/achiropita/paroquia/pastoral/sementeira',
@@ -127,9 +162,6 @@ const CONTENT = {
   // ACHIROPITA_PAROQUIA_PASTORAL_11: '/achiropita/paroquia/pastoral/pastoral-saude',
   // ACHIROPITA_PAROQUIA_PASTORAL_12: '/achiropita/paroquia/pastoral/apostolado-oracao',
 
-  // ACHIROPITA_FESTA: '/achiropita/festa',
-  // ACHIROPITA_FESTA_APRESENTACAO: '/achiropita/festa/apresentacao',
-  // ACHIROPITA_FESTA_HISTORICO: '/achiropita/festa/historico',
   // ACHIROPITA_FESTA_PRESENCIAL: '/achiropita/festa/festa-presencial-delivery',
   // ACHIROPITA_FESTA_MATERIAL: '/achiropita/festa/material',
   // ACHIROPITA_FESTA_MATERIAL_1: '/achiropita/festa/material/clipping',

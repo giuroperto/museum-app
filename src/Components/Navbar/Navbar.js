@@ -10,9 +10,21 @@ import { HistoryContext } from '../../Utils/Context';
 const Navbar = (props) => {
 
   const [ showBackButton, setShowBackButton ] = useState("back-hide");
+  const [ history, setHistory ] = useState(props.history);
+  const [ page, setPage ] = useState("");
 
-  let history = useHistory();
-  const historyInfo = useContext(HistoryContext);
+  // let history = useHistory();
+  // const historyInfo = useContext(HistoryContext);
+
+  // if (history.lenght > 0) {
+
+  // }
+
+  const goBack = () => {
+    if (history.length > 0) {
+      let page = history.pop;
+    }
+  }
 
   useEffect(() => {
     if (props.page === "HOME") {
@@ -21,7 +33,6 @@ const Navbar = (props) => {
       setShowBackButton("back-show");
     }
   }, []);
-  
 
   return (
     <div className="navbar-container">
@@ -36,7 +47,7 @@ const Navbar = (props) => {
       {/* TODO add link to go back */}
       {
         showBackButton && (
-          <button className={`navbar-btn ${showBackButton}`} onClick={() => history.goBack()}>
+          <button className={`navbar-btn ${showBackButton}`} onClick={() => goBack()}>
             <RiArrowGoBackLine className="icon-menu icon" />
           </button>
         )

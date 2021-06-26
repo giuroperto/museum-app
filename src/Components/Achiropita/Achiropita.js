@@ -7,6 +7,7 @@ import Navbar from '../Navbar/Navbar';
 import SubMenu from '../SubMenu/MainSubMenu';
 import { HistoryContext } from '../../Utils/Context';
 import MENU from '../constants/menus';
+import ROUTES from '../constants/routes';
 import "./Achiropita.css";
 import TextPage from "../Pages/TextPage";
 import PhotosPage from "../Pages/PhotosPage";
@@ -14,8 +15,9 @@ import PhotosPage from "../Pages/PhotosPage";
 const Achiropita = (props) => {
 
   const PAGE = "ACHIROPITA";
+  const ROOTROUTE = ROUTES[PAGE];
 
-  const [ topics, setTopics ] = useState([PAGE]);
+  const [ topics, setTopics ] = useState([ROOTROUTE]);
   const [ filteredArray, setFilteredArray ] = useState(MENU[PAGE]);
   const [ pageType, setPageType ] = useState("menu");
   const [ contentType, setContentType ] = useState(null);
@@ -25,7 +27,6 @@ const Achiropita = (props) => {
     console.log(`new topic: ${newTopic}`);
     fetchArray(newTopic);
     filteredArray.map(e => console.log(e.item))
-    setTopics([...topics, newTopic]);
   };
 
   console.log(filteredArray);
@@ -33,6 +34,7 @@ const Achiropita = (props) => {
   
   const fetchArray = (newTopic) => {
     let newArray = filteredArray.filter(el => el.item === newTopic)[0];
+    setTopics([...topics, newArray.route])
     if (newArray.subitems && newArray.subitems.length > 0) {
       setFilteredArray(newArray.subitems);
       setPageType("menu");
@@ -52,7 +54,7 @@ const Achiropita = (props) => {
 
   return (
     <>
-      <Navbar page={PAGE} />
+      <Navbar history={topics} />
       {
         pageType === "menu" && content && (
           <div className="achiropita-container">

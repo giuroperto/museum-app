@@ -220,10 +220,12 @@ const MENU = {
     {
       item: "Paróquia",
       route: ROUTES.ACHIROPITA_PAROQUIA,
+      resources: CONTENT.ACHIROPITA_PAROQUIA,
       subitems: [
         {
           item: "Hino da Comunidade Achiropita",
           route: ROUTES.ACHIROPITA_PAROQUIA_HINO,
+          resources: CONTENT.ACHIROPITA_PAROQUIA_HINO,
           subitems: [],
         }, {
           item: "Pastoral",
@@ -272,14 +274,17 @@ const MENU = {
     }, {
       item: "Festa da Achiropita",
       route: ROUTES.ACHIROPITA_FESTA,
+      resources: CONTENT.ACHIROPITA_FESTA,
       subitems: [
         {
           item: "Apresentação da Festa",
           route: ROUTES.ACHIROPITA_FESTA_APRESENTACAO,
+          resources: CONTENT.ACHIROPITA_FESTA_APRESENTACAO,
           subitems: [],
         }, {
           item: "Breve Histórico",
           route: ROUTES.ACHIROPITA_FESTA_HISTORICO,
+          resources: CONTENT.ACHIROPITA_FESTA_HISTORICO,
           subitems: [],
         }, {
           item: "Festa Presencial e Delivery",
