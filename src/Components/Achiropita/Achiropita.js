@@ -8,83 +8,60 @@ import Footer from "../Footer/Footer";
 import Navbar from '../Navbar/Navbar';
 import SubMenu from '../SubMenu/MainSubMenu';
 import TextSubMenu from '../SubMenu/TextSubMenu';
+import { HistoryContext } from '../../Utils/Context';
+import ROUTES from '../constants/routes';
+import MENU from '../constants/menus';
 import "./Achiropita.css";
 
-const Achiropita = () => {
+const Achiropita = (props) => {
 
-  const [ depth0, setDepth0 ] = useState(true);
-  const [ depth1, setDepth1 ] = useState(false);
-  const [ depth2, setDepth2 ] = useState(false);
-  const [ cardType, setCardType ] = useState("");
-  const [ count, setCount ] = useState(0);
-  const [ topic, setTopic ] = useState("");
+  const PAGE = "ACHIROPITA";
 
-  const onClickSubmenu = (value, topic) => {
-    setCount(Number(value));
-    setTopic(topic);
-    console.log(`value: ${value}`);
-    console.log(`count: ${count}`);
-    console.log(`topic: ${topic}`);
+  const [ topic, setTopic ] = useState([]);
+  const [ filteredArray, setFilteredArray ] = useState([]);
+  const [ type, setType ] = useState("menu");
+
+  const onClickSubmenu = (newTopic) => {
+    console.log(`new topic: ${newTopic}`);
+    fetchArray(newTopic);
+    filteredArray.map(e => console.log(e.item))
+    setTopic([...topic, newTopic]);
   };
 
-  useEffect(() => {
-    console.log("into useEffect");
-    switch (count) {
-      case 1:
-        setDepth0(false);
-        setDepth1(true);
-        setDepth2(false);
-        console.log("into case1");
-        break;
-      case 2:
-        setDepth0(false);
-        setDepth1(false);
-        setDepth2(true);
-        console.log("into case2");
-        break;
-      default:
-        setDepth0(true);
-        setDepth1(false);
-        setDepth2(false);
-        console.log("into default");
-        break;
+  console.log(filteredArray);
+  console.log(topic);
+  
+  const fetchArray = (newTopic) => {
+    let newArray = filteredArray.filter(el => el.item === newTopic)[0];
+    if (newArray.subitems && newArray.subitems.length > 0) {
+      setFilteredArray(newArray.subitems);
+      setType("menu");
+    } else {
+      setFilteredArray([]);
+      setType("page");
     }
-  });
+  };
 
-  console.log(count);
-  console.log(depth0);
-  console.log(depth1);
-  console.log(depth2);
+  console.log(type);
 
+  useEffect(() => {
+    if (filteredArray.length === 0) {
+      setFilteredArray(MENU[PAGE]);
+    }
+  }, []);
+  
   return (
     <>
-      <Navbar />
-      <div className="achiropita-container">
+      <Navbar page={PAGE} />
       {
-        depth0 && (
-          <SubMenu type="ACHIROPITA" click={onClickSubmenu} />
+        filteredArray.length > 0 && (
+          <div className="achiropita-container">
+            <SubMenu click={onClickSubmenu} array={filteredArray} />
+          </div>
         )
       }
-      {
-        depth1 && (cardType === "text" ? (
-          <TextSubMenu type="ACHIROPITA" depth="1" topic={topic} />
-        ) : (
-          <TextSubMenu type="ACHIROPITA" depth="1" topic={topic} />
-        ))
-      }
-      {/* {
-        depth2 && cardType === "text" ? (
-          <TextSubMenu type="ACHIROPITA" depth="2" topic={topic} />
-        ) : (
-          <TextSubMenu type="ACHIROPITA" depth="2" topic={topic} />
-        )
-      } */}
-      </div>
-      {/* <Footer /> */}
     </>
   )
 };
 
 export default Achiropita;
-
-// TODO change menu here to a new component and pass links by props

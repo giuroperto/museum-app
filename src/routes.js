@@ -18,15 +18,15 @@ import PhotosPage from './Components/PhotosPage/PhotosPage';
 import ROUTES from './Components/constants/routes';
 
 const AllRoutes = (props) => {
-  // console.log(props);
+  console.log(props);
 
-  // const [ propsData, setPropsData ] = useState({});
+  const [ propsData, setPropsData ] = useState({});
 
-  // useEffect(() => {
-  //   setPropsData(props);
-  // }, [props]);
+  useEffect(() => {
+    setPropsData(props);
+  }, [props]);
 
-  // console.log(propsData);
+  console.log(propsData);
 
   return (
     <>
@@ -46,7 +46,10 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ORIONE_PUBLICACOES} exact component={Orione} /> */}
 
         {/* ACHIROPITA ROUTES */}
-        <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA} exact render={(props) => (
+          <Achiropita historyData={propsData.historyData} addHistoryData={propsData.addHistoryData} {...props} />
+        )} />
+        {/* <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} /> */}
         <Route path={ROUTES.ACHIROPITA_HISTORIA} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_PAROQUIA} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FESTA} exact component={Achiropita} />

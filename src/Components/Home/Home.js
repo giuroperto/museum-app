@@ -12,6 +12,7 @@ import Navbar from '../Navbar/Navbar';
 
 const Home = () => {
 
+  const PAGE = "HOME";
 
   const [ loader , setLoader ] = useState(true);
 
@@ -23,7 +24,7 @@ const Home = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar page={PAGE} />
       <div className="home-container">
         <div className="cards-container">
           <CardDeck className="card-deck">

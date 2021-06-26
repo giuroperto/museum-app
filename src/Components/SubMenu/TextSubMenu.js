@@ -6,8 +6,9 @@ import MENU from '../constants/menus';
 
 import "./SubMenu.css";
 
-const MainSubMenu = (props) => {
+const TextSubMenu = (props) => {
 
+  const [ propsData, setPropsData ] = useState({});
   const [ type, setType ] = useState(props.type);
   const [ depth, setDepth ] = useState(props.depth);
   const [ topic, setTopic ] = useState(props.topic);
@@ -15,8 +16,21 @@ const MainSubMenu = (props) => {
 
   console.log(topic, depth);
 
-  let filteredTopic = typeArray.filter(el => el.item === topic)[0];
+  let filteredTopic = [];
+
+  if (depth == 1) {
+    filteredTopic = typeArray.filter(el => el.item === topic)[0];
+  } else {
+    filteredTopic = typeArray.filter(el => el.item === topic)[0];
+  }
+  
   console.log(filteredTopic);
+
+  let nextDepth = 1 + Number(propsData.depth);
+
+  useEffect(() => {
+    setPropsData(props);
+  }, [props]);
 
   return (
     <div className="submenu-container">
@@ -25,7 +39,7 @@ const MainSubMenu = (props) => {
           return (
             <div className="item-container">
               <Link to={subitem.route}>
-                <Button variant="secondary" size="lg" className="btn-menu"> { subitem.item } </Button>
+                <Button variant="secondary" size="lg" className="btn-menu" onClick={() => propsData.click(nextDepth, subitem.item)}> { subitem.item } </Button>
               </Link>
             </div>
           )
@@ -36,4 +50,4 @@ const MainSubMenu = (props) => {
   )
 };
 
-export default MainSubMenu;
+export default TextSubMenu;
