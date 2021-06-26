@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Card } from 'react-bootstrap';
 
-import TOPICS from "../constants/topics";
-
 import Footer from "../Footer/Footer";
 import Navbar from '../Navbar/Navbar';
 import SubMenu from '../SubMenu/MainSubMenu';
