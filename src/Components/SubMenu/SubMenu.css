@@ -10,13 +10,45 @@
   align-items: flex-start;
 }
 
+.submenu-text-container {
+  margin-top: 2vh;
+  min-height: 80vh !important;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn-container {
+
+}
+
+.btn-text-container {
+  max-height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .item-container {
   display: flex;
   flex-direction: column;
 }
 
+.item-text-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .btn-menu {
   width: 30vw;
+  font-size: 4rem !important;
+}
+
+.btn-text-menu {
+  width: 25vw;
   font-size: 4rem !important;
 }
 
@@ -27,6 +59,12 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.text-resource {
+  margin-top: 3vh;
+  width: 100%;
+  display: flex;
 }
 
 /* responsivity to small screens */

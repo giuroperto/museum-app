@@ -8,45 +8,102 @@ import videoDonOrione from './centenário - vinheta PT -  AMON - orione - cc.mp4
 const MainSubMenu = (props) => {
 
   const [ menuArray, setMenuArray ] = useState(props.array);
+  // whether there is going to be another section (picture or movie) in the page.
+  const [ pageSection, setPageSection ] = useState(props.pageSection);
+  const [ sectionResource, setSectionResource ] = useState(props.resource);
+
+  // creating individual tags to identify the type of resource
+  const [ isImage, setIsImage ] = useState(false);
+  const [ isVideo, setIsVideo ] = useState(false);
+  const [ isText, setIsText ] = useState(false);
+  // setting different ClassName if it is text
+  const [ containerClassName, setContainerClassName ] = useState("submenu-container");
+  const [ menuClassName, setMenuClassName ] = useState("item-container");
+  const [ btnContainerClassName, setBtnContainerClassName ] = useState("btn-container");
+  const [ btnClassName, setBtnClassName ] = useState("btn-menu");
 
   useEffect(() => {
     setMenuArray(props.array);
+    setPageSection(props.pageSection);
+    setSectionResource(props.resource);
+
+    switch (props.pageSection) {
+      case "photo":
+        setIsImage(true);
+        setIsVideo(false);
+        setIsText(false);
+        break;
+      case "text":
+        setIsImage(false);
+        setIsVideo(false);
+        setIsText(true);
+        setContainerClassName("submenu-text-container");
+        setMenuClassName("item-text-container");
+        setBtnClassName("btn-text-menu");
+        setBtnContainerClassName("btn-text-container");
+        break;
+      case "video":
+        setIsImage(false);
+        setIsVideo(true);
+        setIsText(false);
+        break;
+      default:
+        setIsImage(false);
+        setIsVideo(false);
+        setIsText(false);
+        break;
+    }
+
   }, [props]);
 
+  console.log(props);
+  console.log(pageSection);
+  console.log(sectionResource);
+  console.log(isImage);
+  console.log(isVideo);
+  console.log(isText);
+
   return (
-    <div className="submenu-container">
+    <div className={containerClassName}>
       {
-        menuArray.length > 0 && menuArray.map(item => {
-          return (
-            <div className="item-container" key={`${item.item}-${item.route}`}>
-              <Link to={item.route}>
-                <Button variant="secondary" size="lg" className="btn-menu" onClick={() => props.click(item.item)} > { item.item } </Button>
-              </Link>
+        sectionResource && isImage && (
+          <div className={menuClassName}>
+            <img src={sectionResource} alt="foto relativa a seção" className="submenu-image" />
+          </div>
+        )
+      }
+      {
+        sectionResource && isVideo && (
+          <div className={menuClassName}>
+            <video src={sectionResource} controls="controls" width="60%" />
+          </div>
+        )
+      }
+      <div className={btnContainerClassName}>
+        {
+          menuArray.length > 0 && menuArray.map(item => {
+            return (
+              <div className={menuClassName} key={`${item.item}-${item.route}`}>
+                <Link to={item.route}>
+                  <Button variant="secondary" size="lg" className={btnClassName} onClick={() => props.click(item.item)} > { item.item } </Button>
+                </Link>
+              </div>
+            )
+          })
+        }
+      </div>
+      {
+        sectionResource && isText && (
+          <div className="text-resource">
+            <div className={menuClassName}>
+              <h2 className="page-title"> {sectionResource.title} </h2>
+              <p className="page-text"> {sectionResource.text} </p>
             </div>
-          )
-        })
+          </div>
+        )
       }
     </div>
   )
 };
 
 export default MainSubMenu;
-
-
-// type && type === "ORIONE" ? (
-//   <>
-//     <video src={videoDonOrione} controls="controls" width="60%" />
-//     <div className="menu-block">
-//       {
-//         MENU.ORIONE.map(item => {
-//           return (
-//             <Link to={item.route}>
-//               <Button variant="secondary" size="lg" className="btn-menu" onClick={() => props.click(1, item.item)}> { item.item } </Button>
-//             </Link>
-//           )
-//         })
-//       }
-//     </div>
-//   </>
-// ) : (
-  // )

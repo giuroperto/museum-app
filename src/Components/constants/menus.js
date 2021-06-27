@@ -511,10 +511,12 @@ const MENU = {
     {
       item: "História do Bairro",
       route: ROUTES.BIXIGA_HISTORIA,
+      resources: CONTENT.BIXIGA_HISTORIA,
       subitems: [
         {
           item: "Movimento Migratório",
           route: ROUTES.BIXIGA_HISTORIA_MIGRACAO,
+          resources: CONTENT.BIXIGA_HISTORIA_MIGRACAO,
           subitems: [],
         }
       ],
