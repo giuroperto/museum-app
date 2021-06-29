@@ -1,12 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Document, Page } from "react-pdf";
 
-import pdfFile from './FASC1.pdf';
+// import pdfFile from './FASC1.pdf';
 
-const SinglePage = () => {
+const SinglePage = (props) => {
 
+  const [pdfFile, setPdfFile] = useState(props.pdfFile);
   const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1); //setting 1 to show fisrt page
+  const [pageNumber, setPageNumber] = useState(1); //setting 1 to show first page
+
+  useEffect(() => {
+    setPdfFile(props.pdfFile);
+  });
 
   const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);

@@ -9,7 +9,9 @@ const MainSubMenu = (props) => {
 
   const [ menuArray, setMenuArray ] = useState(props.array);
   // whether there is going to be another section (picture or movie) in the page.
+  // type of resource
   const [ pageSection, setPageSection ] = useState(props.pageSection);
+  // resource content
   const [ sectionResource, setSectionResource ] = useState(props.resource);
 
   // creating individual tags to identify the type of resource
@@ -32,6 +34,7 @@ const MainSubMenu = (props) => {
         setIsImage(true);
         setIsVideo(false);
         setIsText(false);
+        setBtnContainerClassName("btn-container resource");
         break;
       case "text":
         setIsImage(false);
@@ -46,11 +49,13 @@ const MainSubMenu = (props) => {
         setIsImage(false);
         setIsVideo(true);
         setIsText(false);
+        setBtnContainerClassName("btn-container resource");
         break;
       default:
         setIsImage(false);
         setIsVideo(false);
         setIsText(false);
+        setBtnContainerClassName("btn-container");
         break;
     }
 
@@ -84,7 +89,7 @@ const MainSubMenu = (props) => {
           menuArray.length > 0 && menuArray.map(item => {
             return (
               <div className={menuClassName} key={`${item.item}-${item.route}`}>
-                <Link to={item.route}>
+                <Link to={item.route} className="btn-link">
                   <Button variant="secondary" size="lg" className={btnClassName} onClick={() => props.click(item.item)} > { item.item } </Button>
                 </Link>
               </div>

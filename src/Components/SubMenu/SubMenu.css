@@ -13,7 +13,7 @@
 .submenu-text-container {
   margin-top: 2vh;
   min-height: 80vh !important;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -21,17 +21,31 @@
 }
 
 .btn-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 70vh;
+  justify-content: center;
+}
 
+.resource {
 }
 
 .btn-text-container {
   max-height: 30vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  padding-left: 3vw;
+}
+
+.btn-link {
+  /* width: auto; */
 }
 
 .item-container {
+  width: auto;
   display: flex;
   flex-direction: column;
 }
@@ -49,7 +63,9 @@
 
 .btn-text-menu {
   width: 25vw;
-  font-size: 4rem !important;
+  min-height: 12vh;
+  font-size: 3.5rem !important;
+  margin: 0 5vw 5vh 0;
 }
 
 .menu-block {
@@ -63,8 +79,12 @@
 
 .text-resource {
   margin-top: 3vh;
-  width: 100%;
+  width: 90%;
   display: flex;
+}
+
+.submenu-image {
+  /* align-self: center; */
 }
 
 /* responsivity to small screens */

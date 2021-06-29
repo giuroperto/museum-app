@@ -10,6 +10,7 @@ const MENU = {
         {
           item: "Linha do tempo da Vida, obra e canonização de Don Orione",
           route: ROUTES.ORIONE_BIOGRAFIA_LINHA,
+          resources: CONTENT.ORIONE_BIOGRAFIA_LINHA,
           subitems: [],
         },
       ],
