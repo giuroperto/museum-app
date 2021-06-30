@@ -1,3 +1,5 @@
+import PDFS from './pdfs';
+
 const CONTENT = {
 
   // orione routes
@@ -68,7 +70,7 @@ const CONTENT = {
   ORIONE_OBRAS_BRASIL_1: {
     title: "A motivação da evangelização e a vinda de São Orione ao Brasil – 1906 a 1923",
     type: "pdf",
-    text: "%PUBLIC_URL%/assets/FASC1.pdf",
+    text: PDFS.FASC1,
     images: []
   },
   ACHIROPITA_HISTORIA: {

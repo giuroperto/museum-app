@@ -1,56 +1,72 @@
 import { Link, useHistory } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
 import { RiArrowGoBackLine } from "react-icons/ri";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 
 import './Navbar.css';
 import ROUTES from '../constants/routes';
+import { HistoryContext } from '../../Utils/Context/';
 
 const Navbar = (props) => {
 
+  const historyData = useContext(HistoryContext);
+
   const [ showBackButton, setShowBackButton ] = useState("back-hide");
-  const [ history, setHistory ] = useState(props.history);
-  const [ page, setPage ] = useState("");
+  const [ lastPage, setLastPage ] = useState("");
+  // const [ history, setHistory ] = useState(props.history);
+  // const [ page, setPage ] = useState("");
 
   useEffect(() => {
 
-    if (props.page === "HOME") {
+    if (historyData.currentPageCategory === "HOME") {
       setShowBackButton("back-hide");
     } else {
       setShowBackButton("back-show");
     }
 
-    setHistory(props.history);
-  }, [props]);
+    // setHistory(props.history);
+  }, [historyData]);
 
   useEffect(() => {
-    if (history) {
+    if (historyData.historyArray) {
       checkPage();
     }
-  }, [history]);
+  }, [historyData]);
 
   const checkPage = () => {
     console.log("checkpage");
-    console.log("history" + history);
-    console.log("history lenght" + history.length);
+    console.log("history" + historyData);
+    console.log("history lenght" + historyData.historyArray.length);
     console.log("inside checkpage if");
-    let historyArray = history;
+    let historyArray = historyData.historyArray;
     console.log("historyArray" + historyArray);
-    let lastPageVisited = historyArray[historyArray.length - 1];
+    let lastPageVisited = historyData.lastPage;
     console.log("lastPageVisited" + lastPageVisited);
-    let positionToRemove = history.indexOf(lastPageVisited);
-    console.log("positionToRemove" + positionToRemove);
-    let lastPage = history[positionToRemove - 1];
-    console.log("lastPage" + lastPage);
+    setLastPage(lastPageVisited);
+
+    // newHistory, newLastPage, newPageCategory
+    // let lastPageVisited = historyArray[historyArray.length - 1];
+    // let positionToRemove = history.indexOf(lastPageVisited);
+    // console.log("positionToRemove" + positionToRemove);
+    // let lastPage = history[positionToRemove - 1];
+    // console.log("lastPage" + lastPage);
     // let lastPage = historyArray.splice(positionToRemove, 1);
     // console.log("lastPage" + lastPage);
-    setHistory(historyArray);
-    setPage(lastPage);
+    // setHistory(historyArray);
+    // setPage(lastPage);
+
+  // let allTopicsHistory = topics;
+  // let historyAfterGoingBack = allTopicsHistory.splice(positionToRemove, 1);
+    
+  //   setTopics(historyAfterGoingBack);
+
   };
 
-  console.log("history" + history);
-  console.log("page" + page);
-  console.log("props" + props);
+  console.log("history" + historyData);
+  // console.log("page" + page);
+  // console.log("props" + props.history);
+
+  // TODO delete all irrelevant data
 
   return (
     <div className="navbar-container">
@@ -65,7 +81,7 @@ const Navbar = (props) => {
       {/* TODO add link to go back */}
       {
         showBackButton && (
-          <Link to={page} className={`navbar-btn ${showBackButton}`}>
+          <Link to={lastPage} className={`navbar-btn ${showBackButton}`}>
             <RiArrowGoBackLine className="icon-menu icon" />
           </Link>
         )

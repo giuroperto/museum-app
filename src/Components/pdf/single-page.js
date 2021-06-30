@@ -1,13 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { Document, Page } from "react-pdf";
 
-// import pdfFile from './FASC1.pdf';
+// import FASC1 from './FASC1.pdf';
 
 const SinglePage = (props) => {
 
   const [pdfFile, setPdfFile] = useState(props.pdfFile);
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1); //setting 1 to show first page
+
+  // componentDidMount() {
+  //   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+  // }
 
   useEffect(() => {
     setPdfFile(props.pdfFile);
@@ -30,12 +34,14 @@ const SinglePage = (props) => {
     changePage(1);
   };
 
+  console.log(pdfFile);
+
   return (
     <div className="pdf-view-container">
       <Document
         file={pdfFile}
         // file="https://drive.google.com/file/d/1N2vPZsnaEDS4NPktj-UzwOqF4RdO5bFh/view?usp=sharing"
-        options={{ workerSrc: "/pdf.worker.js" }}
+        // options={{ workerSrc: "/pdf.worker.js" }}
         onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page pageNumber={pageNumber} />

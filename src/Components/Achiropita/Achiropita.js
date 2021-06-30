@@ -10,8 +10,11 @@ import ROUTES from '../constants/routes';
 import "./Achiropita.css";
 import TextPage from "../Pages/TextPage";
 import PhotosPage from "../Pages/PhotosPage";
+import PdfPage from "../Pages/PdfPage";
 
 const Achiropita = (props) => {
+
+  console.log(props);
 
   const PAGE = "ACHIROPITA";
   // primary root of the section
@@ -50,7 +53,9 @@ const Achiropita = (props) => {
   const fetchArray = (newTopic) => {
 
     let newArray = filteredArray.filter(el => el.item === newTopic)[0];
-    setTopics([...topics, newArray.route]);
+    setTopics([...topics, newTopic.route]);
+
+    setHistoryInfo();
 
     if (newArray.subitems && newArray.subitems.length > 0) {
       setFilteredArray(newArray.subitems);
@@ -71,6 +76,15 @@ const Achiropita = (props) => {
 
     // if the resources property is present, it will be true, if not false
     setSectionResources(newArray.resources);
+  };
+
+  let setHistoryInfo = () => {
+    
+    let lastPageVisited = topics[topics.length - 1];
+    let positionToRemove = topics.indexOf(lastPageVisited);
+    let goBackToPage = topics[positionToRemove - 1];
+    
+    props.getHistory(topics, goBackToPage, PAGE);
   };
 
   console.log(pageType);
@@ -98,6 +112,13 @@ const Achiropita = (props) => {
         pageType === "page" && contentType === "photo" && (
           <div className="achiropita-container">
             <PhotosPage content={content} />
+          </div>
+        )
+      }
+      {
+        pageType === "page" && contentType === "pdf" && (
+          <div className="achiropita-container">
+            <PdfPage content={content} />
           </div>
         )
       }
