@@ -14,7 +14,7 @@ const PdfPage = (props) => {
   }, [props]);
 
   console.log(content);
-  
+
   return (
     <div className="page-container">
       <div className="item-container">
@@ -22,7 +22,7 @@ const PdfPage = (props) => {
         Object.keys(content).length > 0 && (
           <>
             <h2 className="page-title"> {content.title} </h2>
-            <PDF pdfFile={} />
+            <PDF pdfFile={content.text} />
           </>
         )
       }

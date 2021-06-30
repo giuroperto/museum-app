@@ -10,6 +10,7 @@ import ROUTES from '../constants/routes';
 import "./Bixiga.css";
 import TextPage from "../Pages/TextPage";
 import PhotosPage from "../Pages/PhotosPage";
+import PdfPage from "../Pages/PdfPage";
 
 const Bixiga = (props) => {
 
@@ -98,6 +99,13 @@ const Bixiga = (props) => {
         pageType === "page" && contentType === "photo" && (
           <div className="bixiga-container">
             <PhotosPage content={content} />
+          </div>
+        )
+      }
+      {
+        pageType === "page" && contentType === "pdf" && (
+          <div className="achiropita-container">
+            <PdfPage content={content} />
           </div>
         )
       }

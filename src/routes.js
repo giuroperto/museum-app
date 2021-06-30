@@ -81,11 +81,11 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ORIONE_OBRAS_TXT} exact component={Orione} />
 
         {/* ACHIROPITA ROUTES */}
-        {/* <Route path={ROUTES.ACHIROPITA} exact render={(props) => (
-          <Achiropita historyData={propsData.historyData} addHistoryData={propsData.addHistoryData} {...props} />
-        )} /> */}
+        <Route path={ROUTES.ACHIROPITA} exact render={(props) => (
+          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} {...props} />
+        )} />
 
-        <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} />
+        {/* <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} /> */}
         <Route path={ROUTES.ACHIROPITA_HISTORIA} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_HISTORIA_1} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_HISTORIA_2} exact component={Achiropita} />

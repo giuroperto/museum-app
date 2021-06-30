@@ -27,6 +27,7 @@ const MENU = {
               item: "1906-1923",
               subtitle: "A motivação da evangelização e a vinda de São Orione ao Brasil",
               route: ROUTES.ORIONE_OBRAS_BRASIL_1,
+              resources: CONTENT.ORIONE_OBRAS_BRASIL_1,
             }, {
               item: "1923-1934",
               subtitle: "A chegada ao Brasil e ação dos pioneiros",
