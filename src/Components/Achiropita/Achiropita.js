@@ -81,8 +81,8 @@ const Achiropita = (props) => {
   let setHistoryInfo = () => {
     
     let lastPageVisited = topics[topics.length - 1];
-    let positionToRemove = topics.indexOf(lastPageVisited);
-    let goBackToPage = topics[positionToRemove - 1];
+    let indexLastPage = topics.indexOf(lastPageVisited);
+    let goBackToPage = topics[indexLastPage - 1];
     
     props.getHistory(topics, goBackToPage, PAGE);
   };
@@ -93,7 +93,7 @@ const Achiropita = (props) => {
 
   return (
     <>
-      <Navbar history={topics} page={PAGE}/>
+      <Navbar history={topics} page={PAGE} getHistory={props.getHistory} />
       {
         pageType === "menu" && filteredArray.length > 0 && (
           <div className="achiropita-container">

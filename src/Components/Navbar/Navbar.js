@@ -9,6 +9,8 @@ import { HistoryContext } from '../../Utils/Context/';
 
 const Navbar = (props) => {
 
+  console.log(props);
+
   const historyData = useContext(HistoryContext);
 
   const [ showBackButton, setShowBackButton ] = useState("back-hide");
@@ -44,7 +46,6 @@ const Navbar = (props) => {
     console.log("lastPageVisited" + lastPageVisited);
     setLastPage(lastPageVisited);
 
-    // newHistory, newLastPage, newPageCategory
     // let lastPageVisited = historyArray[historyArray.length - 1];
     // let positionToRemove = history.indexOf(lastPageVisited);
     // console.log("positionToRemove" + positionToRemove);
@@ -55,10 +56,17 @@ const Navbar = (props) => {
     // setHistory(historyArray);
     // setPage(lastPage);
 
-  // let allTopicsHistory = topics;
-  // let historyAfterGoingBack = allTopicsHistory.splice(positionToRemove, 1);
+  };
+
+  const updateHistory = () => {
     
-  //   setTopics(historyAfterGoingBack);
+    let historyList = historyData.historyArray;
+    let positionToRemove = historyList.length - 1;
+    let historyAfterGoBack = historyList.splice(positionToRemove, 1);
+
+    let newLastPage = historyList[historyList.length - 1];
+
+    props.getHistory(historyAfterGoBack, newLastPage, props.page);
 
   };
 
@@ -81,7 +89,7 @@ const Navbar = (props) => {
       {/* TODO add link to go back */}
       {
         showBackButton && (
-          <Link to={lastPage} className={`navbar-btn ${showBackButton}`}>
+          <Link to={lastPage} className={`navbar-btn ${showBackButton}`} onClick={() => updateHistory()}>
             <RiArrowGoBackLine className="icon-menu icon" />
           </Link>
         )

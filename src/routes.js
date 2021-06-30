@@ -85,9 +85,17 @@ const AllRoutes = (props) => {
           <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} {...props} />
         )} />
 
+        <Route path={ROUTES.ACHIROPITA_HISTORIA} exact render={(props) => (
+          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} {...props} />
+        )} />
+
+        <Route path={ROUTES.ACHIROPITA_HISTORIA_1} exact render={(props) => (
+          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} {...props} />
+        )} />
+
         {/* <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} /> */}
-        <Route path={ROUTES.ACHIROPITA_HISTORIA} exact component={Achiropita} />
-        <Route path={ROUTES.ACHIROPITA_HISTORIA_1} exact component={Achiropita} />
+        {/* <Route path={ROUTES.ACHIROPITA_HISTORIA} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_HISTORIA_1} exact component={Achiropita} /> */}
         <Route path={ROUTES.ACHIROPITA_HISTORIA_2} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_HISTORIA_3} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_HISTORIA_4} exact component={Achiropita} />
