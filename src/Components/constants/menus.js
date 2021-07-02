@@ -47,10 +47,12 @@ const MENU = {
               item: "1972-2002",
               subtitle: "Casas de Don Orione no Rio Grande do Sul",
               route: ROUTES.ORIONE_OBRAS_BRASIL_5,
+              resources: CONTENT.ORIONE_OBRAS_BRASIL_5,
             }, {
               item: "Missionários pioneiros no Brasil",
               links: ["Lista dos falecidos", "Sobre os pioneiros"],
               route: ROUTES.ORIONE_OBRAS_BRASIL_6,
+              resources: CONTENT.ORIONE_OBRAS_BRASIL_6,
             }
           ],
         }

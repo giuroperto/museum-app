@@ -88,6 +88,18 @@ const CONTENT = {
     text: PDFS.ORIONE_OBRAS_BRASIL_4,
     images: []
   },
+  ORIONE_OBRAS_BRASIL_5: {
+    title: "Casas de Don Orione no Rio Grande do Sul – 1972-2002",
+    type: "pdf",
+    text: PDFS.ORIONE_OBRAS_BRASIL_5,
+    images: []
+  },
+  ORIONE_OBRAS_BRASIL_6: {
+    title: "Missionários pioneiros no Brasil",
+    type: "pdf",
+    text: PDFS.ORIONE_OBRAS_BRASIL_6,
+    images: []
+  },
   ACHIROPITA_HISTORIA: {
     title: "História",
     type: "text",
