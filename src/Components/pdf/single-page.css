@@ -1,8 +1,16 @@
 /* made to be big screen first which is >1008px */
 
-.pdf-view-container {
-  height: 100%;
-  width: 100%;
+.pdf-page-text {
+  font-size: 3rem !important;
+  text-align: center;
+}
+
+.pdf-btn {
+  width: 15vw;
+  font-size: 3rem;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(235, 72, 72);
 }
 
 /* responsivity to small screens */

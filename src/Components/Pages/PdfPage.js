@@ -17,11 +17,11 @@ const PdfPage = (props) => {
 
   return (
     <div className="page-container">
-      <div className="item-container">
+      <div className="pdf-container">
       {
         Object.keys(content).length > 0 && (
           <>
-            <h2 className="page-title"> {content.title} </h2>
+            <h2 className="pdf-page-title"> {content.title} </h2>
             <PDF pdfFile={content.text} />
           </>
         )

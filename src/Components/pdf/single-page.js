@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 
+import './single-page.css';
+
 // import FASC1 from './FASC1.pdf';
 
 const SinglePage = (props) => {
@@ -44,17 +46,19 @@ const SinglePage = (props) => {
       onLoadSuccess={onDocumentLoadSuccess} >
         <Page pageNumber={pageNumber} />
       </Document>
-      <div>
-        <p>
+      <div className="pdf-page-control">
+        <p className="pdf-page-text">
           Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
         </p>
         <button
-        type="button"
-        disabled={pageNumber <= 1}
-        onClick={previousPage}>
+          className="pdf-btn"
+          type="button"
+          disabled={pageNumber <= 1}
+          onClick={previousPage}>
           Previous
         </button>
         <button
+          className="pdf-btn"
           type="button"
           disabled={pageNumber >= numPages}
           onClick={nextPage}>
