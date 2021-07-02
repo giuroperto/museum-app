@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Document, Page } from "react-pdf";
+import { Document, Page, pdfjs } from "react-pdf";
 
 // import FASC1 from './FASC1.pdf';
 
@@ -9,9 +9,9 @@ const SinglePage = (props) => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1); //setting 1 to show first page
 
-  // componentDidMount() {
-  //   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-  // }
+  useEffect(() => {
+    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+  })
 
   useEffect(() => {
     setPdfFile(props.pdfFile);
@@ -35,29 +35,29 @@ const SinglePage = (props) => {
   };
 
   console.log(pdfFile);
+  // console.log(FASC1);
 
   return (
     <div className="pdf-view-container">
       <Document
-        file={pdfFile}
-        // file="https://drive.google.com/file/d/1N2vPZsnaEDS4NPktj-UzwOqF4RdO5bFh/view?usp=sharing"
-        // options={{ workerSrc: "/pdf.worker.js" }}
-        onLoadSuccess={onDocumentLoadSuccess}
-      >
+      file={pdfFile}
+      onLoadSuccess={onDocumentLoadSuccess} >
         <Page pageNumber={pageNumber} />
       </Document>
       <div>
         <p>
           Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
         </p>
-        <button type="button" disabled={pageNumber <= 1} onClick={previousPage}>
+        <button
+        type="button"
+        disabled={pageNumber <= 1}
+        onClick={previousPage}>
           Previous
         </button>
         <button
           type="button"
           disabled={pageNumber >= numPages}
-          onClick={nextPage}
-        >
+          onClick={nextPage}>
           Next
         </button>
       </div>
@@ -66,3 +66,6 @@ const SinglePage = (props) => {
 }
 
 export default SinglePage;
+
+// file="https://drive.google.com/file/d/1N2vPZsnaEDS4NPktj-UzwOqF4RdO5bFh/view?usp=sharing"
+        // options={{ workerSrc: "/pdf.worker.js" }}

@@ -70,7 +70,7 @@ const CONTENT = {
   ORIONE_OBRAS_BRASIL_1: {
     title: "A motivação da evangelização e a vinda de São Orione ao Brasil – 1906 a 1923",
     type: "pdf",
-    text: PDFS.FASC1,
+    text: PDFS.title,
     images: []
   },
   ACHIROPITA_HISTORIA: {
