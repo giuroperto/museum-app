@@ -32,14 +32,17 @@ const MENU = {
               item: "1923-1934",
               subtitle: "A chegada ao Brasil e ação dos pioneiros",
               route: ROUTES.ORIONE_OBRAS_BRASIL_2,
+              resources: CONTENT.ORIONE_OBRAS_BRASIL_2,
             }, {
               item: "1934-1940",
               subtitle: "Pequena Obra da Divina Providência de Don Orione no Brasil e a segunda estada do santo na América",
               route: ROUTES.ORIONE_OBRAS_BRASIL_3,
+              resources: CONTENT.ORIONE_OBRAS_BRASIL_3,
             }, {
               item: "1940-1947",
               subtitle: "Consolidação da evangelização orionita no Brasil em SP, RJ e MG",
               route: ROUTES.ORIONE_OBRAS_BRASIL_4,
+              resources: CONTENT.ORIONE_OBRAS_BRASIL_4,
             }, {
               item: "1972-2002",
               subtitle: "Casas de Don Orione no Rio Grande do Sul",

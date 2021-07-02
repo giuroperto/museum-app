@@ -9,9 +9,6 @@ const CONTENT = {
   
   // ORIONE_OBRAS: '/orione/obras',
   // ORIONE_OBRAS_BRASIL: '/orione/obras/brasil',
-  // ORIONE_OBRAS_BRASIL_2: '/orione/obras/brasil/1923-1934',
-  // ORIONE_OBRAS_BRASIL_3: '/orione/obras/brasil/1934-1940',
-  // ORIONE_OBRAS_BRASIL_4: '/orione/obras/brasil/1940-1947',
   // ORIONE_OBRAS_BRASIL_5: '/orione/obras/brasil/1972-2002',
   // ORIONE_OBRAS_BRASIL_6: '/orione/obras/brasil/pioneiros',
 
@@ -71,6 +68,24 @@ const CONTENT = {
     title: "A motivação da evangelização e a vinda de São Orione ao Brasil – 1906 a 1923",
     type: "pdf",
     text: PDFS.ORIONE_OBRAS_BRASIL_1,
+    images: []
+  },
+  ORIONE_OBRAS_BRASIL_2: {
+    title: "A chegada ao Brasil e ação dos pioneiros – 1923-1934",
+    type: "pdf",
+    text: PDFS.ORIONE_OBRAS_BRASIL_2,
+    images: []
+  },
+  ORIONE_OBRAS_BRASIL_3: {
+    title: "Pequena Obra da Divina Providência de Don Orione no Brasil e a segunda estada do santo na América – 1934-1940",
+    type: "pdf",
+    text: PDFS.ORIONE_OBRAS_BRASIL_3,
+    images: []
+  },
+  ORIONE_OBRAS_BRASIL_4: {
+    title: "Consolidação da evangelização orionita no Brasil em SP, RJ e MG – 1940-1947",
+    type: "pdf",
+    text: PDFS.ORIONE_OBRAS_BRASIL_4,
     images: []
   },
   ACHIROPITA_HISTORIA: {

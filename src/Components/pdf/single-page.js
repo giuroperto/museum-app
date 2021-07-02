@@ -55,14 +55,14 @@ const SinglePage = (props) => {
           type="button"
           disabled={pageNumber <= 1}
           onClick={previousPage}>
-          Previous
+          Anterior
         </button>
         <button
           className="pdf-btn"
           type="button"
           disabled={pageNumber >= numPages}
           onClick={nextPage}>
-          Next
+          Próxima
         </button>
       </div>
     </div>
