@@ -1,32 +1,60 @@
-import { Link } from "react-router-dom";
-import { Button } from "react-bootstrap";
 import { useEffect, useState } from "react";
+import { Carousel } from "react-bootstrap";
 
 import "./Pages.css";
 
 const PhotosPage = (props) => {
 
-  const [ menuArray, setMenuArray ] = useState(props.array);
+  const [ content, setContent ] = useState(props.content);
+  const [ index, setIndex ] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
 
   useEffect(() => {
-    setMenuArray(props.array);
+    setContent(props.content);
   }, [props]);
+
+  console.log(content);
+  console.log(content.images);
+  console.log(content.images[0]);
+  console.log(props.content);
 
   return (
     <div className="page-container">
-      {
-        menuArray.length > 0 && menuArray.map(item => {
-          return (
-            <div className="item-container" key={`${item.item}-${item.route}`}>
-              <Link to={item.route}>
-                <Button variant="secondary" size="lg" className="btn-menu" onClick={() => props.click(item.item)} > { item.item } </Button>
-              </Link>
-            </div>
+      <div className="photo-page-container">
+        <Carousel activeIndex={index} onSelect={handleSelect} className="carousel-container">
+        {
+          Object.keys(content).length > 0 && content.images.length > 0 && content.images.map((photo) => {
+            return (
+              <Carousel.Item key={photo}>
+                <img
+                className="d-block img-format"
+                src={photo} 
+                alt="Fotos sobre o tema"
+                />
+              </Carousel.Item>
           )
-        })
-      }
+          }) 
+        }
+        </Carousel>
+      </div>
     </div>
   )
 };
 
 export default PhotosPage;
+
+
+
+// {/* <Carousel.Item>
+    //   <img
+    //   className="d-block w-100"
+    //   src={props.content.images[0]}
+    //   alt="Fotos sobre o tema" />
+    //   <Carousel.Caption>
+    //     <h3>{props.content.title}</h3>
+    //     <p>.</p>
+    //   </Carousel.Caption>
+    // </Carousel.Item>

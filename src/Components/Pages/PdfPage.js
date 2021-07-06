@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import { useEffect, useState } from "react";
 
-import PDF from '../pdf/single-page';
+import PDF from '../../Utils/Components/pdf/single-page';
 import "./Pages.css";
 
 const PdfPage = (props) => {

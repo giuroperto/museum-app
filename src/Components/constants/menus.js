@@ -394,6 +394,7 @@ const MENU = {
         }, {
           item: "Coroinhas 2019",
           route: ROUTES.ACHIROPITA_FOTOS_2,
+          resources: CONTENT.ACHIROPITA_FOTOS_2,
           subitems: [],
         }, {
           item: "Pastorais",

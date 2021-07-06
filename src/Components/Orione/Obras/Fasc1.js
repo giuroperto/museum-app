@@ -7,7 +7,7 @@ import "./ObrasTxt.css";
 import Footer from '../../Footer/Footer';
 import Navbar from '../../Navbar/Navbar';
 // import pdf from '../../pdf/assets/FASC1.pdf';
-import SinglePage from '../../pdf/single-page';
+import SinglePage from '../../../Utils/Components/pdf/single-page';
 
 const ObrasTxt = (props) => {
 

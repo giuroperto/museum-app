@@ -18,6 +18,19 @@
   align-items: center;
 }
 
+.photo-page-container {
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container {
+  width: 90%;
+  height: 90%;
+}
+
 .page-title {
   font-size: 6rem !important;
   margin-bottom: 3vh;
@@ -39,4 +52,9 @@
   width: 40vw;
   align-self: center;
   margin-bottom: 5vh;
+}
+
+.img-format {
+  height: 75vh;
+  margin: 0 auto;
 }

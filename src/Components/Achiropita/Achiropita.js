@@ -55,7 +55,7 @@ const Achiropita = (props) => {
     let newArray = filteredArray.filter(el => el.item === newTopic)[0];
     setTopics([...topics, newTopic.route]);
 
-    setHistoryInfo();
+    // setHistoryInfo();
 
     if (newArray.subitems && newArray.subitems.length > 0) {
       setFilteredArray(newArray.subitems);
@@ -84,7 +84,7 @@ const Achiropita = (props) => {
     let indexLastPage = topics.indexOf(lastPageVisited);
     let goBackToPage = topics[indexLastPage - 1];
     
-    props.getHistory(topics, goBackToPage, PAGE);
+    // props.getHistory(topics, goBackToPage, PAGE);
   };
 
   console.log(pageType);

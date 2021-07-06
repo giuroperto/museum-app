@@ -166,6 +166,90 @@ const CONTENT = {
       text: "*Fonte: https://avidanocentro.com.br/o_que_fazer/festa-da-achiropita-comida-italiana-e-muita-diversao-no-centro-do-bixiga/ 05/08/2017\n\nA origem da Festa da N. Sra. Achiropita remonta ao início do século 20, quando os primeiros imigrantes italianos chegaram ao Bixiga trazendo uma imagem da santa. Ela começou a ser venerada pelos fiéis em 1908 na casa de João Falcone, no número 100 da Rua 13 de Maio. Foi erguido um altar de madeira na rua que na época era de terra batida, e nos dias 13, 14 e 15 de agosto eram celebradas missas e realizadas festas em homenagem à santa, com o objetivo de comprar um terreno para construir uma capela.\nCom o passar dos anos, a capela acabou ficando pequena para abrigar toda a comunidade, e era preciso construir uma igreja maior. Naquela época haviam barracas com sorteios das prendas arrecadadas, leilões sobre carroças, um pau de sebo e a animada banda dos Bersaglieri, vinda da Itália. Havia também uma procissão levando a imagem de N. Sra Achiropita e N. Sra da Ripalta. Sacadas eram enfeitadas com colchas e toalhas, e famílias faziam doações em dinheiro para ajudar na construção da igreja.\nDurante a segunda guerra a quermesse foi suspensa devido a perseguição dos italianos pelo governo de Getúlio Vargas, mas a parte religiosa continuou com missa, novena e procissão. Na década de 50 as festas voltaram e foi feita a primeira barraca da comida: o sanduíche de pernil feito por senhoras da comunidade. Nesta época, as ruas eram enfeitadas com cordões de lâmpadas coloridas.\n\nA FAMOSA FOGAZZA\n\nA partir de 1975 as famílias traziam pratos doces e salgados para vender na festa, que era realizada no pátio atrás da igreja. Em 1979 a festa foi definitivamente para a rua e em 1980 firmou-se com a devida autorização da prefeitura. Neste ano existiam treze barracas e cerca de 200 voluntários. Neste mesmo ano a grande novidade foi a barraca de fogazza que começou a ser feita apenas com 2kg de farinha como experiência.\nA fogazza é uma das grandes atrações da festa no Bixiga.\n\nEm 2003 já eram nove toneladas de farinha. Outra inovação na década de 80 foi a Cantina di Napoli, montada no terreno ao lado da igreja. Mesões foram instalados e um palco feito pela Paulistur para os cantores das cantinas do bairro animar a festa.\nEm 1983 eram 22 barracas com 350 voluntários. Neste ano foi lançada a pedra fundamental das obras sociais. Em 1985 a cantina passa a ser montada no prédio das obras sociais e um palco definitivo foi feito com um conjunto tocando músicas típicas italianas.\nForam colocadas mesas com lugares numerados para cerca de 850 pessoas. Surgia a Cantina Madona Achiropita. Outro costume passou a ser o provolone de dois metros e cerca de 100 quilos, um dos símbolos da festa.\nNa década de 90 a festa teve um grande avanço em relação a patrocinadores, colaboradores e benfeitores. Atualmente visitam a festa mais de 200 mil pessoas vindas de São. Paulo e de todo o Brasil. São 30 barracas e mais de mil voluntários, que trabalham para toda a renda da festa seja revertida para as obras assistenciais.",
       images: [],
     }, 
+    ACHIROPITA_PAROQUIA_PASTORAL: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_1: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_2: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_3: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_4: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_5: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_6: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_7: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_8: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_9: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_10: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_11: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PAROQUIA_PASTORAL_12: {
+      title: "",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_FOTOS_2: {
+      title: "Coroinhas 2019",
+      type: "photo",
+      text: "",
+      images: []
+    },
     BIXIGA_HISTORIA: {
       title: "História do Bairro",
       type: "text",
@@ -178,8 +262,8 @@ const CONTENT = {
       text: "No segunda metade do século XIX, houve um grande movimento imigratório da Europa, na direção de vários países. Muitos países receberam milhares de imigrantes, vindos da Itália, da Alemanha, Espanha, Polônia e França. Os países da emigração foram, sobretudo os Estados Unidos e Canadá, a Austrália, alguns países da África e particularmente  o Uruguai, Argentina e Brasil, na América do Sul.\nNeste mesmo período, surgiram inúmeras congregações religiosas, especialmente na França e na Itália, como esforço da Igreja atender as massas populares que se aglomeravam nas cidades e que abandonavam a Igreja, fascinadas pelos movimentos socialistas antirreligiosos.\nUma grande massa de imigrantes veio para as terras brasileiras, particularmente nos estados do Sul. Quando estes imigrantes eram protestantes, fundavam cidades, com igrejas protestantes. Na maioria das vezes, estas comunidades eram italianas e traziam o catolicismo como religião tradicional.\nNeste período, muitos religiosos, pertencentes a estas congregações religiosas vêm para o Brasil e para a América Latina. Na verdade, grande é também o contingente de sacerdotes do clero secular. Estas congregações são muito importantes na formação dos filhos de imigrantes, no amparo das crianças abandonadas, nos cuidados dos hospitais e nos asilos de idosos.\nAlgumas congregações vieram com o objetivo de proteger e educar na fé as famílias dos imigrantes. Em terras brasileiras, dedicavam-se às instruções dos filhos de escravos, expulsos das fazendas de cana de açúcar e café e jogados nas periferias das cidades.\nDestacamos algumas destas famílias religiosas, como os salesianos, na educação dos jovens, as irmãs de Villeneuve, na defesa das mulheres, os escalabrinianos, na defesa dos imigrantes, os camilianos no socorro dos doentes, os dominicanos, na evangelização dos filhos do povo.  Reconhecemos a presença das Irmãs da Caridade de Santa Paulina. Em todas as igrejas, nota-se a presença dos religiosos ou leigos vicentinos, socorrendo os pobres em suas primeiras necessidades.\nDestacamos a presença dos Filhos e Filhas de São Luís Orione, que se dedicaram à educação dos filhos de escravos, camponeses, caboclos e particularmente os deficientes físicos e mentais. Os religiosos lazaristas e os maristas dedicaram-se às escolas e ao amparo dos jovens mais pobres.\nEstas congregações continuam sendo uma presença importante na Igreja e na sociedade brasileira, servindo sempre no socorro aos pobres e na defesa dos direitos dos povos mais empobrecidos (Bogaz – Thomazella, 2005, p. 78).\nNeste período, uma grande multidão de imigrantes europeus, sobretudo italianos, veio para o Brasil, fugindo das guerras internas e da grande miséria que assolava as várias regiões da Itália, em constante conflito entre si, antes e depois da unificação, em 1870. Os italianos ocuparam as regiões sul do Brasil, constituindo cidades e novos povoados e desenvolvendo a agricultura e as pequenas propriedades. Para as regiões do sudeste, especialmente interior de São Paulo, vieram italianos do norte do país, tornando-se a mão de obra mais especializada das plantações de café e agricultura de subsistência. Ainda hoje, seus descendentes ocupam estas terras e povoam estas regiões, deixando grande herança cultural e religiosa.\nEm São Paulo, particularmente nas regiões da Mooca, Campos Elísios, Brás e Bela Vista (Bixiga) se instalaram os italianos que vieram do sul da Itália, especialmente da Calábria. Vieram para trabalhar nas fábricas e desenvolveram a gastronomia. Neste universo migratório, vieram os imigrantes da região da Calábria, que trouxeram a devoção dos santos mais populares, especialmente Nossa Senhora Achiropita. Trata-se de uma história maravilhosa e cheia de encantamento que ainda hoje é narrada por seus descendentes mais tradicionais. A história merece ser contada e transmitida às gerações futuras, para que não se percam as suas raízes culturais e religiosas.",
       images: [],
     }, 
+    
 
-  // 
   // {
   //   title: "",
   //   type: "",
@@ -194,20 +278,7 @@ const CONTENT = {
   // }, 
 
 
-  //  '/achiropita/paroquia/hino',
-  // ACHIROPITA_PAROQUIA_PASTORAL: '/achiropita/paroquia/pastoral',
-  // ACHIROPITA_PAROQUIA_PASTORAL_1: '/achiropita/paroquia/pastoral/horarios',
-  // ACHIROPITA_PAROQUIA_PASTORAL_2: '/achiropita/paroquia/pastoral/sementeira',
-  // ACHIROPITA_PAROQUIA_PASTORAL_3: '/achiropita/paroquia/pastoral/pastoral-da-pessoa-idosa',
-  // ACHIROPITA_PAROQUIA_PASTORAL_4: '/achiropita/paroquia/pastoral/pastoral-afro',
-  // ACHIROPITA_PAROQUIA_PASTORAL_5: '/achiropita/paroquia/pastoral/pastoral-batismo',
-  // ACHIROPITA_PAROQUIA_PASTORAL_6: '/achiropita/paroquia/pastoral/pastoral-animacao-biblico-catequetica',
-  // ACHIROPITA_PAROQUIA_PASTORAL_7: '/achiropita/paroquia/pastoral/pastoral-crianca',
-  // ACHIROPITA_PAROQUIA_PASTORAL_8: '/achiropita/paroquia/pastoral/pastoral-comunicacao',
-  // ACHIROPITA_PAROQUIA_PASTORAL_9: '/achiropita/paroquia/pastoral/pastoral-dizimo',
-  // ACHIROPITA_PAROQUIA_PASTORAL_10: '/achiropita/paroquia/pastoral/pastoral-juventude',
-  // ACHIROPITA_PAROQUIA_PASTORAL_11: '/achiropita/paroquia/pastoral/pastoral-saude',
-  // ACHIROPITA_PAROQUIA_PASTORAL_12: '/achiropita/paroquia/pastoral/apostolado-oracao',
+  
 
   // ACHIROPITA_FESTA_PRESENCIAL: '/achiropita/festa/festa-presencial-delivery',
   // ACHIROPITA_FESTA_MATERIAL: '/achiropita/festa/material',
@@ -235,7 +306,6 @@ const CONTENT = {
 
   // ACHIROPITA_FOTOS: '/achiropita/fotos',
   // ACHIROPITA_FOTOS_1: '/achiropita/fotos/celebracoes-2019',
-  // ACHIROPITA_FOTOS_2: '/achiropita/fotos/coroinhas-2019',
   // ACHIROPITA_FOTOS_3: '/achiropita/fotos/pastorais',
 
   // ACHIROPITA_FILMES: '/achiropita/filmes',
