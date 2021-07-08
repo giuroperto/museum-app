@@ -82,7 +82,7 @@ const CONTENT = {
   },
   ORIONE_PUBLICACOES_BOLETIM: {
     title: "Boletim Informativo Histórico da Pequena Obra da Providência",
-    type: "",
+    type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_BOLETIM,
     images: []
   },
@@ -94,7 +94,7 @@ const CONTENT = {
   },
   ORIONE_PUBLICACOES_LIVROS_1: {
     title: "A vida de São Luís Orione em quadrinhos",
-    type: "",
+    type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_1,
     images: []
   },

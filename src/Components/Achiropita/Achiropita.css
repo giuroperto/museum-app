@@ -1,7 +1,7 @@
 /* made to be big screen first which is >1008px */
 
 .achiropita-container {
-  height: 85%;
+  min-height: 85%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -16,5 +16,9 @@
 
 /* responsivity to medium screens */
 @media only screen and (min-width: 641px) and (max-width: 1007px) {
+  .achiropita-container {
+    min-height: 85%;
+    align-items: flex-start;
+  }
   
 }

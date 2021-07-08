@@ -21,7 +21,7 @@
 }
 
 .btn-container {
-  width: 70%;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -93,7 +93,70 @@
 
 /* responsivity to medium screens */
 @media only screen and (min-width: 641px) and (max-width: 1030px) {
+
+  .submenu-container {
+    min-height: 80vh;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  
+  .submenu-text-container {
+    margin-top: 2vh;
+    min-height: 80vh !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .btn-container {
+    flex-wrap: nowrap;
+    min-height: 80vh;
+    justify-content: flex-start;
+  }
+  
+  .btn-text-container {
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 3vw;
+    flex-wrap: nowrap;
+  }
+  
+  .btn-menu {
+    width: 80vw;
+    font-size: 4rem !important;
+  }
+  
+  .btn-text-menu {
+    width: 80vw;
+    min-height: 6vh;
+    font-size: 3.5rem !important;
+    margin: 0 5vw 3vh 0;
+  }
 }
 
 @media only screen and (min-width: 1031px) and (max-width: 1450px) {
+  .submenu-container {
+    min-height: 80vh;
+  }
+
+  .submenu-text-container {
+    margin-top: 4vh;
+    min-height: 80vh !important;
+    width: 100%;
+  }
+
+  .btn-container {
+    width: 70%;
+    max-height: 70vh;
+    justify-content: center;
+  }
+  
+  .btn-text-container {
+    max-height: 50vh;
+    padding-left: 2vw;
+  }
 }

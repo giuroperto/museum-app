@@ -3,7 +3,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 
 import './single-page.css';
 
-// import FASC1 from './FASC1.pdf';
+import FASC1 from './FASC1.pdf';
 
 const SinglePage = (props) => {
 
@@ -42,9 +42,13 @@ const SinglePage = (props) => {
   return (
     <div className="pdf-view-container">
       <Document
-      file={pdfFile}
-      onLoadSuccess={onDocumentLoadSuccess} >
-        <Page pageNumber={pageNumber} />
+      // file={pdfFile}
+      file={FASC1}
+      onLoadSuccess={onDocumentLoadSuccess} 
+      className="pdf-document">
+        <Page pageNumber={pageNumber} 
+          className="pdf-page"
+        />
       </Document>
       <div className="pdf-page-control">
         <p className="pdf-page-text">

@@ -10,7 +10,6 @@ import { HistoryContext } from '../../Utils/Context/';
 const Navbar = (props) => {
 
   console.log(props);
-  // console.log(props.history.goBack());
 
   const historyData = useContext(HistoryContext);
 
@@ -32,50 +31,9 @@ const Navbar = (props) => {
 
   useEffect(() => {
     if (history.location.pathname) {
-      
+
     }
   }, [history]);
-
-  // useEffect(() => {
-  //   if (historyData.historyArray) {
-  //     checkPage();
-  //   }
-  // }, [historyData]);
-
-  // useEffect(() => {
-  //   if ()
-  // }, [])
-
-  // const checkPage = () => {
-  //   console.log("checkpage");
-  //   console.log("history" + historyData);
-  //   console.log("history lenght" + historyData.historyArray.length);
-  //   console.log("inside checkpage if");
-  //   let historyArray = historyData.historyArray;
-  //   console.log("historyArray" + historyArray);
-  //   let lastPageVisited = historyData.lastPage;
-  //   console.log("lastPageVisited" + lastPageVisited);
-  //   setLastPage(lastPageVisited);
-
-    // let lastPage = history[positionToRemove - 1];
-    // setHistory(historyArray);
-    // setPage(lastPage);
-    
-  // };
-  
-  // const updateHistory = () => {
-    
-  //   let historyList = historyData.historyArray;
-  //   let positionToRemove = historyList.length - 1;
-  //   console.log("positionToRemove" + positionToRemove);
-  //   let historyAfterGoBack = historyList.splice(positionToRemove, 1);
-    
-  //   let newLastPage = historyList[historyList.length - 1];
-  //   console.log("newLastPage" + newLastPage);
-
-  //   props.getHistory(historyAfterGoBack, newLastPage, props.page);
-
-  // };
 
   console.log("history" + historyData);
   // console.log("page" + page);
