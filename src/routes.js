@@ -82,15 +82,15 @@ const AllRoutes = (props) => {
 
         {/* ACHIROPITA ROUTES */}
         <Route path={ROUTES.ACHIROPITA} exact render={(props) => (
-          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} {...props} />
+          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} updateHistory={propsData.updateHistory} historyItems={propsData.historyItems} {...props} />
         )} />
 
         <Route path={ROUTES.ACHIROPITA_HISTORIA} exact render={(props) => (
-          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} {...props} />
+          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} updateHistory={propsData.updateHistory} historyItems={propsData.historyItems} {...props} />
         )} />
 
         <Route path={ROUTES.ACHIROPITA_HISTORIA_1} exact render={(props) => (
-          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} {...props} />
+          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} updateHistory={propsData.updateHistory} historyItems={propsData.historyItems} {...props} />
         )} />
 
         {/* <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} /> */}

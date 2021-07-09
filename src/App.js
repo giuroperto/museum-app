@@ -4,11 +4,12 @@ import AllRoutes from './routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 
-import { HistoryContext } from './Utils/Context';
+import { HistoryContext, HistoryItemsContext } from './Utils/Context';
 
 const App = () => {
 
   const [ history, setHistory ] = useState({});
+  const [ historyItems, setHistoryItems ] = useState([]);
 
   const getHistory = (newHistory, newLastPage, newPageCategory) => {
 
@@ -21,10 +22,19 @@ const App = () => {
     setHistory({...history, ...newHistoryEntry});
   };
 
+  const updateHistory = (historyObj) => {
+    let newArr = historyItems.push(historyObj);
+    setHistoryItems(newArr);
+  };
+
+  console.log(historyItems);
+
   return (
     <div className="App">
       <HistoryContext.Provider value={ history } >
-        <AllRoutes historyData={ history } getHistory={ getHistory } />
+        <HistoryItemsContext.Provider value={ historyItems } >
+          <AllRoutes historyData={ history } getHistory={ getHistory } updateHistory={updateHistory} historyItems={historyItems} />
+        </HistoryItemsContext.Provider>
       </HistoryContext.Provider>
     </div>
   );

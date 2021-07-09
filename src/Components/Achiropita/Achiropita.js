@@ -24,6 +24,8 @@ const Achiropita = (props) => {
   const [ topics, setTopics ] = useState([ROOTROUTE]);
   // passing the filtered array of the section data
   const [ filteredArray, setFilteredArray ] = useState(MENU[PAGE]);
+  // array of history items to reload the menu when going back
+  const [ historyItems, setHistoryItems ] = useState([]);
   // tag to control the type of the page to load
   // possible values: MENU (keep showing other buttons) and PAGE (show content)
   const [ pageType, setPageType ] = useState("menu");
@@ -48,6 +50,7 @@ const Achiropita = (props) => {
 
   console.log(filteredArray);
   console.log(topics);
+  console.log(historyItems);
   
   // this is the logic for when buttons are pressed
   const fetchArray = (newTopic) => {
@@ -59,6 +62,7 @@ const Achiropita = (props) => {
 
     if (newArray.subitems && newArray.subitems.length > 0) {
       setFilteredArray(newArray.subitems);
+      setHistoryItems([...historyItems, newArray.subitems]);
       setPageType("menu");
     } else {
       setFilteredArray([]);
@@ -76,20 +80,28 @@ const Achiropita = (props) => {
 
     // if the resources property is present, it will be true, if not false
     setSectionResources(newArray.resources);
+
+    // save all data to context
+    props.updateHistory(historyItems);
   };
 
-  let setHistoryInfo = () => {
+  // let setHistoryInfo = () => {
     
-    let lastPageVisited = topics[topics.length - 1];
-    let indexLastPage = topics.indexOf(lastPageVisited);
-    let goBackToPage = topics[indexLastPage - 1];
+  //   let lastPageVisited = topics[topics.length - 1];
+  //   let indexLastPage = topics.indexOf(lastPageVisited);
+  //   let goBackToPage = topics[indexLastPage - 1];
     
     // props.getHistory(topics, goBackToPage, PAGE);
-  };
+  // };
 
   console.log(pageType);
   console.log(content);
   console.log(contentType);
+  console.log(historyItems);
+
+  useEffect(() => {
+    setHistoryItems([...historyItems, MENU[PAGE]])
+  }, []);
 
   return (
     <>
