@@ -13,14 +13,54 @@
   background-color: rgb(235, 72, 72);
 }
 
+.pdf-page-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* responsivity to small screens */
 @media only screen and (max-width: 640px) {
+  .pdf-view-container {
+    min-height: 80vh;
+  }
+
+  .react-pdf__Page__textContent {
+    max-width: 100vw !important;
+  }
+  
+  .react-pdf__Page__canvas {
+    height: 60vh !important;
+    width: auto !important;
+  }
+
+  .pdf-btn {
+    width: 30vw;
+    font-size: 2rem;
+    margin-right: 1vw;
+  }
+
+  .pdf-page-text {
+    font-size: 1.8rem !important;
+  }
 }
 
 /* responsivity to medium screens */
 @media only screen and (min-width: 641px) and (max-width: 1030px) {
-  
+  .react-pdf__Page__canvas {
+    height: 70vh !important;
+    width: auto !important;
+  }
 }
 
 @media only screen and (min-width: 1031px) and (max-width: 1450px) {
+  /* .react-pdf__Page__canvas {
+    height: 70vh !important;
+  } */
+
+  /* .pdf-page-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
 }

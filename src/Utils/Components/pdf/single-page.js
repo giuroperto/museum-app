@@ -54,20 +54,22 @@ const SinglePage = (props) => {
         <p className="pdf-page-text">
           Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
         </p>
-        <button
-          className="pdf-btn"
-          type="button"
-          disabled={pageNumber <= 1}
-          onClick={previousPage}>
-          Anterior
-        </button>
-        <button
-          className="pdf-btn"
-          type="button"
-          disabled={pageNumber >= numPages}
-          onClick={nextPage}>
-          Próxima
-        </button>
+        <div className="btn-control-container">
+          <button
+            className="pdf-btn"
+            type="button"
+            disabled={pageNumber <= 1}
+            onClick={previousPage}>
+            Anterior
+          </button>
+          <button
+            className="pdf-btn"
+            type="button"
+            disabled={pageNumber >= numPages}
+            onClick={nextPage}>
+            Próxima
+          </button>
+        </div>
       </div>
     </div>
   );
