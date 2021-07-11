@@ -82,7 +82,7 @@ const Achiropita = (props) => {
     setSectionResources(newArray.resources);
 
     // save all data to context
-    props.updateHistory(historyItems);
+    // props.updateHistory(historyItems);
   };
 
   // let setHistoryInfo = () => {

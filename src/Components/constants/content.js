@@ -1,5 +1,7 @@
 import PDFS from './pdfs';
 
+// content types: pdf/text/photo/video
+
 const CONTENT = {
   ORIONE: {
     title: "Orione",
@@ -586,8 +588,8 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_2: {
       title: "A relíquia",
-      type: "",
-      text: "",
+      type: "video",
+      text: "https://www.youtube.com/watch?v=D7MuNzYf1vM",
       images: []
     },
     ACHIROPITA_FILMES_2_SINOPSE: {
@@ -628,8 +630,8 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_6: {
       title: "São Tarciso",
-      type: "",
-      text: "",
+      type: "video",
+      text: "https://www.youtube.com/watch?v=psmpQQpfoKs",
       images: []
     },
     ACHIROPITA_FILMES_7: {
@@ -652,14 +654,14 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_10: {
       title: "Santo Antônio e o milagre eucarístico",
-      type: "",
-      text: "",
+      type: "video",
+      text: "https://www.youtube.com/watch?v=9ybib9IS6V4",
       images: []
     },
     ACHIROPITA_FILMES_11: {
       title: "Vida em versos: autobiográfico",
-      type: "",
-      text: "",
+      type: "video",
+      text: "https://www.youtube.com/watch?v=-OJsb1q98ls",
       images: []
     },
     ACHIROPITA_FILMES_12: {

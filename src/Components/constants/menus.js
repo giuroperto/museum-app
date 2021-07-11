@@ -438,6 +438,7 @@ const MENU = {
         }, {
           item: "A relíquia",
           route: ROUTES.ACHIROPITA_FILMES_2,
+          resources: CONTENT.ACHIROPITA_FILMES_2,
           subitems: [
             {
               item: "Sinopse de A Relíquia",
@@ -467,6 +468,7 @@ const MENU = {
         }, {
           item: "São Tarciso",
           route: ROUTES.ACHIROPITA_FILMES_6,
+          resources: CONTENT.ACHIROPITA_FILMES_6,
           subitems: [],
         }, {
           item: "Emanuel",
@@ -483,10 +485,12 @@ const MENU = {
         }, {
           item: "Santo Antônio e o milagre eucarístico",
           route: ROUTES.ACHIROPITA_FILMES_10,
+          resources: CONTENT.ACHIROPITA_FILMES_10,
           subitems: [],
         }, {
           item: "Vida em versos: autobiográfico",
           route: ROUTES.ACHIROPITA_FILMES_11,
+          resources: CONTENT.ACHIROPITA_FILMES_11,
           subitems: [],
         }, {
           item: "Zilda Arns: via sacra da solidariedade",
