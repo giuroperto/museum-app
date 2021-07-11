@@ -579,151 +579,151 @@ const CONTENT = {
       images: []
     },
     ACHIROPITA_FILMES_1: {
-      title: "",
+      title: "Nossa Senhora Achiropita",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_2: {
-      title: "",
+      title: "A relíquia",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_2_SINOPSE: {
-      title: "",
+      title: "Sinopse de A Relíquia",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_3: {
-      title: "",
+      title: "A relíquia e o milagre",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_4: {
-      title: "",
+      title: "Socorra meu povo",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_5: {
-      title: "",
+      title: "São José, o bom carpinteiro",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_5_EN: {
-      title: "",
+      title: "Versão em inglês",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_5_PT: {
-      title: "",
+      title: "Versão em português",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_6: {
-      title: "",
+      title: "São Tarciso",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_7: {
-      title: "",
+      title: "Emanuel",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_8: {
-      title: "",
+      title: "Rosas para Rita",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_9: {
-      title: "",
+      title: "Sangue no Sertão",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_10: {
-      title: "",
+      title: "Santo Antônio e o milagre eucarístico",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_11: {
-      title: "",
+      title: "Vida em versos: autobiográfico",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_12: {
-      title: "",
+      title: "Zilda Arns: via sacra da solidariedade",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_13: {
-      title: "",
+      title: "Maria Mãe de Deus",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_14: {
-      title: "",
+      title: "Perfume de Jasmim",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_14_PT: {
-      title: "",
+      title: "Versão português",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_14_ES: {
-      title: "",
+      title: "Versão espanhol",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES_15: {
-      title: "",
+      title: "Santa Luzia",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PATRIMONIO: {
-      title: "",
+      title: "Patrimônio Histórico e Artístico",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PATRIMONIO_IGREJA: {
-      title: "",
+      title: "Igreja",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PATRIMONIO_PINTURAS: {
-      title: "",
+      title: "Pinturas",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PATRIMONIO_ESCULTURAS: {
-      title: "",
+      title: "Esculturas",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PATRIMONIO_PAINEIS: {
-      title: "",
+      title: "Painéis da Cúpula",
       type: "",
       text: "",
       images: []
@@ -747,85 +747,85 @@ const CONTENT = {
       images: [],
     }, 
     BIXIGA_CULTURA: {
-      title: "",
+      title: "Artes e Cultura",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_CULTURA_ESPACOS: {
-      title: "",
+      title: "Espaços culturais",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_CULTURA_TEATROS: {
-      title: "",
+      title: "Teatros",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_MUSICA: {
-      title: "",
+      title: "Música",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_MUSICA_VAIVAI: {
-      title: "",
+      title: "Vai-vai",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_MUSICA_BLOCOS: {
-      title: "",
+      title: "Blocos Carnavalescos",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_PERSONAGENS: {
-      title: "",
+      title: "Personagens",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_PERSONAGENS_1: {
-      title: "",
+      title: "Dona Yayá",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_PERSONAGENS_2: {
-      title: "",
+      title: "Adoniram Barbosa",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_PERSONAGENS_3: {
-      title: "",
+      title: "Antonio Rago",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_PERSONAGENS_4: {
-      title: "",
+      title: "Sílvio Santos",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_PERSONAGENS_5: {
-      title: "",
+      title: "Emanuel Araújo",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_PERSONAGENS_6: {
-      title: "",
+      title: "Sérgio Mamberti",
       type: "",
       text: "",
       images: []
     },
     BIXIGA_PATRIMONIO: {
-      title: "",
+      title: "Patrimônio histórico",
       type: "",
       text: "",
       images: []
