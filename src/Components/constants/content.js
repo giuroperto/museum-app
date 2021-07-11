@@ -2,13 +2,13 @@ import PDFS from './pdfs';
 
 const CONTENT = {
   ORIONE: {
-    title: "",
+    title: "Orione",
     type: "",
     text: "",
     images: []
   },
   ORIONE_BIOGRAFIA: {
-    title: "",
+    title: "Biografia",
     type: "",
     text: "",
     images: []
@@ -20,13 +20,13 @@ const CONTENT = {
     images: []
   },
   ORIONE_OBRAS: {
-    title: "",
+    title: "Obra Orionita no Mundo",
     type: "",
     text: "",
     images: []
   },
   ORIONE_OBRAS_BRASIL: {
-    title: "",
+    title: "No Brasil",
     type: "",
     text: "",
     images: []
@@ -75,7 +75,7 @@ const CONTENT = {
     images: []
   },
   ORIONE_PUBLICACOES: {
-    title: "",
+    title: "Publicações",
     type: "",
     text: "",
     images: []
@@ -141,139 +141,139 @@ const CONTENT = {
     images: []
   },
   ORIONE_FOTOS: {
-    title: "",
+    title: "Fotos",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FOTOS_1: {
-    title: "",
+    title: "Galeria de fotos históricas",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FOTOS_2: {
-    title: "",
+    title: "Galeria Don Orione no Brasil",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FOTOS_3: {
-    title: "",
+    title: "Galeria de fotos de relíquias de Don Orione no Brasil",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FOTOS_4: {
-    title: "",
+    title: "Galeria de fotos do Encontro Latino Americano de Jovens Orionitas",
     type: "",
     text: "",
     images: []
   },
   ORIONE_ICONOLOGIA: {
-    title: "",
+    title: "Iconologia e Iconografia de Don Orione no Brasil",
     type: "",
     text: "",
     images: []
   },
   ORIONE_ICONOLOGIA_GALERIA: {
-    title: "",
+    title: "Galeria de imagens em agendas e fotos",
     type: "",
     text: "",
     images: []
   },
   ORIONE_ICONOLOGIA_CARTAZES: {
-    title: "",
+    title: "Cartazes de eventos orionitas",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES: {
-    title: "",
+    title: "Filmes e Vídeos",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_BOGAZ: {
-    title: "",
+    title: "Produções de Pe Antônio Bogaz",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_BOGAZ_1: {
-    title: "",
+    title: "A vida é como um rio",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_BOGAZ_2: {
-    title: "",
+    title: "Universo Orione",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_BOGAZ_3: {
-    title: "",
+    title: "Memórias de uma aliança",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_BOGAZ_4: {
-    title: "",
+    title: "Perfume de Jasmim",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_BOGAZ_5: {
-    title: "",
+    title: "Qualquer coisa de Don Orione",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_BOGAZ_6: {
-    title: "",
+    title: "Vocação: tocar na orquestra de Deus",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_BOGAZ_7: {
-    title: "",
+    title: "Orione Apóstolo da Caridade",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_BOGAZ_8: {
-    title: "",
+    title: "Recordações de um santo",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_ORIONITAS: {
-    title: "",
+    title: "Produções do Grupo de Estudos Orionitas",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_ORIONITAS_1: {
-    title: "",
+    title: "A grande pescaria",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_ORIONITAS_2: {
-    title: "",
+    title: "Caminhando nas terras do pau-brasil",
     type: "",
     text: "",
     images: []
   },
   ORIONE_FILMES_ORIONITAS_3: {
-    title: "",
+    title: "Se Don Orione vivesse em nossos dias",
     type: "",
     text: "",
     images: []
   },
   ACHIROPITA: {
-    title: "",
+    title: "Achiropita",
     type: "",
     text: "",
     images: []
@@ -326,68 +326,8 @@ const CONTENT = {
       text: "Apresentamos os versos de Luiz Antonio Bordini, que compôs em ritmo de tarantela, estilo típico italiano,  que resume magistralmente a história, a devoção e a espiritualidade de Nossa Senhora, não pintada por mãos humanas.\n\nNossa história vamos todos relembrar\nFoi um passado de coragem e de amor\nDo sul da Itália pelo mar a navegar\nO imigrante italiano aqui chegou\nE no Brasil de tantas raças, tantas cores\nO arco íris da aliança Deus formou\nNesta São Paulo da garoa, no Bixiga\nA caridade Orione ensinou.\n\nAve Maria, Ave Maria e avante\nNossa Senhora Achiropita está radiante\nAve Maria, Ave Maria e avante\nTantas  estrelas todas de diamante.\n\nAve Maria, Ave Maria e avante\nCom a Madona da Ripalta e São José\nCaminhando sempre em frente\nSob a luz de nossa fé\nFazendo o bem, sempre o bem,\nO mal nunca a ninguém.\n\nE no princípio era só a capelinha\nE a quermesse que o povo alegrava\nA Pia União, os Vicentinos e Marianos\nAchiropita passo a passo se firmava\nE a Divina Providência vendo o esforço\nLá do alto a nossa gente abençoou\nA sementinha com carinho foi tratada.\nA mão de Deus as nossas vidas transformou\n\nAve Maria, Ave Maria e avante...\n\nAmar ao próximo sempre foi o nosso lema.\nAjudando com alegria nosso irmão\nVendo Jesus em cada rosto em cada dia\nSeguimos sempre caminhando com Maria Nossa Senhora Mãe\nQuerida abençoada.\nEste é o presente que hoje queremos te dar.\nAmar Jesus com muita fé por toda vida.\nE aos mais carentes sempre, sempre ajudar.\n",
       images: [],
     }, 
-    ACHIROPITA_FESTA: {
-      title: "Festa da Achiropita",
-      type: "text",
-      text: "A Festa da Achiropita faz parte da tradição comunitária de mobilizar-se entorno de um objetivo a ser concretizado; iniciou como uma pequena quermesse para formar a igreja, e hoje é uma grande festa que gera renda para as muitas ações e projetos da ativa Paróquia. Fazem parte da festa barracas de comidas típicas, brincadeiras e jogos, apresentações artísticas, novenas e procissões pelas ruas entorno da igreja. ",
-      images: [],
-    }, 
-    ACHIROPITA_FESTA_APRESENTACAO: {
-      title: "Apresentação da Festa",
-      type: "text",
-      text: "Sobre a grande festa d´Achiropita\n\nTodas as pessoas da comunidade gostam de afirmar que nossa comunidade é muito festiva. Como uma paróquia que une DNA de italianos, caipiras, nordestinos e negros não seria festiva. São muitas as nossas festas. Festas juninas, festas das mães, dos pais, festas de aniversário, festa dos padroeiros e mais e mais.\nDocumentamos as festas, pois elas são muito importantes para nossas comunidades. As  festas são promoções para dinamizar nossos trabalhos, restaurar a igreja, sustentar os trabalhos sociais e, sobretudo, para iniciar novas atividades (creche, espaço social e espaço cultural). As festas são atividades para unir a comunidade, fortalecer os laços, completar s forças e, assim sentir sempre mais a família d’Achiropita.\nAs festas são momentos de crescimento no amor de Deus e todos se sentem parte da família, pois a energia não é um delírio, mas uma mística que nos filia a Deus, sob o manto de Maria.\nDescrevamos as  festas. Festas coloridas e festas em preto e branco, pois nas festas, em todos os tempos, a comunidade se fortaleceu e se sentiu sempre mais família, família cristã, na diversidade cultural, étnica e social.\nÉ uma grande festa, talvez não exista uma festa religiosa mais grandiosa  que a Festa Nossa Senhora Achiropita. A palavra fenômeno tem sido banalizada, mas com certeza esta palavra pode designar nossa festa. A quantidade impressionante de fiéis devotos trabalhando, as equipes, as barracas, a quantidade enorme de todos os quitutes da gastronomia italiana faz de nossa festa a “grande festa”. Podemos mesmo dizer que esta é “a festa” de São Paulo.\nÉ como uma grande engrenagem. À frente, os padres, orientadores espirituais da festa. Com eles, os cinco casais, nos setores da festa. Depois os chamados apoios, que subdividem estes setores, depois os responsáveis de barracas e núcleos e os voluntários. A camiseta com seu símbolo, os bonés e os crachás é a efígie de um exército de Maria que, pelas comilanças, pelas simpatias, pela oração encantam os milhares de convidados.",
-      images: [],
-    }, 
-    ACHIROPITA_FESTA_HISTORICO: {
-      title: "Breve Histórico",
-      type: "text",
-      text: "*Fonte: https://avidanocentro.com.br/o_que_fazer/festa-da-achiropita-comida-italiana-e-muita-diversao-no-centro-do-bixiga/ 05/08/2017\n\nA origem da Festa da N. Sra. Achiropita remonta ao início do século 20, quando os primeiros imigrantes italianos chegaram ao Bixiga trazendo uma imagem da santa. Ela começou a ser venerada pelos fiéis em 1908 na casa de João Falcone, no número 100 da Rua 13 de Maio. Foi erguido um altar de madeira na rua que na época era de terra batida, e nos dias 13, 14 e 15 de agosto eram celebradas missas e realizadas festas em homenagem à santa, com o objetivo de comprar um terreno para construir uma capela.\nCom o passar dos anos, a capela acabou ficando pequena para abrigar toda a comunidade, e era preciso construir uma igreja maior. Naquela época haviam barracas com sorteios das prendas arrecadadas, leilões sobre carroças, um pau de sebo e a animada banda dos Bersaglieri, vinda da Itália. Havia também uma procissão levando a imagem de N. Sra Achiropita e N. Sra da Ripalta. Sacadas eram enfeitadas com colchas e toalhas, e famílias faziam doações em dinheiro para ajudar na construção da igreja.\nDurante a segunda guerra a quermesse foi suspensa devido a perseguição dos italianos pelo governo de Getúlio Vargas, mas a parte religiosa continuou com missa, novena e procissão. Na década de 50 as festas voltaram e foi feita a primeira barraca da comida: o sanduíche de pernil feito por senhoras da comunidade. Nesta época, as ruas eram enfeitadas com cordões de lâmpadas coloridas.\n\nA FAMOSA FOGAZZA\n\nA partir de 1975 as famílias traziam pratos doces e salgados para vender na festa, que era realizada no pátio atrás da igreja. Em 1979 a festa foi definitivamente para a rua e em 1980 firmou-se com a devida autorização da prefeitura. Neste ano existiam treze barracas e cerca de 200 voluntários. Neste mesmo ano a grande novidade foi a barraca de fogazza que começou a ser feita apenas com 2kg de farinha como experiência.\nA fogazza é uma das grandes atrações da festa no Bixiga.\n\nEm 2003 já eram nove toneladas de farinha. Outra inovação na década de 80 foi a Cantina di Napoli, montada no terreno ao lado da igreja. Mesões foram instalados e um palco feito pela Paulistur para os cantores das cantinas do bairro animar a festa.\nEm 1983 eram 22 barracas com 350 voluntários. Neste ano foi lançada a pedra fundamental das obras sociais. Em 1985 a cantina passa a ser montada no prédio das obras sociais e um palco definitivo foi feito com um conjunto tocando músicas típicas italianas.\nForam colocadas mesas com lugares numerados para cerca de 850 pessoas. Surgia a Cantina Madona Achiropita. Outro costume passou a ser o provolone de dois metros e cerca de 100 quilos, um dos símbolos da festa.\nNa década de 90 a festa teve um grande avanço em relação a patrocinadores, colaboradores e benfeitores. Atualmente visitam a festa mais de 200 mil pessoas vindas de São. Paulo e de todo o Brasil. São 30 barracas e mais de mil voluntários, que trabalham para toda a renda da festa seja revertida para as obras assistenciais.",
-      images: [],
-    }, 
-    ACHIROPITA_FESTA_PRESENCIAL: {
-      title: "",
-      type: "",
-      text: "",
-      images: []
-    },
-    ACHIROPITA_FESTA_MATERIAL: {
-      title: "",
-      type: "",
-      text: "",
-      images: []
-    },
-    ACHIROPITA_FESTA_MATERIAL_1: {
-      title: "",
-      type: "",
-      text: "",
-      images: []
-    },
-    ACHIROPITA_FESTA_MATERIAL_2: {
-      title: "",
-      type: "",
-      text: "",
-      images: []
-    },
-    ACHIROPITA_FESTA_MATERIAL_3: {
-      title: "",
-      type: "",
-      text: "",
-      images: []
-    },
-    ACHIROPITA_FESTA_MATERIAL_4: {
-      title: "",
-      type: "",
-      text: "",
-      images: []
-    },
-    ACHIROPITA_FESTA_MATERIAL_5: {
-      title: "",
-      type: "",
-      text: "",
-      images: []
-    },
     ACHIROPITA_PAROQUIA_PASTORAL: {
-      title: "",
+      title: "Pastoral",
       type: "",
       text: "",
       images: []
@@ -464,116 +404,176 @@ const CONTENT = {
       text: "",
       images: []
     },
+    ACHIROPITA_FESTA: {
+      title: "Festa da Achiropita",
+      type: "text",
+      text: "A Festa da Achiropita faz parte da tradição comunitária de mobilizar-se entorno de um objetivo a ser concretizado; iniciou como uma pequena quermesse para formar a igreja, e hoje é uma grande festa que gera renda para as muitas ações e projetos da ativa Paróquia. Fazem parte da festa barracas de comidas típicas, brincadeiras e jogos, apresentações artísticas, novenas e procissões pelas ruas entorno da igreja. ",
+      images: [],
+    }, 
+    ACHIROPITA_FESTA_APRESENTACAO: {
+      title: "Apresentação da Festa",
+      type: "text",
+      text: "Sobre a grande festa d´Achiropita\n\nTodas as pessoas da comunidade gostam de afirmar que nossa comunidade é muito festiva. Como uma paróquia que une DNA de italianos, caipiras, nordestinos e negros não seria festiva. São muitas as nossas festas. Festas juninas, festas das mães, dos pais, festas de aniversário, festa dos padroeiros e mais e mais.\nDocumentamos as festas, pois elas são muito importantes para nossas comunidades. As  festas são promoções para dinamizar nossos trabalhos, restaurar a igreja, sustentar os trabalhos sociais e, sobretudo, para iniciar novas atividades (creche, espaço social e espaço cultural). As festas são atividades para unir a comunidade, fortalecer os laços, completar s forças e, assim sentir sempre mais a família d’Achiropita.\nAs festas são momentos de crescimento no amor de Deus e todos se sentem parte da família, pois a energia não é um delírio, mas uma mística que nos filia a Deus, sob o manto de Maria.\nDescrevamos as  festas. Festas coloridas e festas em preto e branco, pois nas festas, em todos os tempos, a comunidade se fortaleceu e se sentiu sempre mais família, família cristã, na diversidade cultural, étnica e social.\nÉ uma grande festa, talvez não exista uma festa religiosa mais grandiosa  que a Festa Nossa Senhora Achiropita. A palavra fenômeno tem sido banalizada, mas com certeza esta palavra pode designar nossa festa. A quantidade impressionante de fiéis devotos trabalhando, as equipes, as barracas, a quantidade enorme de todos os quitutes da gastronomia italiana faz de nossa festa a “grande festa”. Podemos mesmo dizer que esta é “a festa” de São Paulo.\nÉ como uma grande engrenagem. À frente, os padres, orientadores espirituais da festa. Com eles, os cinco casais, nos setores da festa. Depois os chamados apoios, que subdividem estes setores, depois os responsáveis de barracas e núcleos e os voluntários. A camiseta com seu símbolo, os bonés e os crachás é a efígie de um exército de Maria que, pelas comilanças, pelas simpatias, pela oração encantam os milhares de convidados.",
+      images: [],
+    }, 
+    ACHIROPITA_FESTA_HISTORICO: {
+      title: "Breve Histórico",
+      type: "text",
+      text: "*Fonte: https://avidanocentro.com.br/o_que_fazer/festa-da-achiropita-comida-italiana-e-muita-diversao-no-centro-do-bixiga/ 05/08/2017\n\nA origem da Festa da N. Sra. Achiropita remonta ao início do século 20, quando os primeiros imigrantes italianos chegaram ao Bixiga trazendo uma imagem da santa. Ela começou a ser venerada pelos fiéis em 1908 na casa de João Falcone, no número 100 da Rua 13 de Maio. Foi erguido um altar de madeira na rua que na época era de terra batida, e nos dias 13, 14 e 15 de agosto eram celebradas missas e realizadas festas em homenagem à santa, com o objetivo de comprar um terreno para construir uma capela.\nCom o passar dos anos, a capela acabou ficando pequena para abrigar toda a comunidade, e era preciso construir uma igreja maior. Naquela época haviam barracas com sorteios das prendas arrecadadas, leilões sobre carroças, um pau de sebo e a animada banda dos Bersaglieri, vinda da Itália. Havia também uma procissão levando a imagem de N. Sra Achiropita e N. Sra da Ripalta. Sacadas eram enfeitadas com colchas e toalhas, e famílias faziam doações em dinheiro para ajudar na construção da igreja.\nDurante a segunda guerra a quermesse foi suspensa devido a perseguição dos italianos pelo governo de Getúlio Vargas, mas a parte religiosa continuou com missa, novena e procissão. Na década de 50 as festas voltaram e foi feita a primeira barraca da comida: o sanduíche de pernil feito por senhoras da comunidade. Nesta época, as ruas eram enfeitadas com cordões de lâmpadas coloridas.\n\nA FAMOSA FOGAZZA\n\nA partir de 1975 as famílias traziam pratos doces e salgados para vender na festa, que era realizada no pátio atrás da igreja. Em 1979 a festa foi definitivamente para a rua e em 1980 firmou-se com a devida autorização da prefeitura. Neste ano existiam treze barracas e cerca de 200 voluntários. Neste mesmo ano a grande novidade foi a barraca de fogazza que começou a ser feita apenas com 2kg de farinha como experiência.\nA fogazza é uma das grandes atrações da festa no Bixiga.\n\nEm 2003 já eram nove toneladas de farinha. Outra inovação na década de 80 foi a Cantina di Napoli, montada no terreno ao lado da igreja. Mesões foram instalados e um palco feito pela Paulistur para os cantores das cantinas do bairro animar a festa.\nEm 1983 eram 22 barracas com 350 voluntários. Neste ano foi lançada a pedra fundamental das obras sociais. Em 1985 a cantina passa a ser montada no prédio das obras sociais e um palco definitivo foi feito com um conjunto tocando músicas típicas italianas.\nForam colocadas mesas com lugares numerados para cerca de 850 pessoas. Surgia a Cantina Madona Achiropita. Outro costume passou a ser o provolone de dois metros e cerca de 100 quilos, um dos símbolos da festa.\nNa década de 90 a festa teve um grande avanço em relação a patrocinadores, colaboradores e benfeitores. Atualmente visitam a festa mais de 200 mil pessoas vindas de São. Paulo e de todo o Brasil. São 30 barracas e mais de mil voluntários, que trabalham para toda a renda da festa seja revertida para as obras assistenciais.",
+      images: [],
+    }, 
+    ACHIROPITA_FESTA_PRESENCIAL: {
+      title: "Festa Presencial e Delivery",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_FESTA_MATERIAL: {
+      title: "Material Promocional",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_FESTA_MATERIAL_1: {
+      title: "Clipping",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_FESTA_MATERIAL_2: {
+      title: "Publicações",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_FESTA_MATERIAL_3: {
+      title: "Cartazes",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_FESTA_MATERIAL_4: {
+      title: "Logomarcas",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_FESTA_MATERIAL_5: {
+      title: "Vídeos",
+      type: "",
+      text: "",
+      images: []
+    },
     ACHIROPITA_PROJETOS: {
-      title: "",
+      title: "Projetos",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PROJETOS_1: {
-      title: "",
+      title: "Creche Mãe Achiropita",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PROJETOS_2: {
-      title: "",
+      title: "Núcleo de convivência para Idosos",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PROJETOS_3: {
-      title: "",
+      title: "C.E.D.O. – Centro Educacional Don Orione",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PROJETOS_4: {
-      title: "",
+      title: "Casa Rainha da Paz",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PROJETOS_5: {
-      title: "",
+      title: "Casa Don Orione",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PROJETOS_6: {
-      title: "",
+      title: "Centro Jurídico",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_PROJETOS_7: {
-      title: "",
+      title: "MOVA – Movimento de Alfabetização para adultos",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_LIVROS: {
-      title: "",
+      title: "Livros & publicações",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_LIVROS_1: {
-      title: "",
+      title: "Nossa Sra Achiropita – Novena",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_LIVROS_2: {
-      title: "",
+      title: "Maria Mãe de Deus, beleza infinita",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_LIVROS_3: {
-      title: "",
+      title: "Livreto Maria - poemas",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_LIVROS_4: {
-      title: "",
+      title: "Jesus Cristo, Filho de Deus, beleza infinita",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_LIVROS_5: {
-      title: "",
+      title: "Clipping",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FOTOS: {
-      title: "",
+      title: "Fotos",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FOTOS_1: {
-      title: "",
+      title: "Celebrações 2019",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FOTOS_2: {
       title: "Coroinhas 2019",
-      type: "photo",
+      type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FOTOS_3: {
-      title: "",
+      title: "Pastorais",
       type: "",
       text: "",
       images: []
     },
     ACHIROPITA_FILMES: {
-      title: "",
+      title: "Filmes e vídeos",
       type: "",
       text: "",
       images: []

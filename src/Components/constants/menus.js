@@ -393,7 +393,7 @@ const MENU = {
           route: ROUTES.ACHIROPITA_LIVROS_2,
           subitems: [],
         }, {
-          item: "Livreto Maria -poemas",
+          item: "Livreto Maria - poemas",
           route: ROUTES.ACHIROPITA_LIVROS_3,
           subitems: [],
         }, {
