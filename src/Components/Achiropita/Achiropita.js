@@ -11,6 +11,7 @@ import "./Achiropita.css";
 import TextPage from "../Pages/TextPage";
 import PhotosPage from "../Pages/PhotosPage";
 import PdfPage from "../Pages/PdfPage";
+import VideoPage from "../Pages/VideoPage";
 
 const Achiropita = (props) => {
 
@@ -131,6 +132,13 @@ const Achiropita = (props) => {
         pageType === "page" && contentType === "pdf" && (
           <div className="achiropita-container">
             <PdfPage content={content} />
+          </div>
+        )
+      }
+      {
+        pageType === "page" && contentType === "video" && (
+          <div className="achiropita-container">
+            <VideoPage content={content} />
           </div>
         )
       }

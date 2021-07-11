@@ -589,7 +589,7 @@ const CONTENT = {
     ACHIROPITA_FILMES_2: {
       title: "A relíquia",
       type: "video",
-      text: "https://www.youtube.com/watch?v=D7MuNzYf1vM",
+      text: "https://www.youtube.com/embed/D7MuNzYf1vM",
       images: []
     },
     ACHIROPITA_FILMES_2_SINOPSE: {
@@ -631,7 +631,7 @@ const CONTENT = {
     ACHIROPITA_FILMES_6: {
       title: "São Tarciso",
       type: "video",
-      text: "https://www.youtube.com/watch?v=psmpQQpfoKs",
+      text: "https://www.youtube.com/embed/psmpQQpfoKs",
       images: []
     },
     ACHIROPITA_FILMES_7: {
@@ -655,13 +655,13 @@ const CONTENT = {
     ACHIROPITA_FILMES_10: {
       title: "Santo Antônio e o milagre eucarístico",
       type: "video",
-      text: "https://www.youtube.com/watch?v=9ybib9IS6V4",
+      text: "https://www.youtube.com/embed/9ybib9IS6V4",
       images: []
     },
     ACHIROPITA_FILMES_11: {
       title: "Vida em versos: autobiográfico",
       type: "video",
-      text: "https://www.youtube.com/watch?v=-OJsb1q98ls",
+      text: "https://www.youtube.com/embed/-OJsb1q98ls",
       images: []
     },
     ACHIROPITA_FILMES_12: {
