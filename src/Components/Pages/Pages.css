@@ -3,6 +3,7 @@
   min-height: 100%;
   display: flex;
   justify-content: center;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .item-container {

@@ -20,7 +20,7 @@ const MainSubMenu = (props) => {
   const [ isText, setIsText ] = useState(false);
   // setting different ClassName if it is text
   const [ containerClassName, setContainerClassName ] = useState("submenu-container");
-  const [ menuClassName, setMenuClassName ] = useState("item-container");
+  const [ menuClassName, setMenuClassName ] = useState("submenu-item-container");
   const [ btnContainerClassName, setBtnContainerClassName ] = useState("btn-container");
   const [ btnClassName, setBtnClassName ] = useState("btn-menu");
 
@@ -34,6 +34,9 @@ const MainSubMenu = (props) => {
         setIsImage(true);
         setIsVideo(false);
         setIsText(false);
+        // setContainerClassName("submenu-container");
+        // setMenuClassName("submenu-item-container");
+        // setBtnClassName("btn-container");
         setBtnContainerClassName("btn-container resource");
         break;
       case "text":
@@ -49,13 +52,19 @@ const MainSubMenu = (props) => {
         setIsImage(false);
         setIsVideo(true);
         setIsText(false);
+        // setContainerClassName("submenu-container");
+        // setMenuClassName("submenu-item-container");
+        // setBtnClassName("btn-container");
         setBtnContainerClassName("btn-container resource");
         break;
       default:
         setIsImage(false);
         setIsVideo(false);
         setIsText(false);
-      setBtnContainerClassName("btn-container");
+        // setContainerClassName("submenu-container");
+        // setMenuClassName("submenu-item-container");
+        // setBtnClassName("btn-container");
+        setBtnContainerClassName("btn-container");
       break;
     }
 

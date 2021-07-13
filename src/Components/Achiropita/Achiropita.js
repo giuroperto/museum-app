@@ -40,7 +40,7 @@ const Achiropita = (props) => {
   // tag to control if the MENU will also show another resource or just buttons
   const [ sectionResources, setSectionResources ] = useState(false);
   // the possible resources to show in a MENU page: PHOTO, VIDEO or TEXT
-  const [ typeOfResource, setTypeOfResource ] = useState("");
+  const [ typeOfResource, setTypeOfResource ] = useState(null);
 
   // when the button is clicked to go to another section, it passes the new topic to load other buttons or the content page
   const onClickSubmenu = (newTopic) => {
@@ -70,13 +70,28 @@ const Achiropita = (props) => {
       setPageType("page");
     }
 
+
+    console.log(newArray.resources);
+
     if (newArray.resources) {
 
       let resourceData = newArray.resources;
 
-      setTypeOfResource(resourceData.type);
-      setContent(resourceData);
-      setContentType(resourceData.type);
+      console.log(resourceData.type)
+
+      if (resourceData.type) {
+        setTypeOfResource(resourceData.type);
+        setContent(resourceData);
+        setContentType(resourceData.type);
+      } else {
+        setTypeOfResource(null);
+        setContent(null);
+        setContentType(null);
+      }
+    } else {
+      setTypeOfResource(null);
+      setContent(null);
+      setContentType(null);
     }
 
     // if the resources property is present, it will be true, if not false
