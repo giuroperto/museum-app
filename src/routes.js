@@ -205,7 +205,3 @@ const AllRoutes = (props) => {
 }
 
 export default AllRoutes;
-
-{/* <Route path={ROUTES.MENU} exact render={(props) => (
-          <Menu getOrderData={propsData.getOrderData} user={propsData.userSignIn} deliveryInfo={propsData.deliveryInfo} {...props} />
-        )} /> */}

@@ -15,6 +15,6 @@ ReactDOM.render(
   document.getElementById('root')
   );
 
-  {/* <Router basename="/temp-museu"> */}
+  // {/* <Router basename="/temp-museu"> */}
 
   // "homepage": "http://www.bixiga.com.br/temp-museu",
