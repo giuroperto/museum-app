@@ -29,7 +29,6 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ORIONE} exact component={Orione} />
 
         <Route path={ROUTES.ORIONE_BIOGRAFIA} exact component={Orione} />
-        <Route path={ROUTES.ORIONE_BIOGRAFIA_LINHA} exact component={Orione} />
 
         <Route path={ROUTES.ORIONE_OBRAS} exact component={Orione} />
         <Route path={ROUTES.ORIONE_OBRAS_BRASIL} exact component={Orione} />
