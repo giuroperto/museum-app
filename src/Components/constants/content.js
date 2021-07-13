@@ -618,8 +618,8 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_5_EN: {
       title: "Versão em inglês",
-      type: "",
-      text: "",
+      type: "video",
+      text: "https://www.youtube.com/embed/7BHymPboKp0",
       images: []
     },
     ACHIROPITA_FILMES_5_PT: {
@@ -643,7 +643,7 @@ const CONTENT = {
     ACHIROPITA_FILMES_8: {
       title: "Rosas para Rita",
       type: "",
-      text: "",
+      text: "https://www.youtube.com/embed/H1Snv0pJw7A",
       images: []
     },
     ACHIROPITA_FILMES_9: {
@@ -696,8 +696,8 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_15: {
       title: "Santa Luzia",
-      type: "",
-      text: "",
+      type: "video",
+      text: "https://www.youtube.com/embed/lYSY4U-hLeo",
       images: []
     },
     ACHIROPITA_PATRIMONIO: {
