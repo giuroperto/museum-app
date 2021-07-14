@@ -6,14 +6,14 @@ const ROUTES = {
 
   ORIONE_BIOGRAFIA: '/orione/biografia',
   
-  ORIONE_OBRAS: '/orione/obras',
   ORIONE_OBRAS_BRASIL: '/orione/obras/brasil',
   ORIONE_OBRAS_BRASIL_1: '/orione/obras/brasil/1906-1923',
   ORIONE_OBRAS_BRASIL_2: '/orione/obras/brasil/1923-1934',
   ORIONE_OBRAS_BRASIL_3: '/orione/obras/brasil/1934-1940',
   ORIONE_OBRAS_BRASIL_4: '/orione/obras/brasil/1940-1947',
   ORIONE_OBRAS_BRASIL_5: '/orione/obras/brasil/1972-2002',
-  ORIONE_OBRAS_BRASIL_6: '/orione/obras/brasil/pioneiros',
+  ORIONE_OBRAS_BRASIL_6: '/orione/obras/brasil/pioneiros-falecidos',
+  ORIONE_OBRAS_BRASIL_7: '/orione/obras/brasil/pioneiros',
 
   ORIONE_OBRAS_TXT: '/orione/obras/pdf',
 

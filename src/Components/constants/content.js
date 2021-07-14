@@ -15,14 +15,8 @@ const CONTENT = {
     text: "1872 - Em 23 de junho nasceu em Pontecurone, no Piemonte.\n\n1885 - Em 14 de setembro ingressa na ordem dos franciscanos de Voghera; mas retira-se em junho de 1886 devido a uma doença.\n\n1886 - Em 4 de outubro entra no Oratório de Valdocco (Torino), de orientação salesiana; ele ficou lá por três anos.\n\n1889 - Em 16 de outubro entra no seminário de sua diocese, Tortona (AL). Ele frequentou seus estudos com sucesso e trabalhou como zelador no Duomo.\n\n1892 - Em 2 de março começa o apostolado a favor dos jovens, reunindo os jovens para jogos e catecismo. No dia 3 de julho seguinte, inauguração do Oratório San Luigi.\n\n1893 - Em 15 de outubro o clérigo Orione, de 21 anos, abre o primeiro colégio no bairro de San Bernardino de Tortona.\n\n1894 - Em 15 de outubro o Colégio é transferido para a mais espaçosa 'Santa Chiara'; abertura de casas de estudantes em Gênova e Torino.\n\n1895 - Em 13 de abril Dom Luigi Orione é ordenado sacerdote.\n\n1896 - Em outubro ele funda uma casa em Mornico Losana.\n\n1898 - Em 5 de agosto começa a publicação de 'A Obra da Divina Providência'. Em setembro é chamado a Noto (Siracusa) por Dom Bandini; aqui ele aceita o Colégio Episcopal de San Luigi e posteriormente a Colônia Agrícola.\n\n1899 - Em 30 de julho são ordenados os primeiros Eremitas da Divina Providência. Em outubro, o Collegio San Romolo é inaugurado em Sanremo.1901-1902 Inicia as colônias agrícolas de Bagnorea, Cegni di Varzi e, em Roma, de Nunziatella, de S. Giuseppe alla Balduina, de Santa Maria a Monte Mario.\n\n1903 - Em 21 de março: aprovação diocesana da Pequena Obra de Dom Igino Bandi, bispo de Tortona.\n\n1904 - No mês de maio, em Tortona, é feita a transferência definitiva da Casa Mãe, denominada 'Convitto Paterno'. É confiada a guarda da Igreja de Sant'Anna dei Palafrenieri no Vaticano.\n\n1905 - Dom Orione abre sua primeira gráfica em Tortona.\n\n1908 - Em 25 de março: a pedido de Pio X, Dom Orione inicia seu ministério no bairro de Appio, em Roma, 'a Patagônia Romana'.\n\n1909 - Em 4 de janeiro, ele partiu para a Sicília para trazer os primeiros e urgentes esforços de socorro após o desastroso terremoto em Reggio e Messina; abre um orfanato em Cassano Ionio.\n\n1909 -  Em 15 de junho, Pio X o nomeia Vigário Geral da Diocese de Messina.\n\n1911 -  Em 8 de dezembro Don Orione compra a Villa Moffa, em Bra (CN): será o noviciado e a casa de estudos da Ópera Piccola.\n\n1912 - Em abril, Dom Orione retorna a Tortona, depois dos três anos que passou na Sicília. Em 19 de abril, durante uma audiência, emite os votos perpétuos nas mãos do Papa São Pio X.\n\n1913 - Em dezembro os primeiros Missionários orionitas partem para o Brasil.\n\n1915 - Em 13 de janeiro: outro terrível terremoto acontece em Avezzano; Dom Orione ajuda com presteza e generosidade heróica.\n\n1915 - Em 29 de junho, Dom Orione dá início à Congregação das Pequenas Irmãs Missionárias da Caridade. Ocorre a inauguração do primeiro Piccolo Cottolengo em Ameno (Novara).\n\n1918 - Em 29 de agosto, Don Orione implora pelo fim da grande guerra mundial, e jura, com o povo de Tortona, construir um santuário para a Madonna della Guardia.\n\n1921 - Em 4 de agosto, Dom Orione parte para a América do Sul, em viagem aos países: Brasil, Argentina e Uruguai. Novas obras na Colônia Agrícola de Rafat (Palestina); no Rio de Janeiro, a Casa da Preservação; em Puerto Mar del Plata, Paróquia e Colégio San Francesco; em Buenos Aires, Marcos Paz Reformatory. Retorna à Itália em 4 de julho de 1922.\n\n1923 - É fundada a primeira casa na Polônia, em Zdunska Wola; reabertura da Ermida de Sant'Alberto di Butrio onde chega Frate Ave Maria.\n\n1924 - Em 19 de março ocorre a fundação do genovês Piccolo Cottolengo.\n\n1925 - Em 30 de junho, Don Orione assume um orfanato em Acandia (Ilha de Rodes).\n\n1927 - Em 15 de agostoé fundado o ramo das Irmãs Sacramentinas cegas, em Tortona.\n\n1929 - Começa a publicação do periódico mariano 'Mater Dei'.\n\n1931 - Em 29 de agosto é inaugurado o Santuário Madonna della Guardia em Tortona.\n\n1933 - Em novembro, é aberto o Piccolo Cottolengo em Milão.\n\n1934 - Tem origem a primeira casa nos Estados Unidos, em Jasper, Indiana.\n\n1934 - No dia 24 de setembro, Don Orione parte para a segunda viagem à América Latina.\n\n1935 - Em 18 de abril começa o Piccolo Cottolengo Argentino, em Claypole (Buenos Aires).\n\n1936 - Começa a atuação da Ópera Piccola na Inglaterra, Cardiff e Gales do Sul para ajudar os emigrantes italianos. Também é inaugurado na Albânia, em Shijak, para assistência aos trabalhadores italianos.\n\n1937 - Em 24 de agosto Don Orione retornou à Itália, proveniente da América do Sul.\n\n1938 - São inaugurados os novos institutos 'San Filippo Neri' em Roma e 'Artigianelli' em Alexandria. Lançamento do Milanese Piccolo Cottolengo.\n\n1939 - Em 1 ° de abril, Dom Orione sofre uma grave crise de angina de peito em Alexandria. Ele está se recuperando. Em maio, inauguração da Villa Santa Caterina em Genoa-Molassana, para nobres caídas, inauguração do Santuário da Madonna di Caravaggio, em Fumo (Pavia).\n\n1940 - Em 9 de fevereiro, uma nova crise de angina de peito ameaça a vida de Dom Orione; recebe os últimos sacramentos; recupera-se um pouco. Ele passa seus últimos dias em Tortona. No dia 6 de março faz uma última visita ao Santuário da Guarda e às comunidades.\n\n1940 - No dia 8 de março com o último 'Boa noite' na Casa Mãe, saúda os confrades.\n\n1940 - Em 9 de março ele parte para Sanremo.\n\n1940 - No dia 12 de março: última Santa Missa e último telegrama ao Papa; às 22h45, com as palavras 'Jesus, Jesus, Jesus ... eu vou!', ele parte para o Senhor.\n\n1980 - Em 26 de outubro: Dom Orione é proclamado 'bem-aventurado' em Roma pelo Papa João Paulo II.\n\n2003 - Em 7 de julho de 2003 é promulgado o decreto que reconhece um milagre por intercessão de Dom Orione.\n\n2004 - No dia 19 de fevereiro, durante o Consistório dos Cardeais, anúncio da canonização de padre Luigi Orione.\n\n2004 - Em 16 de maio acontece a canonização de Dom Luigi Orione na Praça de São Pedro pelo Papa João Paulo II.\n\n*Traduzido a partir de texto extraído de “Don Orione – La Vita”. Sito Ufficiale della Piccola Opera della Divina Provvidenza, em http://www.donorione.org/Public/ContentPage/content.asp?hdnIdContent=38",
     images: []
   },
-  ORIONE_OBRAS: {
-    title: "Obra Orionita no Mundo",
-    type: "",
-    text: "",
-    images: []
-  },
   ORIONE_OBRAS_BRASIL: {
-    title: "No Brasil",
+    title: "Obra Orionita no Brasil",
     type: "",
     text: "",
     images: []
@@ -58,12 +52,17 @@ const CONTENT = {
     images: []
   },
   ORIONE_OBRAS_BRASIL_6: {
-    title: "Missionários pioneiros no Brasil",
+    title: "Missionários pioneiros no Brasil - Lista de Falecidos",
     type: "pdf",
     text: PDFS.ORIONE_OBRAS_BRASIL_6,
     images: []
   },
-  // ORIONE_OBRAS_BRASIL_6: '/orione/obras/brasil/pioneiros',
+  ORIONE_OBRAS_BRASIL_7: {
+    title: "Missionários pioneiros no Brasil",
+    type: "pdf",
+    text: PDFS.ORIONE_OBRAS_BRASIL_7,
+    images: []
+  },
   ORIONE_OBRAS_TXT: {
     title: "",
     type: "",
@@ -588,8 +587,8 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_2_SINOPSE: {
       title: "Sinopse de A Relíquia",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Para maior conhecimento da devoção e da história de Nossa Senhora Achiropita, sob a direção do Pe. Antônio S. Bogaz, foi realizado um filme, contando a história de forma poética e envolvente.  O roteiro conta a história de um menininho que é criado por sua vovó Luiza, uma vez que foi rejeitado por sua mãe desde o nascimento. Ele vê sua querida vovó em grande enfermidade e pede socorro ao padre Giuseppe pedindo um milagre para salvar a mulher. O padre conta-lhe uma lenda que diz que para conseguir um milagre, o interessado deveria encontrar a relíquia de Nossa Senhora Achiropita. O menino fica impressionado e quer saber quais são as relíquias, mas tampouco o sacerdote a conhece. Ele adormece e acorda num lugar desconhecido, onde se depara com uma senhora, com uma criança no colo. Era a cidade de Rossano Cálabro, na Calábria/Itália, que o ajuda na busca da relíquia. Assim, caminha e revive a história da santa, com seus personagens num tempo e lugar distante. Haverá de encontrar a relíquia, mas o milagre é a grande surpresa do filme.  O filme pode ser visto e adquirido na comunidade Achiropita da Bela Vista.",
       images: []
     },
     ACHIROPITA_FILMES_3: {
@@ -708,21 +707,21 @@ const CONTENT = {
     },
     ACHIROPITA_PATRIMONIO_PINTURAS: {
       title: "Pinturas",
-      type: "",
+      type: "photo",
       text: "",
-      images: []
+      images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1626230934/museu-bixiga/Pinturas/visita_2_ukkilb.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626230934/museu-bixiga/Pinturas/visita_nkmcu3.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626230992/museu-bixiga/Pinturas/DSC_0558-2_k5chm7.jpg"]
     },
     ACHIROPITA_PATRIMONIO_ESCULTURAS: {
       title: "Esculturas",
-      type: "",
+      type: "photo",
       text: "",
-      images: []
+      images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1626231621/museu-bixiga/Esculturas/IMG_9482_cinbo7.jpg"]
     },
     ACHIROPITA_PATRIMONIO_PAINEIS: {
       title: "Painéis da Cúpula",
-      type: "",
+      type: "photo",
       text: "",
-      images: []
+      images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1626231681/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0222_lmpyia.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231697/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0252_dhidf9.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231720/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0241_genufq.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231721/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0242_kkhijb.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231744/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0245_sfwib1.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231749/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0247_mlyf2l.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231749/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0249_lu6vkf.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231749/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0248_exetat.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231749/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0246_xmdtu1.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231758/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0250_i2s1a2.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231762/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSC_0254_fwumwh.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231799/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSCF2690_tucayw.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626231799/museu-bixiga/Pain%C3%A9is%20da%20Cupula/DSCF2686_g3hble.jpg"]
     },
     BIXIGA: {
       title: "",

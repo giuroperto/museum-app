@@ -30,7 +30,6 @@ const AllRoutes = (props) => {
 
         <Route path={ROUTES.ORIONE_BIOGRAFIA} exact component={Orione} />
 
-        <Route path={ROUTES.ORIONE_OBRAS} exact component={Orione} />
         <Route path={ROUTES.ORIONE_OBRAS_BRASIL} exact component={Orione} />
         <Route path={ROUTES.ORIONE_OBRAS_BRASIL_1} exact component={Orione} />
         <Route path={ROUTES.ORIONE_OBRAS_BRASIL_2} exact component={Orione} />
@@ -38,6 +37,7 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ORIONE_OBRAS_BRASIL_4} exact component={Orione} />
         <Route path={ROUTES.ORIONE_OBRAS_BRASIL_5} exact component={Orione} />
         <Route path={ROUTES.ORIONE_OBRAS_BRASIL_6} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_OBRAS_BRASIL_7} exact component={Orione} />
         <Route path={ROUTES.ORIONE_OBRAS_TXT} exact component={Orione} />
 
         <Route path={ROUTES.ORIONE_PUBLICACOES} exact component={Orione} />
@@ -151,6 +151,7 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ACHIROPITA_FILMES} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_1} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_2} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_2_SINOPSE} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_3} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_4} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_5} exact component={Achiropita} />
