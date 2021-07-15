@@ -122,6 +122,7 @@ const MENU = {
         }, {
           item: "Galeria de fotos do Encontro Latino Americano de Jovens Orionitas",
           route: ROUTES.ORIONE_FOTOS_4,
+          resources: CONTENT.ORIONE_FOTOS_4,
           subitems: [],
         }
       ],
@@ -133,10 +134,12 @@ const MENU = {
         {
           item: "Galeria de imagens em agendas e fotos",
           route: ROUTES.ORIONE_ICONOLOGIA_GALERIA,
+          resources: CONTENT.ORIONE_ICONOLOGIA_GALERIA,
           subitems: [],
         }, {
           item: "Cartazes de eventos orionitas",
           route: ROUTES.ORIONE_ICONOLOGIA_CARTAZES,
+          resources: CONTENT.ORIONE_ICONOLOGIA_CARTAZES,
           subitems: [],
         }
       ],
@@ -345,10 +348,12 @@ const MENU = {
         {
           item: "Creche Mãe Achiropita",
           route: ROUTES.ACHIROPITA_PROJETOS_1,
+          resources: CONTENT.ACHIROPITA_PROJETOS_1,
           subitems: [],
         }, {
           item: "Núcleo de convivência para Idosos",
           route: ROUTES.ACHIROPITA_PROJETOS_2,
+          resources: CONTENT.ACHIROPITA_PROJETOS_2,
           subitems: [],
         }, {
           item: "C.E.D.O. – Centro Educacional Don Orione",
@@ -357,6 +362,7 @@ const MENU = {
         }, {
           item: "Casa Rainha da Paz",
           route: ROUTES.ACHIROPITA_PROJETOS_4,
+          resources: CONTENT.ACHIROPITA_PROJETOS_4,
           subitems: [],
         }, {
           item: "Casa Don Orione",
