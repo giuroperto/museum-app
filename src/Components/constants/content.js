@@ -95,26 +95,26 @@ const CONTENT = {
   },
   ORIONE_PUBLICACOES_LIVROS_2: {
     title: "Pérolas: pensamentos espirituais de São Luís Orione",
-    type: "",
-    text: "",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_2,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_3: {
     title: "Novena de Don Orione",
-    type: "",
-    text: "",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_3,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_4: {
     title: "Don Orione: Em nome da Divina Providência, as mais belas páginas",
-    type: "",
-    text: "",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_4,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_5: {
     title: "Don Orione o encantador da juventude",
-    type: "",
-    text: "",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_5,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_6: {
@@ -149,15 +149,15 @@ const CONTENT = {
   },
   ORIONE_FOTOS_2: {
     title: "Galeria Don Orione no Brasil",
-    type: "",
+    type: "photo",
     text: "",
-    images: []
+    images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1626314072/museu-bixiga/orione%20no%20brasil/img815_y8yyhm.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314071/museu-bixiga/orione%20no%20brasil/img557_brizgw.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314071/museu-bixiga/orione%20no%20brasil/IMG_0002_v0akcf.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314071/museu-bixiga/orione%20no%20brasil/orione_com_orfa%CC%83os_am_erica_do_sul_n0dvrh.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314066/museu-bixiga/orione%20no%20brasil/Don_Orione_con_bambini_Casa_di_Preservacao_Rio_de_Jainero_1921_ht05ml.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314065/museu-bixiga/orione%20no%20brasil/Don_Orione_Rio_de_Janeiro_1936_jsjqbg.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314065/museu-bixiga/orione%20no%20brasil/D11_vklgte.bmp", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314065/museu-bixiga/orione%20no%20brasil/30_noruig.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314064/museu-bixiga/orione%20no%20brasil/Abp_Arrigo_i1hxpp.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314065/museu-bixiga/orione%20no%20brasil/33_gb0s5r.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314796/museu-bixiga/orione%20no%20brasil/Don_Orione_Brasile._c2ridf.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314804/museu-bixiga/orione%20no%20brasil/Don_Orione_con_bambini_Brasile_febbraio_1936_xtpp3k.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314814/museu-bixiga/orione%20no%20brasil/Don_Orione_partenza_missionari_per_il_Brasile_13.12.1913_zcrnlr.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314819/museu-bixiga/orione%20no%20brasil/Don_Orione_Brasile_San_Paolo_Cappella_della_Gioventu%CC%80_del_SS.Sacramento._famiglia_De_Azevedo_9.4.1937_sf1syr.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314822/museu-bixiga/orione%20no%20brasil/Don_Orione_Brasile_Rio_de_Jainero_preservacao_mons_Gasparri_mons_Leme._31.10.1921_snaqfw.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314829/museu-bixiga/orione%20no%20brasil/31_uhwwu5.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626314834/museu-bixiga/orione%20no%20brasil/8_kpeygu.jpg"]
   },
   ORIONE_FOTOS_3: {
     title: "Galeria de fotos de relíquias de Don Orione no Brasil",
-    type: "",
+    type: "photo",
     text: "",
-    images: []
+    images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1626315102/museu-bixiga/reliquias%20orione/relicario_-_conduta_-_7_jekgsq.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315102/museu-bixiga/reliquias%20orione/unnamed_nnfrtf.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315102/museu-bixiga/reliquias%20orione/unnamed_15_-_C_pia_pjddnp.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315100/museu-bixiga/reliquias%20orione/IMG_0088_hhyexc.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315099/museu-bixiga/reliquias%20orione/IMG_0085_vpuutw.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315099/museu-bixiga/reliquias%20orione/IMG_0053_jwsaow.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315098/museu-bixiga/reliquias%20orione/IMG_0065_sc8t3u.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315094/museu-bixiga/reliquias%20orione/foto_claretiano_-_jfdl2m.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315094/museu-bixiga/reliquias%20orione/DSC00704_mtifxt.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315093/museu-bixiga/reliquias%20orione/DSC00645_phit9q.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315092/museu-bixiga/reliquias%20orione/DSC00600_ttyjrn.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315092/museu-bixiga/reliquias%20orione/DSC_5547_pouyob.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315091/museu-bixiga/reliquias%20orione/DSC00598_vmngoy.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315085/museu-bixiga/reliquias%20orione/DSC_5538_ayy76o.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315085/museu-bixiga/reliquias%20orione/DSC_5543_vjgxfo.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315084/museu-bixiga/reliquias%20orione/1656313_10201402785411739_1737523892_n_pxllrn.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315083/museu-bixiga/reliquias%20orione/1003075_10201402780611619_2057936460_n_h8pdbi.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626315083/museu-bixiga/reliquias%20orione/3.Rel__quias_SLO_02.03.14_vfqcxb.jpg"]
   },
   ORIONE_FOTOS_4: {
     title: "Galeria de fotos do Encontro Latino Americano de Jovens Orionitas",
@@ -635,7 +635,7 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_8: {
       title: "Rosas para Rita",
-      type: "",
+      type: "video",
       text: "https://www.youtube.com/embed/H1Snv0pJw7A",
       images: []
     },

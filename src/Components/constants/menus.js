@@ -112,10 +112,12 @@ const MENU = {
         }, {
           item: "Galeria Don Orione no Brasil",
           route: ROUTES.ORIONE_FOTOS_2,
+          resources: CONTENT.ORIONE_FOTOS_2,
           subitems: [],
         }, {
           item: "Galeria de fotos de relíquias de Don Orione no Brasil",
           route: ROUTES.ORIONE_FOTOS_3,
+          resources: CONTENT.ORIONE_FOTOS_3,
           subitems: [],
         }, {
           item: "Galeria de fotos do Encontro Latino Americano de Jovens Orionitas",
@@ -452,6 +454,7 @@ const MENU = {
             {
               item: "Versão em inglês",
               route: ROUTES.ACHIROPITA_FILMES_5_EN,
+              resources: CONTENT.ACHIROPITA_FILMES_5_EN,
             }, {
               item: "Versão em português",
               route: ROUTES.ACHIROPITA_FILMES_5_PT,
@@ -469,6 +472,7 @@ const MENU = {
         }, {
           item: "Rosas para Rita",
           route: ROUTES.ACHIROPITA_FILMES_8,
+          resources: CONTENT.ACHIROPITA_FILMES_8,
           subitems: [],
         }, {
           item: "Sangue no Sertão",
@@ -507,6 +511,7 @@ const MENU = {
         }, {
           item: "Santa Luzia",
           route: ROUTES.ACHIROPITA_FILMES_15,
+          resources: CONTENT.ACHIROPITA_FILMES_15,
           subitems: [],
         }
       ],
