@@ -108,6 +108,7 @@ const MENU = {
         {
           item: "Galeria de fotos históricas",
           route: ROUTES.ORIONE_FOTOS_1,
+          resources: CONTENT.ORIONE_FOTOS_1,
           subitems: [],
         }, {
           item: "Galeria Don Orione no Brasil",
@@ -327,12 +328,15 @@ const MENU = {
             }, {
               item: "Publicações",
               route: ROUTES.ACHIROPITA_FESTA_MATERIAL_2,
+              resources: CONTENT.ACHIROPITA_FESTA_MATERIAL_2,
             }, {
               item: "Cartazes",
               route: ROUTES.ACHIROPITA_FESTA_MATERIAL_3,
+              resources: CONTENT.ACHIROPITA_FESTA_MATERIAL_3,
             }, {
               item: "Logomarcas",
               route: ROUTES.ACHIROPITA_FESTA_MATERIAL_4,
+              resources: CONTENT.ACHIROPITA_FESTA_MATERIAL_4,
             }, {
               item: "Vídeos",
               route: ROUTES.ACHIROPITA_FESTA_MATERIAL_5,
@@ -386,6 +390,7 @@ const MENU = {
         {
           item: "Nossa Sra Achiropita – Novena",
           route: ROUTES.ACHIROPITA_LIVROS_1,
+          resources: CONTENT.ACHIROPITA_LIVROS_1,
           subitems: [],
         }, {
           item: "Maria Mãe de Deus, beleza infinita",
@@ -398,6 +403,7 @@ const MENU = {
         }, {
           item: "Jesus Cristo, Filho de Deus, beleza infinita",
           route: ROUTES.ACHIROPITA_LIVROS_4,
+          resources: CONTENT.ACHIROPITA_LIVROS_4,
           subitems: [],
         }, {
           item: "Clipping",
@@ -601,6 +607,7 @@ const MENU = {
         {
           item: "Dona Yayá",
           route: ROUTES.BIXIGA_PERSONAGENS_1,
+          resources: CONTENT.BIXIGA_PERSONAGENS_1,
           subitems: [],
         }, {
           item: "Adoniram Barbosa",

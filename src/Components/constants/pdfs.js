@@ -12,6 +12,10 @@ const PDFS = {
   ORIONE_PUBLICACOES_LIVROS_3: "http://www.bixiga.com.br/museu-temp/assets/novena_orione.pdf",
   ORIONE_PUBLICACOES_LIVROS_4: "http://www.bixiga.com.br/museu-temp/assets/orione_belas_paginas.pdf",
   ORIONE_PUBLICACOES_LIVROS_5: "http://www.bixiga.com.br/museu-temp/assets/orione_encantador.pdf",
+  ORIONE_PUBLICACOES_LIVROS_8: "http://www.bixiga.com.br/museu-temp/assets/revista_mocambique.pdf",
+
+  ACHIROPITA_LIVROS_1: "http://www.bixiga.com.br/museu-temp/assets/nossas_devocoes.pdf",
+  ACHIROPITA_LIVROS_4: "http://www.bixiga.com.br/museu-temp/assets/livro_jesus.pdf",
 };
 
 export default PDFS;
