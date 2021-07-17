@@ -172,21 +172,39 @@ const CONTENT = {
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_15: {
-    title: "Grupo de estudos orionitas - GEO",
+    title: "Cartas de San Luis Orione (Espanhol)",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_15,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_16: {
-    title: "Obras sobre Don Orione em idiomas",
-    type: "",
-    text: "",
+    title: "Don Orione Un Profeta de Nuestro Tiempo (Espanhol)",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_16,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_17: {
-    title: "Revista Moçambique",
+    title: "El Espiritu de Don Orione (Espanhol)",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_17,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_18: {
+    title: "Don Orione El Apóstol de la Caridad (Espanhol)",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_18,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_19: {
+    title: "Tras los pasos de Don Orione (Espanhol)",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_19,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_20: {
+    title: "Revista Moçambique",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_20,
     images: []
   },
   ORIONE_FOTOS: {
@@ -628,9 +646,9 @@ const CONTENT = {
       images: []
     },
     ACHIROPITA_FILMES_1: {
-      title: "Nossa Senhora Achiropita",
-      type: "",
-      text: "",
+      title: "Estrela Luminosa, Vida e Milagres de Santa Beatriz da Silva",
+      type: "video",
+      text: "https://www.youtube.com/embed/k0QjfIXFHlY",
       images: []
     },
     ACHIROPITA_FILMES_2: {
@@ -646,9 +664,9 @@ const CONTENT = {
       images: []
     },
     ACHIROPITA_FILMES_3: {
-      title: "A relíquia e o milagre",
-      type: "",
-      text: "",
+      title: "Memórias do Coração, Vida e Obra de Santo Eugênio de Mazenod",
+      type: "video",
+      text: "https://www.youtube.com/embed/pzfH7hX0ors",
       images: []
     },
     ACHIROPITA_FILMES_4: {
@@ -659,20 +677,8 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_5: {
       title: "São José, o bom carpinteiro",
-      type: "",
-      text: "",
-      images: []
-    },
-    ACHIROPITA_FILMES_5_EN: {
-      title: "Versão em inglês",
       type: "video",
       text: "https://www.youtube.com/embed/7BHymPboKp0",
-      images: []
-    },
-    ACHIROPITA_FILMES_5_PT: {
-      title: "Versão em português",
-      type: "",
-      text: "",
       images: []
     },
     ACHIROPITA_FILMES_6: {
@@ -682,9 +688,9 @@ const CONTENT = {
       images: []
     },
     ACHIROPITA_FILMES_7: {
-      title: "Emanuel",
-      type: "",
-      text: "",
+      title: "Coração Imaculado - A Vida e a Obra de Bárbara Maix",
+      type: "video",
+      text: "https://www.youtube.com/embed/HlgMoYdOHUM",
       images: []
     },
     ACHIROPITA_FILMES_8: {

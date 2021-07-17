@@ -60,6 +60,9 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_15} exact component={Orione} />
         <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_16} exact component={Orione} />
         <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_17} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_18} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_19} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_20} exact component={Orione} />
 
         <Route path={ROUTES.ORIONE_FOTOS} exact component={Orione} />
         <Route path={ROUTES.ORIONE_FOTOS_1} exact component={Orione} />
@@ -164,8 +167,6 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ACHIROPITA_FILMES_3} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_4} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_5} exact component={Achiropita} />
-        <Route path={ROUTES.ACHIROPITA_FILMES_5_EN} exact component={Achiropita} />
-        <Route path={ROUTES.ACHIROPITA_FILMES_5_PT} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_6} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_7} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_8} exact component={Achiropita} />

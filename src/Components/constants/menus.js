@@ -121,17 +121,29 @@ const MENU = {
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_14,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_14,
             }, {
-              item: "Grupo de estudos orionitas - GEO",
+              item: "Cartas de San Luis Orione (Espanhol)",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_15,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_15,
             }, {
-              item: "Obras sobre Don Orione em idiomas",
+              item: "Don Orione Un Profeta de Nuestro Tiempo (Espanhol)",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_16,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_16,
             }, {
-              item: "Revista Moçambique",
+              item: "El Espiritu de Don Orione (Espanhol)",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_17,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_17,
+            }, {
+              item: "Don Orione El Apóstol de la Caridad (Espanhol)",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_18,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_18,
+            }, {
+              item: "Tras los pasos de Don Orione (Espanhol)",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_19,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_19,
+            }, {
+              item: "Revista Moçambique",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_20,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_20,
             }
           ],
         }
@@ -473,8 +485,9 @@ const MENU = {
       route: ROUTES.ACHIROPITA_FILMES,
       subitems: [
         {
-          item: "Nossa Senhora Achiropita",
+          item: "Estrela Luminosa, Vida e Milagres de Santa Beatriz da Silva",
           route: ROUTES.ACHIROPITA_FILMES_1,
+          resources: CONTENT.ACHIROPITA_FILMES_1,
           subitems: [],
         }, {
           item: "A relíquia",
@@ -498,16 +511,8 @@ const MENU = {
         }, {
           item: "São José, o bom carpinteiro",
           route: ROUTES.ACHIROPITA_FILMES_5,
-          subitems: [
-            {
-              item: "Versão em inglês",
-              route: ROUTES.ACHIROPITA_FILMES_5_EN,
-              resources: CONTENT.ACHIROPITA_FILMES_5_EN,
-            }, {
-              item: "Versão em português",
-              route: ROUTES.ACHIROPITA_FILMES_5_PT,
-            }
-          ],
+          resources: CONTENT.ACHIROPITA_FILMES_5,
+          subitems: [],
         }, {
           item: "São Tarciso",
           route: ROUTES.ACHIROPITA_FILMES_6,

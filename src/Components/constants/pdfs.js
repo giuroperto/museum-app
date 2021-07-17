@@ -21,11 +21,12 @@ const PDFS = {
   ORIONE_PUBLICACOES_LIVROS_12: "http://www.bixiga.com.br/museu-temp/assets/geo-livro7.pdf",
   ORIONE_PUBLICACOES_LIVROS_13: "http://www.bixiga.com.br/museu-temp/assets/geo-livro8.pdf",
   ORIONE_PUBLICACOES_LIVROS_14: "http://www.bixiga.com.br/museu-temp/assets/nossos_santos_altar.pdf",
-
-  ORIONE_PUBLICACOES_LIVROS_15: "http://www.bixiga.com.br/museu-temp/assets/geo-livro.pdf",
-  ORIONE_PUBLICACOES_LIVROS_16: "http://www.bixiga.com.br/museu-temp/assets/geo-livro.pdf",
-
-  ORIONE_PUBLICACOES_LIVROS_17: "http://www.bixiga.com.br/museu-temp/assets/revista_mocambique.pdf",
+  ORIONE_PUBLICACOES_LIVROS_15: "http://www.bixiga.com.br/museu-temp/assets/orione-idiomas-livro1.pdf",
+  ORIONE_PUBLICACOES_LIVROS_16: "http://www.bixiga.com.br/museu-temp/assets/orione-idiomas-livro2.pdf",
+  ORIONE_PUBLICACOES_LIVROS_17: "http://www.bixiga.com.br/museu-temp/assets/orione-idiomas-livro3.pdf",
+  ORIONE_PUBLICACOES_LIVROS_18: "http://www.bixiga.com.br/museu-temp/assets/orione-idiomas-livro4.pdf",
+  ORIONE_PUBLICACOES_LIVROS_19: "http://www.bixiga.com.br/museu-temp/assets/orione-idiomas-livro5.pdf",
+  ORIONE_PUBLICACOES_LIVROS_20: "http://www.bixiga.com.br/museu-temp/assets/revista_mocambique.pdf",
 
   ACHIROPITA_LIVROS_1: "http://www.bixiga.com.br/museu-temp/assets/nossas_devocoes.pdf",
   ACHIROPITA_LIVROS_4: "http://www.bixiga.com.br/museu-temp/assets/livro_jesus.pdf",
