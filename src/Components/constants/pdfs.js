@@ -12,7 +12,20 @@ const PDFS = {
   ORIONE_PUBLICACOES_LIVROS_3: "http://www.bixiga.com.br/museu-temp/assets/novena_orione.pdf",
   ORIONE_PUBLICACOES_LIVROS_4: "http://www.bixiga.com.br/museu-temp/assets/orione_belas_paginas.pdf",
   ORIONE_PUBLICACOES_LIVROS_5: "http://www.bixiga.com.br/museu-temp/assets/orione_encantador.pdf",
-  ORIONE_PUBLICACOES_LIVROS_8: "http://www.bixiga.com.br/museu-temp/assets/revista_mocambique.pdf",
+  ORIONE_PUBLICACOES_LIVROS_6: "http://www.bixiga.com.br/museu-temp/assets/geo-livro1.pdf",
+  ORIONE_PUBLICACOES_LIVROS_7: "http://www.bixiga.com.br/museu-temp/assets/geo-livro2.pdf",
+  ORIONE_PUBLICACOES_LIVROS_8: "http://www.bixiga.com.br/museu-temp/assets/geo-livro3.pdf",
+  ORIONE_PUBLICACOES_LIVROS_9: "http://www.bixiga.com.br/museu-temp/assets/geo-livro4.pdf",
+  ORIONE_PUBLICACOES_LIVROS_10: "http://www.bixiga.com.br/museu-temp/assets/geo-livro5.pdf",
+  ORIONE_PUBLICACOES_LIVROS_11: "http://www.bixiga.com.br/museu-temp/assets/geo-livro6.pdf",
+  ORIONE_PUBLICACOES_LIVROS_12: "http://www.bixiga.com.br/museu-temp/assets/geo-livro7.pdf",
+  ORIONE_PUBLICACOES_LIVROS_13: "http://www.bixiga.com.br/museu-temp/assets/geo-livro8.pdf",
+  ORIONE_PUBLICACOES_LIVROS_14: "http://www.bixiga.com.br/museu-temp/assets/nossos_santos_altar.pdf",
+
+  ORIONE_PUBLICACOES_LIVROS_15: "http://www.bixiga.com.br/museu-temp/assets/geo-livro.pdf",
+  ORIONE_PUBLICACOES_LIVROS_16: "http://www.bixiga.com.br/museu-temp/assets/geo-livro.pdf",
+
+  ORIONE_PUBLICACOES_LIVROS_17: "http://www.bixiga.com.br/museu-temp/assets/revista_mocambique.pdf",
 
   ACHIROPITA_LIVROS_1: "http://www.bixiga.com.br/museu-temp/assets/nossas_devocoes.pdf",
   ACHIROPITA_LIVROS_4: "http://www.bixiga.com.br/museu-temp/assets/livro_jesus.pdf",

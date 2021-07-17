@@ -85,17 +85,53 @@ const MENU = {
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_5,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_5,
             }, {
-              item: "Livros do grupo de estudos orionitas - GEO",
+              item: "Grupo de estudos orionitas - Se Luis Orione vivesse em nossos dias",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_6,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_6,
             }, {
-              item: "Obras sobre Don Orione em idiomas",
+              item: "Grupo de estudos orionitas - A grande pescaria",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_7,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_7,
             }, {
-              item: "Revista Moçambique",
+              item: "Grupo de estudos orionitas - Caminhando nas terras do pau brasil",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_8,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_8,
+            }, {
+              item: "Grupo de estudos orionitas - Cem anos de história",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_9,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_9,
+            }, {
+              item: "Grupo de estudos orionitas - Dois pulmões e um só coração",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_10,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_10,
+            }, {
+              item: "Grupo de estudos orionitas - Os Orionitas no Brasil",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_11,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_11,
+            }, {
+              item: "Grupo de estudos orionitas - Reminiscências católicas e orionitas",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_12,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_12,
+            }, {
+              item: "Grupo de estudos orionitas - Século Orione",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_13,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_13,
+            }, {
+              item: "Grupo de estudos orionitas - Nossos santos a caminho do altar",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_14,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_14,
+            }, {
+              item: "Grupo de estudos orionitas - GEO",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_15,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_15,
+            }, {
+              item: "Obras sobre Don Orione em idiomas",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_16,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_16,
+            }, {
+              item: "Revista Moçambique",
+              route: ROUTES.ORIONE_PUBLICACOES_LIVROS_17,
+              resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_17,
             }
           ],
         }

@@ -51,6 +51,15 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_6} exact component={Orione} />
         <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_7} exact component={Orione} />
         <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_8} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_9} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_10} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_11} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_12} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_13} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_14} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_15} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_16} exact component={Orione} />
+        <Route path={ROUTES.ORIONE_PUBLICACOES_LIVROS_17} exact component={Orione} />
 
         <Route path={ROUTES.ORIONE_FOTOS} exact component={Orione} />
         <Route path={ROUTES.ORIONE_FOTOS_1} exact component={Orione} />

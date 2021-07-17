@@ -118,21 +118,75 @@ const CONTENT = {
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_6: {
-    title: "Livros do grupo de estudos orionitas - GEO",
-    type: "",
-    text: "",
+    title: "Grupo de estudos orionitas - Se Luis Orione vivesse em nossos dias",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_6,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_7: {
+    title: "Grupo de estudos orionitas - A grande pescaria",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_7,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_8: {
+    title: "Grupo de estudos orionitas - Caminhando nas terras do pau brasil",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_8,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_9: {
+    title: "Grupo de estudos orionitas - Cem anos de história",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_9,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_10: {
+    title: "Grupo de estudos orionitas - Dois pulmões e um só coração",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_10,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_11: {
+    title: "Grupo de estudos orionitas - Os Orionitas no Brasil",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_11,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_12: {
+    title: "Grupo de estudos orionitas - Reminiscências católicas e orionitas",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_12,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_13: {
+    title: "Grupo de estudos orionitas - Século Orione",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_13,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_14: {
+    title: "Grupo de estudos orionitas - Nossos santos a caminho do altar",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_14,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_15: {
+    title: "Grupo de estudos orionitas - GEO",
+    type: "pdf",
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_15,
+    images: []
+  },
+  ORIONE_PUBLICACOES_LIVROS_16: {
     title: "Obras sobre Don Orione em idiomas",
     type: "",
     text: "",
     images: []
   },
-  ORIONE_PUBLICACOES_LIVROS_8: {
+  ORIONE_PUBLICACOES_LIVROS_17: {
     title: "Revista Moçambique",
     type: "pdf",
-    text: PDFS.ORIONE_PUBLICACOES_LIVROS_8,
+    text: PDFS.ORIONE_PUBLICACOES_LIVROS_17,
     images: []
   },
   ORIONE_FOTOS: {

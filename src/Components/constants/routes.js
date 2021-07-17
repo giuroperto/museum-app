@@ -26,9 +26,20 @@ const ROUTES = {
   ORIONE_PUBLICACOES_LIVROS_3: '/orione/publicacoes/livros/novena',
   ORIONE_PUBLICACOES_LIVROS_4: '/orione/publicacoes/livros/don-orione',
   ORIONE_PUBLICACOES_LIVROS_5: '/orione/publicacoes/livros/juventude',
-  ORIONE_PUBLICACOES_LIVROS_6: '/orione/publicacoes/livros/orionitas',
-  ORIONE_PUBLICACOES_LIVROS_7: '/orione/publicacoes/livros/idiomas',
-  ORIONE_PUBLICACOES_LIVROS_8: '/orione/publicacoes/livros/mocambique',
+
+  ORIONE_PUBLICACOES_LIVROS_6: '/orione/publicacoes/livros/orionitas-livro1',
+  ORIONE_PUBLICACOES_LIVROS_7: '/orione/publicacoes/livros/orionitas-livro2',
+  ORIONE_PUBLICACOES_LIVROS_8: '/orione/publicacoes/livros/orionitas-livro3',
+  ORIONE_PUBLICACOES_LIVROS_9: '/orione/publicacoes/livros/orionitas-livro4',
+  ORIONE_PUBLICACOES_LIVROS_10: '/orione/publicacoes/livros/orionitas-livro5',
+  ORIONE_PUBLICACOES_LIVROS_11: '/orione/publicacoes/livros/orionitas-livro6',
+  ORIONE_PUBLICACOES_LIVROS_12: '/orione/publicacoes/livros/orionitas-livro7',
+  ORIONE_PUBLICACOES_LIVROS_13: '/orione/publicacoes/livros/orionitas-livro8',
+  ORIONE_PUBLICACOES_LIVROS_14: '/orione/publicacoes/livros/orionitas-livro9',
+  ORIONE_PUBLICACOES_LIVROS_15: '/orione/publicacoes/livros/orionitas-livro10',
+
+  ORIONE_PUBLICACOES_LIVROS_16: '/orione/publicacoes/livros/idiomas',
+  ORIONE_PUBLICACOES_LIVROS_17: '/orione/publicacoes/livros/mocambique',
 
   ORIONE_FOTOS: '/orione/fotos',
   ORIONE_FOTOS_1: '/orione/fotos/historicas',
