@@ -606,7 +606,7 @@ const CONTENT = {
     ACHIROPITA_LIVROS_4: {
       title: "Jesus Cristo, Filho de Deus, beleza infinita",
       type: "pdf",
-      text: PDFS.ACHIROPITA_LIVROS_1,
+      text: PDFS.ACHIROPITA_LIVROS_4,
       images: []
     },
     ACHIROPITA_LIVROS_5: {

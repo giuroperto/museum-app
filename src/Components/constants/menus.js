@@ -501,7 +501,7 @@ const MENU = {
             }
           ],
         }, {
-          item: "A relíquia e o milagre",
+          item: "Memórias do Coração, Vida e Obra de Santo Eugênio de Mazenod",
           route: ROUTES.ACHIROPITA_FILMES_3,
           subitems: [],
         }, {
@@ -519,7 +519,7 @@ const MENU = {
           resources: CONTENT.ACHIROPITA_FILMES_6,
           subitems: [],
         }, {
-          item: "Emanuel",
+          item: "Coração Imaculado - A Vida e a Obra de Bárbara Maix",
           route: ROUTES.ACHIROPITA_FILMES_7,
           subitems: [],
         }, {
