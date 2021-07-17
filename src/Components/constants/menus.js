@@ -503,6 +503,7 @@ const MENU = {
         }, {
           item: "Memórias do Coração, Vida e Obra de Santo Eugênio de Mazenod",
           route: ROUTES.ACHIROPITA_FILMES_3,
+          resources: CONTENT.ACHIROPITA_FILMES_3,
           subitems: [],
         }, {
           item: "Socorra meu povo",
@@ -521,6 +522,7 @@ const MENU = {
         }, {
           item: "Coração Imaculado - A Vida e a Obra de Bárbara Maix",
           route: ROUTES.ACHIROPITA_FILMES_7,
+          resources: CONTENT.ACHIROPITA_FILMES_7,
           subitems: [],
         }, {
           item: "Rosas para Rita",
