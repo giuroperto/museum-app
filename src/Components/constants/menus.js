@@ -465,18 +465,14 @@ const MENU = {
       route: ROUTES.ACHIROPITA_FOTOS,
       subitems: [
         {
-          item: "Celebrações 2019",
+          item: "Celebrações e Pastorais",
           route: ROUTES.ACHIROPITA_FOTOS_1,
           resources: CONTENT.ACHIROPITA_FOTOS_1,
           subitems: [],
         }, {
-          item: "Coroinhas 2019",
+          item: "Coroinhas",
           route: ROUTES.ACHIROPITA_FOTOS_2,
           resources: CONTENT.ACHIROPITA_FOTOS_2,
-          subitems: [],
-        }, {
-          item: "Pastorais",
-          route: ROUTES.ACHIROPITA_FOTOS_3,
           subitems: [],
         }
       ],

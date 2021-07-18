@@ -124,9 +124,8 @@ const ROUTES = {
   ACHIROPITA_LIVROS_5: '/achiropita/livros/clipping',
 
   ACHIROPITA_FOTOS: '/achiropita/fotos',
-  ACHIROPITA_FOTOS_1: '/achiropita/fotos/celebracoes-2019',
+  ACHIROPITA_FOTOS_1: '/achiropita/fotos/celebracoes-pastorais',
   ACHIROPITA_FOTOS_2: '/achiropita/fotos/coroinhas-2019',
-  ACHIROPITA_FOTOS_3: '/achiropita/fotos/pastorais',
 
   ACHIROPITA_FILMES: '/achiropita/filmes',
   ACHIROPITA_FILMES_1: '/achiropita/filmes/beatriz-silva',
