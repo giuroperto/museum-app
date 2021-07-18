@@ -1,21 +1,13 @@
-import { Link } from "react-router-dom";
-
+import { GoHeart } from "react-icons/go";
 import './Footer.css';
-import ROUTES from '../constants/routes';
 
 const Footer = () => {
 
   return (
-    <div className="footer-container">
-      <Link to={ROUTES.ORIONE} className="footer-link">
-        <div>ORIONE</div>
-      </Link>
-      <Link to={ROUTES.ACHIROPITA} className="footer-link">
-        <div>ACHIROPITA</div>
-      </Link>
-      <Link to={ROUTES.BIXIGA} className="footer-link">
-        <div>BIXIGA</div>
-      </Link>
+    <div className="footer">
+        <p>
+          Criado com <GoHeart className="footer-heart" /> por <a href="www.bixiga.com.br" target="_blank" rel="noopener noreferrer" className="footer-site" >E-Roperto</a>.
+        </p>
     </div>
   )
 };

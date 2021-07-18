@@ -1,8 +1,8 @@
 /* made to be big screen first which is >1008px */
 
 .submenu-container {
-  height: 80vh;
-  width: 90vw;
+  height: 84vh;
+  width: 95vw;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -12,8 +12,8 @@
 
 .submenu-text-container {
   margin-top: 2vh;
-  min-height: 80vh !important;
-  width: 100%;
+  min-height: 84vh !important;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -21,14 +21,11 @@
 }
 
 .btn-container {
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-height: 70vh;
-}
-
-.resource {
+  max-height: 84vh;
 }
 
 .btn-text-container {
@@ -39,11 +36,8 @@
   padding-left: 3vw;
 }
 
-.btn-link {
-}
-
 .submenu-item-container {
-  margin: 2vh 2vw;
+  margin: 1vh 2vw;
   display: flex;
   justify-content: center;
 }
@@ -55,15 +49,15 @@
 }
 
 .btn-menu {
-  width: 30vw;
-  font-size: 4rem !important;
+  width: 40vw;
+  font-size: 3.3rem !important;
 }
 
 .btn-text-menu {
   width: 25vw;
-  min-height: 12vh;
-  font-size: 3.5rem !important;
-  margin: 0 5vw 5vh 0;
+  min-height: 10vh;
+  font-size: 3.3rem !important;
+  margin: 0 4vw 4vh 0;
 }
 
 .menu-block {
@@ -87,20 +81,60 @@
 
 /* responsivity to small screens */
 @media only screen and (max-width: 640px) {
+  .submenu-container {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .submenu-text-container {
+    margin-top: 2vh;
+    min-height: 84vh !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .btn-container {
+    flex-wrap: nowrap;
+    min-height: 84vh;
+    justify-content: flex-start;
+  }
+  
+  .btn-text-container {
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 3vw;
+    flex-wrap: nowrap;
+  }
+  
+  .btn-menu {
+    width: 80vw;
+    font-size: 2rem !important;
+  }
+  
+  .btn-text-menu {
+    width: 80vw;
+    min-height: 6vh;
+    font-size: 2.3rem !important;
+    margin: 0 2vw 2vh 0;
+  }
 }
 
 /* responsivity to medium screens */
 @media only screen and (min-width: 641px) and (max-width: 1030px) {
 
   .submenu-container {
-    min-height: 80vh;
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
   
   .submenu-text-container {
     margin-top: 2vh;
-    min-height: 80vh !important;
+    min-height: 84vh !important;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -110,7 +144,7 @@
   
   .btn-container {
     flex-wrap: nowrap;
-    min-height: 80vh;
+    min-height: 84vh;
     justify-content: flex-start;
   }
   
@@ -132,29 +166,40 @@
     width: 80vw;
     min-height: 6vh;
     font-size: 3.5rem !important;
-    margin: 0 5vw 3vh 0;
+    margin: 0 2vw 2vh 0;
   }
 }
 
 @media only screen and (min-width: 1031px) and (max-width: 1450px) {
-  .submenu-container {
-    min-height: 80vh;
-  }
-
   .submenu-text-container {
     margin-top: 4vh;
-    min-height: 80vh !important;
-    width: 100%;
+    min-height: 84vh !important;
+  }
+
+  .submenu-item-container {
+    margin: 1vh 1vw;
   }
 
   .btn-container {
-    width: 70%;
-    max-height: 70vh;
+    width: 95vw;
+    max-height: 84vh;
     justify-content: center;
   }
   
   .btn-text-container {
-    max-height: 50vh;
+    max-height: 80vh;
     padding-left: 2vw;
+  }
+
+  .btn-menu {
+    width: 45vw;
+    font-size: 2.5rem !important;
+  }
+
+  .btn-text-menu {
+    width: 29vw;
+    min-height: 10vh;
+    font-size: 3rem !important;
+    margin: 0 1vw 2vh 0;
   }
 }

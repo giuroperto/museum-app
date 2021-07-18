@@ -69,7 +69,7 @@ const MENU = {
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_1,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_1,
             }, {
-              item: "Pérolas: pensamentos espirituais de São Luís Orione",
+              item: "Pérolas: pensamentos espirituais de Orione",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_2,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_2,
             }, {
@@ -77,7 +77,7 @@ const MENU = {
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_3,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_3,
             }, {
-              item: "Don Orione: Em nome da Divina Providência, as mais belas páginas",
+              item: "Em nome da Divina Providência, as mais belas páginas",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_4,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_4,
             }, {
@@ -85,59 +85,59 @@ const MENU = {
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_5,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_5,
             }, {
-              item: "Grupo de estudos orionitas - Se Luis Orione vivesse em nossos dias",
+              item: "GEO - Se Luis Orione vivesse em nossos dias",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_6,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_6,
             }, {
-              item: "Grupo de estudos orionitas - A grande pescaria",
+              item: "GEO - A grande pescaria",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_7,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_7,
             }, {
-              item: "Grupo de estudos orionitas - Caminhando nas terras do pau brasil",
+              item: "GEO - Caminhando nas terras do pau brasil",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_8,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_8,
             }, {
-              item: "Grupo de estudos orionitas - Cem anos de história",
+              item: "GEO - Cem anos de história",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_9,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_9,
             }, {
-              item: "Grupo de estudos orionitas - Dois pulmões e um só coração",
+              item: "GEO - Dois pulmões e um só coração",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_10,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_10,
             }, {
-              item: "Grupo de estudos orionitas - Os Orionitas no Brasil",
+              item: "GEO - Os Orionitas no Brasil",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_11,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_11,
             }, {
-              item: "Grupo de estudos orionitas - Reminiscências católicas e orionitas",
+              item: "GEO - Reminiscências católicas e orionitas",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_12,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_12,
             }, {
-              item: "Grupo de estudos orionitas - Século Orione",
+              item: "GEO - Século Orione",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_13,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_13,
             }, {
-              item: "Grupo de estudos orionitas - Nossos santos a caminho do altar",
+              item: "GEO - Nossos santos a caminho do altar",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_14,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_14,
             }, {
-              item: "Cartas de San Luis Orione (Espanhol)",
+              item: "Cartas de San Luis Orione (ES)",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_15,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_15,
             }, {
-              item: "Don Orione Un Profeta de Nuestro Tiempo (Espanhol)",
+              item: "Don Orione Un Profeta de Nuestro Tiempo (ES)",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_16,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_16,
             }, {
-              item: "El Espiritu de Don Orione (Espanhol)",
+              item: "El Espiritu de Don Orione (ES)",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_17,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_17,
             }, {
-              item: "Don Orione El Apóstol de la Caridad (Espanhol)",
+              item: "Don Orione El Apóstol de la Caridad (ES)",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_18,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_18,
             }, {
-              item: "Tras los pasos de Don Orione (Espanhol)",
+              item: "Tras los pasos de Don Orione (ES)",
               route: ROUTES.ORIONE_PUBLICACOES_LIVROS_19,
               resources: CONTENT.ORIONE_PUBLICACOES_LIVROS_19,
             }, {

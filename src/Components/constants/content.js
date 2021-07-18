@@ -94,7 +94,7 @@ const CONTENT = {
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_2: {
-    title: "Pérolas: pensamentos espirituais de São Luís Orione",
+    title: "Pérolas: pensamentos espirituais de Orione",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_2,
     images: []
@@ -106,7 +106,7 @@ const CONTENT = {
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_4: {
-    title: "Don Orione: Em nome da Divina Providência, as mais belas páginas",
+    title: "Em nome da Divina Providência, as mais belas páginas",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_4,
     images: []
@@ -118,85 +118,85 @@ const CONTENT = {
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_6: {
-    title: "Grupo de estudos orionitas - Se Luis Orione vivesse em nossos dias",
+    title: "GEO - Se Luis Orione vivesse em nossos dias",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_6,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_7: {
-    title: "Grupo de estudos orionitas - A grande pescaria",
+    title: "GEO - A grande pescaria",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_7,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_8: {
-    title: "Grupo de estudos orionitas - Caminhando nas terras do pau brasil",
+    title: "GEO - Caminhando nas terras do pau brasil",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_8,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_9: {
-    title: "Grupo de estudos orionitas - Cem anos de história",
+    title: "GEO - Cem anos de história",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_9,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_10: {
-    title: "Grupo de estudos orionitas - Dois pulmões e um só coração",
+    title: "GEO - Dois pulmões e um só coração",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_10,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_11: {
-    title: "Grupo de estudos orionitas - Os Orionitas no Brasil",
+    title: "GEO - Os Orionitas no Brasil",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_11,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_12: {
-    title: "Grupo de estudos orionitas - Reminiscências católicas e orionitas",
+    title: "GEO - Reminiscências católicas e orionitas",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_12,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_13: {
-    title: "Grupo de estudos orionitas - Século Orione",
+    title: "GEO - Século Orione",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_13,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_14: {
-    title: "Grupo de estudos orionitas - Nossos santos a caminho do altar",
+    title: "GEO - Nossos santos a caminho do altar",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_14,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_15: {
-    title: "Cartas de San Luis Orione (Espanhol)",
+    title: "Cartas de San Luis Orione (ES)",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_15,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_16: {
-    title: "Don Orione Un Profeta de Nuestro Tiempo (Espanhol)",
+    title: "Don Orione Un Profeta de Nuestro Tiempo (ES)",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_16,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_17: {
-    title: "El Espiritu de Don Orione (Espanhol)",
+    title: "El Espiritu de Don Orione (ES)",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_17,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_18: {
-    title: "Don Orione El Apóstol de la Caridad (Espanhol)",
+    title: "Don Orione El Apóstol de la Caridad (ES)",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_18,
     images: []
   },
   ORIONE_PUBLICACOES_LIVROS_19: {
-    title: "Tras los pasos de Don Orione (Espanhol)",
+    title: "Tras los pasos de Don Orione (ES)",
     type: "pdf",
     text: PDFS.ORIONE_PUBLICACOES_LIVROS_19,
     images: []
