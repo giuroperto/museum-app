@@ -75,6 +75,11 @@
   display: flex;
 }
 
+.iframe-video-menu {
+  width: 75vw;
+  height: 60vh;
+}
+
 .submenu-image {
   /* align-self: center; */
 }
@@ -122,6 +127,11 @@
     font-size: 2.3rem !important;
     margin: 0 2vw 2vh 0;
   }
+
+  .iframe-video-menu {
+    width: 94vw;
+    height: 35vh;
+  }
 }
 
 /* responsivity to medium screens */
@@ -167,6 +177,11 @@
     min-height: 6vh;
     font-size: 3.5rem !important;
     margin: 0 2vw 2vh 0;
+  }
+
+  .iframe-video-menu {
+    width: 90vw;
+    height: 40vh;
   }
 }
 

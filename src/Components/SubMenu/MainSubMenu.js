@@ -89,7 +89,13 @@ const MainSubMenu = (props) => {
       {
         sectionResource && isVideo && (
           <div className={menuClassName}>
-            <video src={sectionResource} controls="controls" width="60%" />
+            <iframe 
+              src={sectionResource.text}
+              allowFullScreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              title={sectionResource.title}
+              className="iframe-video-menu">
+              </iframe>
           </div>
         )
       }
