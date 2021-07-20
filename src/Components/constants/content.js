@@ -533,47 +533,53 @@ const CONTENT = {
     },
     ACHIROPITA_PROJETOS: {
       title: "Projetos",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Visão panorâmica sobre os vários serviços religiosos, assistenciais e educativos mantidos pela Paróquia",
       images: []
     },
     ACHIROPITA_PROJETOS_1: {
+      title: "Projetos",
+      type: "video",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PROJETOS_2: {
       title: "Creche Mãe Achiropita",
       type: "text",
       text: "O Centro de Educação Infantil Mãe Achiropita acolhe a necessidade dos pais que precisam de um lugar para deixar seus bebês enquanto trabalham e buscam sustento à família. Atende diariamente 194 crianças, de 01 à 04 anos de idade, das 07h às 17h. Na Creche Mãe Achiropita as crianças encontram um lugar seguro e acolhedor, recebem cinco refeições diárias, hábitos saudáveis de higiene e saúde, linguagem oral e escrita, noções de matemática, conhecimentos sobre natureza e sociedade, iniciação musical, artes visuais, festas comemorativas, passeios temáticos, contos infantis, desenvolvimento da espiritualidade, e o brincar , constante em nosso trabalho, que é fundamental para o desenvolvimento global da criança.\nA cada dois meses a coordenação se reúne às famílias para reunião de pais e acompanhamento do desenvolvimento da criança. A família possui disponível o grupo terapêutico com psicólogo, se necessário.\nTemos a alegria de cuidar da saúde das crianças com a parceria do Hospital Menino Jesus, Ambulatório de Pediatria Social do Hospital Sírio Libanês e Posto de Saúde Nossa Senhora do Brasil, que possibilitam o atendimento aos pequeninos.\n\n“No sorriso de cada criança, encontramos a confirmação do amor de Deus por nós”\n\nENDEREÇO\nRua Dr. Luiz Barreto, 214 - CEP: 01328-020\nE-mail: contato@achiropita.org.br",
       images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1626316562/museu-bixiga/creche/FormatFactoryIMG-20190515-WA0049_cyg4tt.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316561/museu-bixiga/creche/FormatFactoryIMG-20190515-WA0050_qc6af5.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316561/museu-bixiga/creche/FormatFactoryIMG-20190515-WA0051_vht65x.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316561/museu-bixiga/creche/FormatFactoryIMG-20190515-WA0047_fuftfs.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316561/museu-bixiga/creche/FormatFactoryIMG-20190226-WA0042_rcssi7.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316561/museu-bixiga/creche/FormatFactoryIMG-20190515-WA0048_rsnosj.jpg"]
     },
-    ACHIROPITA_PROJETOS_2: {
+    ACHIROPITA_PROJETOS_3: {
       title: "Núcleo de convivência para Idosos",
       type: "text",
       text: "Com ofertas que propiciem a convivência objetivando um envelhecimento saudável e ativo, o Núcleo de Convivência para idosos Dom Orione, sob a orientação do Plano Municipal de Assistência Social - parceria com a Prefeitura de São Paulo - atende cerca de 180 idosos mensais em situação de vulnerabilidade social, física e financeira.\nAtravés de atividades que favoreçam a inclusão, a proteção social, o fortalecimento dos vínculos pessoais e familiares, a autonomia, o respeito por si mesmo, todas as tardes, idosos se reúnem para realizar:\n-atividades sócio-educativas: Biodança, Musicoterapia, Envelhecimento e Cidadania, Lazer e Leitura;\n-atividades Corporais: Ginástica, Dança de Salão e Ioga;\n-atividades recreativas: tarde de convivência, bailes temáticos, passeios, Projeto Co-Gerações; cinema, participação na Festa de Nossa Senhora Achiropita, participação na Rede de Proteção e Defesa da Pessoa Idosa – RPDI\n-atividades artesanais; e ainda:\n- Acolhida: escuta individual e de grupo;\n- Atendimento jurídico, Psicológico e Social e Espiritualidade.\n\nENDEREÇO\nRua Treze de Maio, 430 - CEP: 01327-000\nE-mail: nci@achiropita.org.br\nTel.: (11) 2667-1303",
       images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1626316395/museu-bixiga/projeto%20idosos/IMG-20190317-WA0028_ipj15x.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316394/museu-bixiga/projeto%20idosos/FormatFactoryIMG-20190515-WA0008_xghduv.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316394/museu-bixiga/projeto%20idosos/IMG-20190317-WA0027_uhhc1h.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316394/museu-bixiga/projeto%20idosos/FormatFactoryIMG-20190317-WA0033_xwrzms.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316394/museu-bixiga/projeto%20idosos/FormatFactoryIMG-20190317-WA0032_jtzrte.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316389/museu-bixiga/projeto%20idosos/FormatFactoryIMG-20190629-WA0006_ztoqy3.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316383/museu-bixiga/projeto%20idosos/FormatFactoryIMG-20190629-WA0005_i1hxi8.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316383/museu-bixiga/projeto%20idosos/FormatFactoryIMG-20190629-WA0003_cntmp9.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316383/museu-bixiga/projeto%20idosos/FormatFactoryIMG-20190629-WA0002_tlblsk.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316383/museu-bixiga/projeto%20idosos/FormatFactoryIMG-20190629-WA0001_qejoig.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316382/museu-bixiga/projeto%20idosos/FormatFactoryIMG-20190629-WA0000_1_osm8iu.jpg"]
     },
-    ACHIROPITA_PROJETOS_3: {
+    ACHIROPITA_PROJETOS_4: {
       title: "C.E.D.O. – Centro Educacional Don Orione",
       type: "text",
       text: "O Centro Educacional Dom Orione - CEDO, núcleo das Obras Sociais Nossa Senhora Achiropita, atende a 360 crianças e adolescentes no contra turno escolar, com idade entre 6 e 18 anos. Essas crianças vêm de famílias de baixa renda e necessitam de um respaldo enquanto os pais trabalham, pois durante o dia ficariam sozinhas em casa ou soltas nas ruas em total vulnerabilidade.\nNosso projeto é essencialmente preventivo, e desenvolve várias atividades que proporcionam um crescimento, pessoal, social, cultural, espiritual e profissional, encaminhando e incluindo adolescentes a partir de 15 anos de idade no mercado de trabalho, com o programa Jovem Aprendiz.\nNo CEDO os jovens têm a oportunidade de obter conhecimento e prática com instrumentos de orquestra, coral, iniciação e teoria musical; esportes em geral; orientação nas atividades escolares; literatura; raciocínio lógico; artes e artesanato, entre outras atividades. Recebem também 2 refeições por período.\nUma das principais marcas do projeto CEDO é o trabalho de reflexão em filosofia e espiritualidade, realizado diariamente, buscando fortalecer a ligação de todos os educadores e alunos com os valores cristãos. Promover uma cidadania responsável com uma educação reflexiva, desenvolvendo a boa auto-estima, auto-conhecimento e autonomia do pensar, podendo através do senso crítico, antecipar e escolher sempre o que for melhor para si.\nSobre a famosa frase de São Luís Orione, queremos que estes jovens sejam o sol do amanhã e que este sol venha a iluminar a vida de tantos outros.\n\nENDEREÇO\nRua Dr. Luiz Barreto, 315 - CEP: 01328-020\nE-mail: contato@achiropita.org.br",
       images: []
     },
-    ACHIROPITA_PROJETOS_4: {
+    ACHIROPITA_PROJETOS_5: {
       title: "Casa Rainha da Paz",
       type: "text",
       text: "Criada no início 2013 a Casa Rainha da Paz é um espaço que abriga e auxilia homens livres da situação de dependência química, por vontade própria e buscam apoio para um retorno digno às suas famílias e sociedade. Situada em Campos do Jordão, a casa é parte das Obras Sociais Nossa Senhora Achiropita, do bairro do Bexiga, em São Paulo.\nO projeto abriga em média 30 pessoas em um complexo de 12 casas, além de área social, capela, refeitório, espaço de artesanato, horta comunitária e muito verde.\nDiante de tantos desafios, as drogas vêm fazendo parte da dura realidade, não só de nossa cidade, mas também de todo o país. Assim, nossa casa acolhe ex-dependentes químicos desejosos de uma nova oportunidade. Nosso objetivo é integrá-los junto aos seus familiares em um novo contexto social, educacional e familiar, visando sua reintegração através de acompanhamento e aconselhamento, prática de atividades de lazer e esporte, participação em oficinas com diversos temas, reflexão e espiritualidade. A adesão ao acolhimento se dá de forma voluntária, pois a conscientização dele é parte fundamental em sua recuperação.\nO projeto nasce e ganha forma graças à generosidade e trabalho de muitos benfeitores e amigos. Uma verdadeira corrente de esperança e fé. Um presente que Deus nos confia.\nBuscamos parceiros que compartilhem deste nosso sonho. Entre em contato conosco e saiba como ajudar.",
       images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1626316495/museu-bixiga/rainha%20da%20paz/Screen_Shot_2021-07-14_at_23.34.28_qqnmq5.png", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316430/museu-bixiga/rainha%20da%20paz/IMG-20190512-WA0059_rxyzvj.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316430/museu-bixiga/rainha%20da%20paz/IMG-20190512-WA0061_dskpdn.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316429/museu-bixiga/rainha%20da%20paz/IMG-20190512-WA0058_jgxuz4.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1626316429/museu-bixiga/rainha%20da%20paz/IMG-20190512-WA0054_o74apx.jpg"]
     },
-    ACHIROPITA_PROJETOS_5: {
+    ACHIROPITA_PROJETOS_6: {
       title: "Casa Don Orione",
       type: "",
       text: "",
       images: []
     },
-    ACHIROPITA_PROJETOS_6: {
+    ACHIROPITA_PROJETOS_7: {
       title: "Centro Jurídico",
       type: "",
       text: "",
       images: []
     },
-    ACHIROPITA_PROJETOS_7: {
+    ACHIROPITA_PROJETOS_8: {
       title: "MOVA – Movimento de Alfabetização para adultos",
       type: "",
       text: "",

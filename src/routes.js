@@ -147,6 +147,7 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ACHIROPITA_PROJETOS_5} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_PROJETOS_6} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_PROJETOS_7} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PROJETOS_8} exact component={Achiropita} />
 
         <Route path={ROUTES.ACHIROPITA_LIVROS} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_LIVROS_1} exact component={Achiropita} />

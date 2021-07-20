@@ -398,35 +398,40 @@ const MENU = {
       route: ROUTES.ACHIROPITA_PROJETOS,
       subitems: [
         {
-          item: "Creche Mãe Achiropita",
+          item: "",
           route: ROUTES.ACHIROPITA_PROJETOS_1,
           resources: CONTENT.ACHIROPITA_PROJETOS_1,
           subitems: [],
         }, {
-          item: "Núcleo de convivência para Idosos",
+          item: "Creche Mãe Achiropita",
           route: ROUTES.ACHIROPITA_PROJETOS_2,
           resources: CONTENT.ACHIROPITA_PROJETOS_2,
           subitems: [],
         }, {
-          item: "C.E.D.O. – Centro Educacional Don Orione",
+          item: "Núcleo de convivência para Idosos",
           route: ROUTES.ACHIROPITA_PROJETOS_3,
+          resources: CONTENT.ACHIROPITA_PROJETOS_3,
+          subitems: [],
+        }, {
+          item: "C.E.D.O. – Centro Educacional Don Orione",
+          route: ROUTES.ACHIROPITA_PROJETOS_4,
           subitems: [],
         }, {
           item: "Casa Rainha da Paz",
-          route: ROUTES.ACHIROPITA_PROJETOS_4,
-          resources: CONTENT.ACHIROPITA_PROJETOS_4,
+          route: ROUTES.ACHIROPITA_PROJETOS_5,
+          resources: CONTENT.ACHIROPITA_PROJETOS_5,
           subitems: [],
         }, {
           item: "Casa Don Orione",
-          route: ROUTES.ACHIROPITA_PROJETOS_5,
-          subitems: [],
-        }, {
-          item: "Centro Jurídico",
           route: ROUTES.ACHIROPITA_PROJETOS_6,
           subitems: [],
         }, {
-          item: "MOVA – Movimento de Alfabetização para adultos",
+          item: "Centro Jurídico",
           route: ROUTES.ACHIROPITA_PROJETOS_7,
+          subitems: [],
+        }, {
+          item: "MOVA – Movimento de Alfabetização para adultos",
+          route: ROUTES.ACHIROPITA_PROJETOS_8,
           subitems: [],
         }
       ]
