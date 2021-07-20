@@ -1,11 +1,10 @@
 /* made to be big screen first which is >1008px */
 
 .footer {
-  background-color: rgba(0, 92, 103, 0.8);
-  height: 2vh;
-  font-size: 10px;
+  background-color: rgb(37, 147, 117);
+  height: 4vh;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center; 
 }
 
@@ -13,30 +12,31 @@
   display: flex;
   align-items: center;
   color: rgba(255, 255, 255, 0.7); 
+  font-size: 3rem;
 }
 
 .footer p .footer-heart {
-  margin: 0 3px; 
+  margin: 0.3vh 0.5vw 0; 
+  font-size: 3rem;
 }
 
 .footer p .footer-site {
-  margin: 0 3px;
+  margin: 0 0.8vw;
   color: rgba(255, 255, 255, 0.7); 
+  font-size: 3rem;
 }
 
 .footer p .footer-site:hover {
   color: orange; 
 }
   
-.footer p .footer-moon {
-  margin: 0 2px; 
-}
-
 /* responsivity to small screens */
 @media only screen and (max-width: 640px) {
 }
 
 /* responsivity to medium screens */
-@media only screen and (min-width: 641px) and (max-width: 1007px) {
-  
+@media only screen and (min-width: 641px) and (max-width: 1030px) {
+}
+
+@media only screen and (min-width: 1031px) and (max-width: 1450px) {
 }

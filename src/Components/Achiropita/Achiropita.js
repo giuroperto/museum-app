@@ -157,6 +157,7 @@ const Achiropita = (props) => {
           </div>
         )
       }
+      <Footer />
     </>
   )
 };

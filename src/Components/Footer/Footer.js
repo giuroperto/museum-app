@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
         <p>
-          Criado com <GoHeart className="footer-heart" /> por <a href="www.bixiga.com.br" target="_blank" rel="noopener noreferrer" className="footer-site" >E-Roperto</a>.
+          Criado com <GoHeart className="footer-heart" /> por <a href="www.bixiga.com.br" target="_blank" rel="noopener noreferrer" className="footer-site" >e-Roperto</a>
         </p>
     </div>
   )
