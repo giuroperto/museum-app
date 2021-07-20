@@ -29,14 +29,36 @@
 .footer p .footer-site:hover {
   color: orange; 
 }
-  
+
 /* responsivity to small screens */
 @media only screen and (max-width: 640px) {
+  .footer {
+    height: 4vh;
+  }
+
+  .footer p {
+    font-size: 1.8rem;
+  }
+  
+  .footer p .footer-heart {
+    font-size: 1.8rem;
+  }
+  
+  .footer p .footer-site {
+    font-size: 1.8rem;
+  }
 }
 
 /* responsivity to medium screens */
 @media only screen and (min-width: 641px) and (max-width: 1030px) {
+  .footer {
+    height: 4vh;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 1031px) and (max-width: 1450px) {
+  .footer {
+    height: 6vh;
+  }
 }

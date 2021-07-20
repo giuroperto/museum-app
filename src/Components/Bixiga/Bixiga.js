@@ -109,6 +109,7 @@ const Bixiga = (props) => {
           </div>
         )
       }
+      <Footer />
     </>
   )
 };
