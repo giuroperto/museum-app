@@ -1,15 +1,15 @@
 /* made to be big screen first which is >1008px */
 
 .home-container {
-  height: 90%;
-  width: 100%;
-  padding-top: 5%;
+  min-height: 86vh;
+  width: 100vw;
+  padding-top: 8vh;
   display: flex;
   justify-content: center;
 }
 
 .cards-container {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -49,7 +49,7 @@
 @media only screen and (max-width: 640px) {
 
   .card-deck {
-    max-width: 80%;
+    max-width: 80vw;
     flex-direction: column !important;
   }
 
@@ -74,8 +74,19 @@
 /* responsivity to medium screens */
 @media only screen and (min-width: 641px) and (max-width: 1030px) {
 
+  .home-container {
+    min-height: 86vh;
+    padding-top: 3vh;
+  }
+
+  .cards-container {
+    min-height: 100vh;
+    align-items: flex-start;
+  }
+
   .card-deck {
-    max-width: 60%;
+    max-width: 60vw;
+    display: flex;
     flex-direction: column !important;
   }
 
@@ -100,7 +111,7 @@
 @media only screen and (min-width: 1031px) and (max-width: 1450px) {
 
   .home-container {
-    padding-top: 3%;
+    padding-top: 4vh;
   }
 
   .card-deck {

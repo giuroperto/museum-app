@@ -5,6 +5,7 @@ import { CardDeck, Card } from 'react-bootstrap';
 import './Home.css';
 
 import ROUTES from '../constants/routes';
+import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
 // --------------------------------
@@ -64,6 +65,7 @@ const Home = () => {
           </CardDeck>
         </div>
       </div>
+      <Footer />
     </>
   )
 };

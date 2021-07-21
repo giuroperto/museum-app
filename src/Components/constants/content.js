@@ -538,7 +538,7 @@ const CONTENT = {
       images: []
     },
     ACHIROPITA_PROJETOS_1: {
-      title: "Projetos",
+      title: "Vídeo de Apresentação",
       type: "video",
       text: "",
       images: []

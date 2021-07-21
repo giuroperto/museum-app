@@ -108,7 +108,7 @@ const ROUTES = {
   ACHIROPITA_FESTA_MATERIAL_5: '/achiropita/festa/material/videos',
 
   ACHIROPITA_PROJETOS: '/achiropita/projetos',
-  ACHIROPITA_PROJETOS_1: '/achiropita/projetos/',
+  ACHIROPITA_PROJETOS_1: '/achiropita/projetos/apresentacao',
   ACHIROPITA_PROJETOS_2: '/achiropita/projetos/creche',
   ACHIROPITA_PROJETOS_3: '/achiropita/projetos/idosos',
   ACHIROPITA_PROJETOS_4: '/achiropita/projetos/cedo',
