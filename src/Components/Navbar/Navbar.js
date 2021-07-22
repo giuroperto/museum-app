@@ -5,20 +5,21 @@ import { useContext, useEffect, useState } from "react";
 
 import './Navbar.css';
 import ROUTES from '../constants/routes';
-import { HistoryContext } from '../../Utils/Context/';
+import { HistoryContext, HistoryItemsContext } from '../../Utils/Context/';
 
 const Navbar = (props) => {
 
   console.log(props);
 
   const historyData = useContext(HistoryContext);
+  const historyArray = useContext(HistoryItemsContext);
 
   const [ showBackButton, setShowBackButton ] = useState("back-hide");
   // const [ lastPage, setLastPage ] = useState("");
 
-  const history = useHistory();
+  // const history = useHistory();
 
-  // const [ history, setHistory ] = useState(props.history);
+  const [ history, setHistory ] = useState(props.historyItems);
   // const [ page, setPage ] = useState("");
 
   useEffect(() => {
@@ -29,17 +30,27 @@ const Navbar = (props) => {
     }
   }, [historyData]);
 
-  useEffect(() => {
-    if (history.location.pathname) {
+  // useEffect(() => {
+  //   if (history.location.pathname) {
 
-    }
-  }, [history]);
+  //   }
+  // }, [history]);
 
   console.log("history" + historyData);
   // console.log("page" + page);
   // console.log("props" + props.history);
 
   // TODO delete all irrelevant data
+
+  const goBack = () => {
+    if (props.historyItems.length > 2) {
+      let length = props.historyItems.length;
+      setHistory(props.historyItems.splice(length - 2, 1));
+      historyArray.objectsHistory.push(history);
+    }
+  };
+
+  console.log(historyArray);
 
   return (
     <div className="navbar-container">
@@ -51,8 +62,8 @@ const Navbar = (props) => {
         <span className="app-subtitle">no Bixiga</span>
       </div>
       {
-        showBackButton && history.length > 0 && (
-          <button className={`navbar-btn ${showBackButton}`} onClick={() => history.goBack()}>
+        showBackButton && props.historyItems && props.historyItems.length > 0 && (
+          <button className={`navbar-btn ${showBackButton}`} onClick={() => goBack()}>
             <RiArrowGoBackLine className="icon-menu icon" />
           </button>
         )

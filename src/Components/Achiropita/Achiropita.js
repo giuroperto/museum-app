@@ -121,7 +121,7 @@ const Achiropita = (props) => {
 
   return (
     <>
-      <Navbar history={topics} page={PAGE} getHistory={props.getHistory} />
+      <Navbar history={topics} page={PAGE} getHistory={props.getHistory} historyItems={historyItems} />
       {
         pageType === "menu" && filteredArray.length > 0 && (
           <div className="achiropita-container">
