@@ -153,6 +153,8 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ACHIROPITA_LIVROS_1} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_LIVROS_2} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_LIVROS_3} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_LIVROS_3_INTRODUCAO} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_LIVROS_3_DIVULGACAO} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_LIVROS_4} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_LIVROS_5} exact component={Achiropita} />
 
@@ -176,8 +178,19 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ACHIROPITA_FILMES_12} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_13} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_14} exact component={Achiropita} />
-        <Route path={ROUTES.ACHIROPITA_FILMES_14_ES} exact component={Achiropita} />
-        <Route path={ROUTES.ACHIROPITA_FILMES_14_PT} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP1} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP2} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP3} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP4} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP5} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP6} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP7} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP8} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP9} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP10} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP11} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP12} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_FILMES_14_EP13} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FILMES_15} exact component={Achiropita} />
 
         <Route path={ROUTES.ACHIROPITA_PATRIMONIO} exact component={Achiropita} />

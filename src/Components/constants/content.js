@@ -609,6 +609,18 @@ const CONTENT = {
       text: "",
       images: []
     },
+    ACHIROPITA_LIVROS_3_INTRODUCAO: {
+      title: "Introdução aos Poemas",
+      type: "pdf",
+      text: PDFS.ACHIROPITA_LIVROS_3_INTRODUCAO,
+      images: []
+    },
+    ACHIROPITA_LIVROS_3_DIVULGACAO: {
+      title: "Divulgação",
+      type: "photo",
+      text: "",
+      images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1627007316/museu-bixiga/achiropita/convite-1_qsftem.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1627007317/museu-bixiga/achiropita/maria_mae_de_Deus_-_cartaz_1_copy_kffwxd.jpg"]
+    },
     ACHIROPITA_LIVROS_4: {
       title: "Jesus Cristo, Filho de Deus, beleza infinita",
       type: "pdf",
@@ -735,16 +747,82 @@ const CONTENT = {
       text: "",
       images: []
     },
-    ACHIROPITA_FILMES_14_PT: {
-      title: "Versão português",
-      type: "",
-      text: "",
+    ACHIROPITA_FILMES_14_EP1: {
+      title: "Perfume de Jasmim - Episódio 1",
+      type: "video",
+      text: "https://www.youtube.com/embed/zL6JiNivYTk",
       images: []
     },
-    ACHIROPITA_FILMES_14_ES: {
-      title: "Versão espanhol",
-      type: "",
-      text: "",
+    ACHIROPITA_FILMES_14_EP2: {
+      title: "Perfume de Jasmim - Episódio 2",
+      type: "video",
+      text: "https://www.youtube.com/embed/sjbpGudcr1k",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP3: {
+      title: "Perfume de Jasmim - Episódio 3",
+      type: "video",
+      text: "https://www.youtube.com/embed/AIlkHyG1wko",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP4: {
+      title: "Perfume de Jasmim - Episódio 4",
+      type: "video",
+      text: "https://www.youtube.com/embed/NcdG7VhRgCA",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP5: {
+      title: "Perfume de Jasmim - Episódio 5",
+      type: "video",
+      text: "https://www.youtube.com/embed/XbusFYi6htQ",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP6: {
+      title: "Perfume de Jasmim - Episódio 6",
+      type: "video",
+      text: "https://www.youtube.com/embed/hblSgnYsHeM",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP7: {
+      title: "Perfume de Jasmim - Episódio 7",
+      type: "video",
+      text: "https://www.youtube.com/embed/cI8cJtzgAy8",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP8: {
+      title: "Perfume de Jasmim - Episódio 8",
+      type: "video",
+      text: "https://www.youtube.com/embed/mWKn0YawQ38",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP9: {
+      title: "Perfume de Jasmim - Episódio 9",
+      type: "video",
+      text: "https://www.youtube.com/embed/ZQMGj2nbpFo",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP10: {
+      title: "Perfume de Jasmim - Episódio 10",
+      type: "video",
+      text: "https://www.youtube.com/embed/kC6qb2SOhC0",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP11: {
+      title: "Perfume de Jasmim - Episódio 11",
+      type: "video",
+      text: "https://www.youtube.com/embed/cJ_u5E0K2iU",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP12: {
+      title: "Perfume de Jasmim - Episódio 12",
+      type: "video",
+      text: "https://www.youtube.com/embed/Ct7ScsiUZXw",
+      images: []
+    },
+    ACHIROPITA_FILMES_14_EP13: {
+      title: "Perfume de Jasmim - Episódio 13",
+      type: "video",
+      text: "https://www.youtube.com/embed/dNY9hIpuh8M",
       images: []
     },
     ACHIROPITA_FILMES_15: {

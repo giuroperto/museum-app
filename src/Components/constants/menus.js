@@ -453,7 +453,17 @@ const MENU = {
         }, {
           item: "Livreto Maria - poemas",
           route: ROUTES.ACHIROPITA_LIVROS_3,
-          subitems: [],
+          subitems: [
+            {
+              item: "Introdução aos Poemas",
+              route: ROUTES.ACHIROPITA_LIVROS_3_INTRODUCAO,
+              resources: CONTENT.ACHIROPITA_LIVROS_3_INTRODUCAO,
+            }, {
+            item: "Divulgação",
+            route: ROUTES.ACHIROPITA_LIVROS_3_DIVULGACAO,
+            resources: CONTENT.ACHIROPITA_LIVROS_3_DIVULGACAO,
+          }
+        ],
         }, {
           item: "Jesus Cristo, Filho de Deus, beleza infinita",
           route: ROUTES.ACHIROPITA_LIVROS_4,
@@ -559,11 +569,44 @@ const MENU = {
           route: ROUTES.ACHIROPITA_FILMES_14,
           subitems: [
             {
-              item: "Versão português",
-              route: ROUTES.ACHIROPITA_FILMES_14_PT,
+              item: "Perfume de Jasmim - Episódio 1",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP1,
             }, {
-              item: "Versão espanhol",
-              route: ROUTES.ACHIROPITA_FILMES_14_ES,
+              item: "Perfume de Jasmim - Episódio 2",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP2,
+            }, {
+              item: "Perfume de Jasmim - Episódio 3",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP3,
+            }, {
+              item: "Perfume de Jasmim - Episódio 4",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP4,
+            }, {
+              item: "Perfume de Jasmim - Episódio 5",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP5,
+            }, {
+              item: "Perfume de Jasmim - Episódio 6",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP6,
+            }, {
+              item: "Perfume de Jasmim - Episódio 7",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP7,
+            }, {
+              item: "Perfume de Jasmim - Episódio 8",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP8,
+            }, {
+              item: "Perfume de Jasmim - Episódio 9",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP9,
+            }, {
+              item: "Perfume de Jasmim - Episódio 10",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP10,
+            }, {
+              item: "Perfume de Jasmim - Episódio 11",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP11,
+            }, {
+              item: "Perfume de Jasmim - Episódio 12",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP12,
+            }, {
+              item: "Perfume de Jasmim - Episódio 13",
+              route: ROUTES.ACHIROPITA_FILMES_14_EP13,
             }
           ],
         }, {
