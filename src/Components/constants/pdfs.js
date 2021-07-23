@@ -29,6 +29,7 @@ const PDFS = {
   ORIONE_PUBLICACOES_LIVROS_20: "http://www.bixiga.com.br/museu-temp/assets/revista_mocambique.pdf",
 
   ACHIROPITA_LIVROS_1: "http://www.bixiga.com.br/museu-temp/assets/nossas_devocoes.pdf",
+  ACHIROPITA_LIVROS_1: "http://www.bixiga.com.br/museu-temp/assets/maria_beleza_infinita.pdf",
   ACHIROPITA_LIVROS_4: "http://www.bixiga.com.br/museu-temp/assets/livro_jesus.pdf",
 };
 

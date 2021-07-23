@@ -599,8 +599,8 @@ const CONTENT = {
     },
     ACHIROPITA_LIVROS_2: {
       title: "Maria Mãe de Deus, beleza infinita",
-      type: "",
-      text: "",
+      type: "pdf",
+      text: PDFS.ACHIROPITA_LIVROS_2,
       images: []
     },
     ACHIROPITA_LIVROS_3: {

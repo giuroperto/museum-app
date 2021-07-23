@@ -448,6 +448,7 @@ const MENU = {
         }, {
           item: "Maria Mãe de Deus, beleza infinita",
           route: ROUTES.ACHIROPITA_LIVROS_2,
+          resources: CONTENT.ACHIROPITA_LIVROS_2,
           subitems: [],
         }, {
           item: "Livreto Maria - poemas",
