@@ -127,6 +127,19 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_10} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_11} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_12} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_13} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_14} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_15} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_16} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_17} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_18} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_19} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_20} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_21} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_22} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_23} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_24} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_25} exact component={Achiropita} />
 
         <Route path={ROUTES.ACHIROPITA_FESTA} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FESTA_APRESENTACAO} exact component={Achiropita} />
