@@ -443,8 +443,8 @@ const CONTENT = {
     },
     ACHIROPITA_PAROQUIA_PASTORAL_8: {
       title: "Pastoral da Comunicação",
-      type: "",
-      text: "",
+      type: "text",
+      text: "A Pastoral da Comunicação existe desde o início da paróquia, através de seus boletins informativos, cartazes, murais. Em 1992 foi criada uma equipe para repensar o Jornal da Paróquia de uma forma organizada. A periodicidade do jornal, inicialmente, era bimestral.\n\nA Pastoral da Comunicação da Igreja Nossa Senhora Achiropita tem por objetivo:\n1. Facilitar a comunicação entre todos da comunidade;\n2. Divulgar informações de eventos para a comunidade e a sociedade;\n3. Ser um instrumento de apoio para todas as Pastorais na divulgação de seus projetos, eventos e, sobretudo missionária;\n\nA Pastoral da Comunicação procura ajudar na integração da comunidade e, ao mesmo tempo, participar da ação da comunidade na sociedade, sempre sem perder de vista a construção do Reino a que somos chamados por Cristo.\n\nOs meios de comunicação utilizados são Cartazes, Mural, e-mail, Jornal bimensal e Site, divulgação em rádio e TV.\n\nO Jornal tem por objetivo informar e formar toda a comunidade. Através de textos de colaboradores da nossa Comunidade buscamos atingir esta meta. Atualmente a tiragem é de 2.000 jornais e no mês da Festa de  Nossa Senhora Achiropita sobe para 10.000 exemplares.\n\nA equipe atual dirige a Pastoral desde outubro de 2002. Durante este período teve como principal desafio a remodelagem do site. Este trabalho foi concluído em março de 2003. Como o site demanda grande esforço de atualização, este é hoje um dos principais desafios da Pastoral da Comunicação. Atualmente estamos buscando dar autonomia às Pastorais, desenvolvendo ferramenta para possam manter atualizada a página de sua pastoral.\n\nQue Jesus, Nossa Senhora Achiropita e São Luís Orione abençoe a todos para mais este desafio.\n\nAve Maria e Avante.",
       images: []
     },
     ACHIROPITA_PAROQUIA_PASTORAL_9: {
