@@ -419,14 +419,14 @@ const CONTENT = {
     },
     ACHIROPITA_PAROQUIA_PASTORAL_4: {
       title: "Pastoral Afro",
-      type: "",
+      type: "photo",
       text: "",
       images: []
     },
     ACHIROPITA_PAROQUIA_PASTORAL_5: {
       title: "Pastoral do Batismo",
-      type: "",
-      text: "",
+      type: "text",
+      text: "No final da década de 60 a preparação para o batismo era ministrada pelos padres. Na década de 70 as preparações para o recebimento do Batismo eram feitas por um pequeno número de leigos(três) que, numa palestra preparatória, davam as principais noções sobre o Batismo, seus símbolos e, principalmente, a responsabilidade dos pais e padrinhos em assumirem a formação espiritual de seus filhos e afilhados.\nNo final da década de 70, cinco casais assumiram esta pastoral. Mais tarde, esse número de palestristas foi aumentado devido a procura, cada vez maior, do recebimento do Batismo.\nEssas pessoas foram preparadas anualmente pelos párocos D. Aloysio, Pe Geraldo, Pe Toninho, Pe Roberto que ministraram aulas sobre batismo e crisma.Atualmente essas aulas de aprofundamento são dadas pelo Pe Bogaz, o que torna nossos palestristas mais preparados para sua missão.\n\nNossa Pastoral do Batismo conta atualmente com vinte membros divididos em:\n- Equipe de atendimento;\n- Equipe de acolhida;\n- Equipe de apoio;\n- Palestristas.\n\n1.	O atendimento é feito 2 vezes por semana às terças e quartas- feiras. Nele são feitas as fichas e são dadas as orientações para o recebimento do Batismo.\n2.	As palestras preparatórias para o Batismo são realizadas duas vezes ao mês (sábados). A programação consta de uma acolhida e confirmação de presença. Após uma oração inicial, inicia-se a palestra com a duração aproximadamente de uma hora.\n\nEm seguida, um bate papo informal e um cafezinho. Depois uma palestra sobre o ritual do Batismo. Logo após, os casais reúnem-se em círculos onde são debatidos os temas e feitas questões sobre dúvidas.\nA cerimônia do Batismo é feita aos domingos após a missa das 10:00 e conta sempre com a presença de dois membros da Pastoral, para auxiliarem os padres ou diáconos.\nOs casais que batizaram seus filhos são encaminhados à Pastoral da Família, que passa então a orientá-los e os encaminham se desejarem, para fazer o ECC.\nNo final do ano é realizada uma missa em intenção das crianças batizadas durante o ano, sendo as mesmas consagradas à Nossa Senhora.\n\nA Pastoral do Batismo procura dessa forma dar um sentido verdadeiramente cristão à celebração do Batismo, que deve ser, mais do que nunca, uma demonstração viva de nossa fé, procurando, com seu exemplo, viver realmente a vida de um filho de Deus.",
       images: []
     },
     ACHIROPITA_PAROQUIA_PASTORAL_6: {
