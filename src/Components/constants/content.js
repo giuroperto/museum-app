@@ -413,8 +413,8 @@ const CONTENT = {
     },
     ACHIROPITA_PAROQUIA_PASTORAL_3: {
       title: "Pastoral da Pessoa Idosa",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Integrantes PPI:\nMaria Lúcia Conte Takahashi, Paulo Celso Takahashi, Jadson José Baracho Da Silva, Maria Nazaré De Souza Lima Baracho, Marina Brandão Whitaker, Veronica De Paula Nogueira, Olga Lechner Rodrigues, Vera Lucia Da Silva, Modesto Chaves Maciel e Carmela Di Siervi.\n\nATIVIDADES:\nVisitas mensais aos idosos com reuniões mensais para acompanhamento e desenvolvimento das atividades propostas a pastoral.",
       images: []
     },
     ACHIROPITA_PAROQUIA_PASTORAL_4: {
