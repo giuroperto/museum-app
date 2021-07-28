@@ -28,8 +28,9 @@ const PDFS = {
   ORIONE_PUBLICACOES_LIVROS_19: "http://www.bixiga.com.br/museu-temp/assets/orione-idiomas-livro5.pdf",
   ORIONE_PUBLICACOES_LIVROS_20: "http://www.bixiga.com.br/museu-temp/assets/revista_mocambique.pdf",
 
+  ACHIROPITA_PAROQUIA_PASTORAL_26: "http://www.bixiga.com.br/museu-temp/assets/pastoral-betel.pdf",
   ACHIROPITA_LIVROS_1: "http://www.bixiga.com.br/museu-temp/assets/nossas_devocoes.pdf",
-  ACHIROPITA_LIVROS_1: "http://www.bixiga.com.br/museu-temp/assets/maria_beleza_infinita.pdf",
+  ACHIROPITA_LIVROS_2: "http://www.bixiga.com.br/museu-temp/assets/maria_beleza_infinita.pdf",
   ACHIROPITA_LIVROS_3_INTRODUCAO: "http://www.bixiga.com.br/museu-temp/assets/intro_poemas.pdf",
   ACHIROPITA_LIVROS_4: "http://www.bixiga.com.br/museu-temp/assets/livro_jesus.pdf",
 };

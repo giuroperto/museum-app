@@ -108,6 +108,7 @@ const ROUTES = {
   ACHIROPITA_PAROQUIA_PASTORAL_23: '/achiropita/paroquia/pastoral/pastoral-coroinhas',
   ACHIROPITA_PAROQUIA_PASTORAL_24: '/achiropita/paroquia/pastoral/pastoral-pia',
   ACHIROPITA_PAROQUIA_PASTORAL_25: '/achiropita/paroquia/pastoral/pastoral-mlo',
+  ACHIROPITA_PAROQUIA_PASTORAL_26: '/achiropita/paroquia/pastoral/comunidade-betel',
 
   ACHIROPITA_FESTA: '/achiropita/festa',
   ACHIROPITA_FESTA_APRESENTACAO: '/achiropita/festa/apresentacao',
@@ -188,6 +189,7 @@ const ROUTES = {
 
   BIXIGA_CULTURA: '/bixiga/cultura',
   BIXIGA_CULTURA_ESPACOS: '/bixiga/cultura/espacos-culturais',
+  BIXIGA_CULTURA_ESPACOS_1: '/bixiga/cultura/espacos-culturais/feirinha',
   BIXIGA_CULTURA_TEATROS: '/bixiga/cultura/teatros',
 
   BIXIGA_MUSICA: '/bixiga/musica',
@@ -197,12 +199,16 @@ const ROUTES = {
   BIXIGA_PERSONAGENS: '/bixiga/personagens',
   BIXIGA_PERSONAGENS_1: '/bixiga/personagens/dona-yaya',
   BIXIGA_PERSONAGENS_2: '/bixiga/personagens/adoniram-barbosa',
+  BIXIGA_PERSONAGENS_2_VIDEO: '/bixiga/personagens/adoniram-barbosa/video',
   BIXIGA_PERSONAGENS_3: '/bixiga/personagens/antonio-rego',
+  BIXIGA_PERSONAGENS_3_VIDEO: '/bixiga/personagens/antonio-rego/video',
   BIXIGA_PERSONAGENS_4: '/bixiga/personagens/silvio-santos',
   BIXIGA_PERSONAGENS_5: '/bixiga/personagens/emanuel-araujo',
   BIXIGA_PERSONAGENS_6: '/bixiga/personagens/sergio-mamberti',
 
   BIXIGA_PATRIMONIO: '/bixiga/patrimonio-historico',
+  BIXIGA_PATRIMONIO_1: '/bixiga/patrimonio-historico/vila-itororo',
+  BIXIGA_PATRIMONIO_2: '/bixiga/patrimonio-historico/casa-yaya',
 };
 
 export default ROUTES;

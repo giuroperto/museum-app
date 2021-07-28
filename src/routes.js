@@ -140,6 +140,7 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_23} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_24} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_25} exact component={Achiropita} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_26} exact component={Achiropita} />
 
         <Route path={ROUTES.ACHIROPITA_FESTA} exact component={Achiropita} />
         <Route path={ROUTES.ACHIROPITA_FESTA_APRESENTACAO} exact component={Achiropita} />
@@ -220,6 +221,7 @@ const AllRoutes = (props) => {
 
         <Route path={ROUTES.BIXIGA_CULTURA} exact component={Bixiga} />
         <Route path={ROUTES.BIXIGA_CULTURA_ESPACOS} exact component={Bixiga} />
+        <Route path={ROUTES.BIXIGA_CULTURA_ESPACOS_1} exact component={Bixiga} />
         <Route path={ROUTES.BIXIGA_CULTURA_TEATROS} exact component={Bixiga} />
 
         <Route path={ROUTES.BIXIGA_MUSICA} exact component={Bixiga} />
@@ -229,12 +231,16 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.BIXIGA_PERSONAGENS} exact component={Bixiga} />
         <Route path={ROUTES.BIXIGA_PERSONAGENS_1} exact component={Bixiga} />
         <Route path={ROUTES.BIXIGA_PERSONAGENS_2} exact component={Bixiga} />
+        <Route path={ROUTES.BIXIGA_PERSONAGENS_2_VIDEO} exact component={Bixiga} />
         <Route path={ROUTES.BIXIGA_PERSONAGENS_3} exact component={Bixiga} />
+        <Route path={ROUTES.BIXIGA_PERSONAGENS_3_VIDEO} exact component={Bixiga} />
         <Route path={ROUTES.BIXIGA_PERSONAGENS_4} exact component={Bixiga} />
         <Route path={ROUTES.BIXIGA_PERSONAGENS_5} exact component={Bixiga} />
         <Route path={ROUTES.BIXIGA_PERSONAGENS_6} exact component={Bixiga} />
 
         <Route path={ROUTES.BIXIGA_PATRIMONIO} exact component={Bixiga} />
+        <Route path={ROUTES.BIXIGA_PATRIMONIO_1} exact component={Bixiga} />
+        <Route path={ROUTES.BIXIGA_PATRIMONIO_2} exact component={Bixiga} />
 
       </Switch>
     </>

@@ -549,6 +549,12 @@ const CONTENT = {
       text: "O Movimento Laical Orionita significa a integração do leigo na igreja através do Carisma de Dom Orione. Antes de receber o nome de Movimento Laical Orionita, os seguidores de Dom Orione eram chamado de 'AMIGOS DE DOM ORIONE'.\nA partir do momento que as pessoas começam conhecer a vida de Luis Orione através dos  escritos deixados por ele nos quais sentiram  exemplos de Fé, bondade, amor ao próximo e caridade, passam a ser seus seguidores.\nO XI capitulo geral dos Filhos da Divina Providência nos conta que o projeto do Movimento Laical Orionita já estava na mente do jovem Luis Orione  quando ainda clérigo no seminário de Tortona. Em 1890 ele se encontrava aos domingos com os 'PAOLOTTI'(Leigos das conferências vicentinas) para visitar os doentes e as famílias pobres.\nEm 1899 fundou em Turim a primeira Instituição Laical 'DAMAS DA DIVINA PROVIDÊNCIA', Instituição esta que o acompanhou durante toda sua vida.\nA Congregação Orionita, no X capitulo geral já havia tratado do assunto e posteriormente a carta do diretor geral datada de 18.12.95, deu origem ao MOVIMENTO LAICAL ORIONITA- MLO.\nAssim foi se desenvolvendo a Coordenação Provincial, Local e Regional dos grupos de leigos em direção a formação do carisma.\nPor solicitação da Congregação, foi instituído o Secretariado do M.L.O. o qual elaborou uma 'CARTA DE COMUNHÃO' para orientação geral de todas as casas com relação ao Movimento.\nTodo dia 12   de cada mês (dia de sua morte)  as casas orionitas do mundo inteiro celebram uma missa em homenagem a São Luis Orione.\nAtravés do Carisma o leigo passa a fazer parte da grande família orionita que tem como objetivo deixar acesa a chama da caridade com a missão principal de seguir os ensinamentos do fundador São Luis Orione, fazendo o 'BEM SEMPRE, O BEM A TODOS E O MAL NUNCA A NINGUÉM'.\nAs casas da congregação realizam anualmente congressos que se revezam entre as casas, sendo um ano em uma cidade e outro ano em outra, afim de trocar experiências dos serviços prestados em todas as casas. Estes encontros têm como objetivo principal a parte espiritual que serve como alimento para a continuidade da nossa caminhada.\nO Movimento Laical Orionita é uma realidade vivida em todas as partes do mundo, unidos pela força do ESPIRITO SANTO DE DEUS, caminhando sob a luz do Evangelho, amando uns aos outros em Cristo Jesus.",
       images: []
     },
+    ACHIROPITA_PAROQUIA_PASTORAL_26: {
+      title: "Comunidade Betel",
+      type: "pdf",
+      text: PDFS.ACHIROPITA_PAROQUIA_PASTORAL_26,
+      images: []
+    },
     ACHIROPITA_FESTA: {
       title: "Festa da Achiropita",
       type: "text",
@@ -969,10 +975,16 @@ const CONTENT = {
       text: "",
       images: []
     },
+    BIXIGA_CULTURA_ESPACOS_1: {
+      title: "Feira de Antiguidades do Bixiga",
+      type: "text",
+      text: "Desde 1984 a Praça Dom Orione é palco da Feira de Antiguidades e Artes do Bixiga, todos os domingos das 10 às 18 horas. São mais de 200 barracas, onde se encontra de tudo, de elementos mais vintage até peças cenográficas, roupas antigas, móveis originais e de época, prataria, porcelana, lustres e candelabros, LPs, livros e revistas de época, máquinas fotográficas, brinquedos, fotonovelas. Espaço para garimpar peças para decoração ou satisfazer o interesse por peças de época, o espaço cultural da Feira é reduto de artistas, designers, colecionadores, curiosos, turistas e visitantes em geral. Uma das referências em São Paulo, torna completo o programa de domingo com as compras e macarronada oferecida pelas cantinas próximas.\n\nConheça em: https://www.instagram.com/feiradobixiga/",
+      images: []
+    },
     BIXIGA_CULTURA_TEATROS: {
       title: "Teatros",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Teatros do Bixiga\nA rota Rui Barbosa e Brigadeiro Luís Antônio incluindo suas ruas transversais e paralelas, concentra inpumeros teatros, casas de espetáculos e espetáculos culturais. A tradição começou em 1948, com a inauguração do TBC – Teatro Brasileiro de Comédia, pelo italiano Franco Zampari. Outras casas fizeram a fama do Bixiga como a Broadway brasileira, como o Teatro Renault (antigo Abril e Paramount), Oficina, Ruth Escobar, Zaccaro, Sérgio Cardoso, Maria Della Costa, Brigadeiro, Raul Cortez, casas que marcaram a cena teatral brasileira.\n\nEspetáculos que marcaram época foram encenados no Bixiga, como Um bonde chamado desejo,  O Rei da Vela, os Sertões,  Roda Viva, Hair, shows dos Mutantes, Comer e coçar é so começar, entre outros.",
       images: []
     },
     BIXIGA_MUSICA: {
@@ -983,9 +995,9 @@ const CONTENT = {
     },
     BIXIGA_MUSICA_VAIVAI: {
       title: "Vai-vai",
-      type: "",
-      text: "",
-      images: []
+      type: "text",
+      text: "O Grêmio Recreativo Cultural e Social Escola de Samba Vai-Vai é uma das principais agremiações do Carnaval Brasileiro e a maior campeã do Carnaval de São Paulo com 9 títulos como Cordão, 15 títulos do Grupo Especial e 10 vice-campeonatos.\n A mais popular escola de samba de São Paulo, é oriunda de um grupo de sambistas que animavam a beira de campo nos jogos de um time de futebol dos anos 1920, o “Cai-Cai”. Sempre vistos como penetras e arruaceiros, sendo apelidados de modo jocoso como “a turma do Vae-Vae”, expulsos do Cai-Cai, eles criaram o “Bloco dos Esfarrapados”, e paralelamente, o ‘Cordão Carnavalesco e Esportivo Vae-Vae’, que foi oficializado em 1930.\n O nome “Saracura”, sempre associado à escola, se deriva do riacho que corta o Bixiga e tinha essa ave de pernas finas abundante em suas margens. As cores do Vai-Vai são as mesmas cores do time Cai-Cai, invertidas, ou seja, se o Cai-Cai era Branco e Preto, o Vai-Vai fixou as cores em Preto e Branco. Os símbolos são uma coroa e ramos de café. A Coroa simboliza a realeza e a magnitude da raça negra, naquela época era comum os negros se tratarem carinhosamente de “Oi Meu Rei, Oi Minha Rainha”, e os ramos de café simbolizam a maior fonte de riqueza econômica de São Paulo à época.\n Uma vez que os desfiles das escolas de São Paulo foram oficializados em 1968, os cordões ainda tentaram resistir durante 3 anos, porém foram forçados a se adaptar à época, e em 1972, o cordão Vai-Vai se transformou em escola de samba. Na bateria foram introduzidos instrumentos leves como tamborim, pandeiro e cuíca, além do andamento e batida de samba, que se tornaram mais leves e com mais balanço. O estandarte cedeu lugar ao pavilhão e então nasceram a comissão de frente, a ala das baianas e as alegorias de mão.\n As fantasias perderam seu peso tradicional e a evolução ficou mais dinâmica. Surgiu então a figura do Criolé, a imagem e semelhança de outros tantos crioulos do Bixiga. Ele é um símbolo, uma identidade, caricatura do próprio sambista da saracura, aquele que personifica a escola ao vestir-se de suas cores – o preto e o branco; ele é a fantasia, a alma do Vai-Vai. Figura que passou a acompanhar a escola tanto nas glórias como nas dificuldades. O Vai-Vai é a maior e mais tradicional escola de samba de São Paulo, acumulando 9 títulos como Cordão, 15 títulos do Grupo Especial e 10 vice-campeonatos, motivo de orgulho para uma agremiação, cuja história se confunde com a história da cidade e do carnaval paulista.\n\nRetirada do site oficial da escola: https://www.vaivai.com.br/sobre/",
+      images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1627432095/museu-bixiga/yaya/logo_vai_vai_spk79x.jpg"]
     },
     BIXIGA_MUSICA_BLOCOS: {
       title: "Blocos Carnavalescos",
@@ -1007,14 +1019,26 @@ const CONTENT = {
     },
     BIXIGA_PERSONAGENS_2: {
       title: "Adoniram Barbosa",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Filho de imigrantes italianos, Joao Rubinato nasceu em 1912, no interior de São Paulo. Aos 22 anos, já como compositor, vem para São Paulo. Em 1933 vence um programa de calouros com o samba Filosofia, de Noel Rosa. Nessa época assumiu o nome artístico de Adoniram Barbosa. Participou de vários programas de rádio, foi ator de cinema das primeiras telenovelas da extinta Tv Tupi. Em 1973, grava seu primeiro disco e deixa marca definitiva como compositor. Sempre conviveu e exaltou a boemia em suas canções, bem como seu amor por São Paulo e pelo Bixiga, do qual era assíduo frequentador. Adoniram imortalizou o  bairro em suas músicas, e o bairro retribuiu dando seu nome à uma rua e instalando seu busto na praça mais icônica do Bixiga, a Praça Dom Orione.",
+      images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1627432084/museu-bixiga/yaya/Adoniram_Barbosa_nc8bgz.jpg"]
+    },
+    BIXIGA_PERSONAGENS_2_VIDEO: {
+      title: "Um Samba no Bixiga",
+      type: "video",
+      text: "https://www.youtube.com/embed/o3s5qKV179o",
       images: []
     },
     BIXIGA_PERSONAGENS_3: {
       title: "Antonio Rago",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Antonio Rago (1916-2008)\n Filho de imigrantes italianos, cresce no Bixiga. Começa a estudar violão ainda pequeno, debutando já aos 12 anos na carreira artística, tocando em circos e bailes com artistas.\n Ao participar de programas de rádio, especializa-se como violinista. Em 1936 vai tocar na Argentina, e quando retorna faz sucesso nas grandes rádios brasileiras da época, como A Record e a Tupi. Acompanha grandes intérpretes como Orlando Silva, Sílvio Caldas,  Carmem Miranda e Francisco Alves.\n Tornou-se um dos músicos mais conhecidos de São Paulo da década de 50. Compôs musicas para filmes e participou da inauguração da televisão no Brasil, em programa na TV Tupi. Em 1952 participa de arranjos e acompanhamento musical para Adoniram Barbosa em “Conselho de Mulher” e da gravação pioneira do “Samba do Arnesto” um dos mais conhecidos do cantor.\n Deixou mais de cem composições entre choros, músicas e valsas, Foi chefe regional da TV Tupi e teve seu próprio programa de TV. Seu bolero “Jamais te esquecerei” foi sucesso retumbante à época.Notabilizou-se pela introdução do violão elétrico e do acordeão na instrumentação clássica.",
+      images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1627432088/museu-bixiga/yaya/antonio_rago_agkuit.jpg"]
+    },
+    BIXIGA_PERSONAGENS_3_VIDEO: {
+      title: "Jamais te esquecerei",
+      type: "video",
+      text: "https://www.youtube.com/embed/UZ87Ylge-rM",
       images: []
     },
     BIXIGA_PERSONAGENS_4: {
@@ -1040,6 +1064,18 @@ const CONTENT = {
       type: "",
       text: "",
       images: []
+    },
+    BIXIGA_PATRIMONIO_1: {
+      title: "Vila Itororó",
+      type: "text",
+      text: "A Vila Itororó, construída pelo tecelão português Francisco de Castro em 1922, para ser sua residência, foi à primeira vila de São Paulo. Além do palacete, foi a primeira residência particular da cidade a ter uma piscina. Tal luxo era garantido pela presença do Clube Éden, que atendia a Vila, e a piscina era alimentada por fonte de água corrente que jorrava em direção ao Itororó, córrego que dá nome ao espaço, e foi canalizado quando da construção da Av. 23 de Maio.\nSua construção é característica pois incorporou na construção do palacete de Castro alguns elementos – colunas, ânforas, cariátides e atlantes– compradas na demolição do teatro São José. Ficou conhecida como Casa Surrealista. À sua volta foram construídas inicialmente dez casas para locação. As casas no entorno do palacete eram construções híbridas, que aproveitavam materiais de  demolição de uma São Paulo que se desconstruía e reconstruía.\nCom o falecimento de Castro em 1932, a vila foi adquirida por Augusto de Oliveira Camargo, que depois a transfere para sua esposa. Com a morte do casal, seus herdeiros criaram o Instituto Augusto de Oliveira Camargo; nesta época já são 45 edificações no terreno, que são alugadas no estado que estão, sofridas pela degradação do tempo e uso./nA partir da década de 70, moradores pioneiros vão se mudando da Vila Itororó, que conhece novos inquilinos: migrantes que vem de bairros distantes da cidade, à busca de residir mais próximos aos seus empregos.\nA vila acabou leiloada para cobrir dívidas e foi arrematada pela Santa Casa de Indaiatuba, que depois alugou as casas para outras pessoas. O espaço foi se degradando ainda mais. Na década de 80, foi publicado um anúncio no Jornal O estado de São Paulo oferecendo o imóvel para incorporadores. Tal fato mobilizou o Instituto de arquitetos do Brasil, que solicitou em 1981 o tombamento ao Condephaat, um processo que não teve solução a curto prazo. Somente em 2002, o Conpresp, conselho municipal de preservação, tombou o equipamento. O Condephaat, órgão estadual, deliberou então sobre o tombamento em 2005. A desapropriação do conjunto foi solicitada em 2006, momento a partir do qual os antigos moradores foram sendo instados a serem transferidos para outras moradias. Tal situação gerou uma série de conflitos, e arrastou-se de 2011 a 2013.\nCom a desocupação, a partir de 2013, iniciou-se processo de restauração, planejamento participativo para utilização do espaço, cursos e integração com a comunidade do entorno da Bela Vista, transformando o espaço num laboratório vivo de recuperação do patrimônio, material e imaterial, com participação comunitária. Um galpão na Rua Pedroso foi transformado no Vila Itororó Canteiro Aberto, sede das ações.",
+      images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1627432415/museu-bixiga/yaya/entrada_do_Palacete_Vila_Itororo_egagis.jpg", "https://res.cloudinary.com/dxatyucj2/image/upload/v1627432418/museu-bixiga/yaya/Vila_Itororo_foto_Milu_Leite_tq8awd.jpg"]
+    },
+    BIXIGA_PATRIMONIO_2: {
+      title: "Casa da Dona Yayá",
+      type: "text",
+      text: "O Centro de preservação cultural é um órgão da Pró-Reitoria de Cultura e Extensão Universitária da Universidade de São Paulo que, desde 2004, ocupa a Casa da Dona Yayá, imóvel no Bixiga próximo ao TBC.\nAli viveu reclusa durante décadas Sebastiana de Mello Freire, herdeira única da fortuna de sua família, e considerada louca pela medicina da época, depois que uma série de desgraças acometeram sua família: a morte dos pais, o suicídio do irmão único. Foi uma das primeiras mulheres de São Paulo a ter um automóvel e dirigir. Após sua morte, o imóvel foi doado à USP, que iniciou o processo de restauro da edificação.\nO espaço oferece uma série de atividades relacionadas ao patrimônio cultural paulista e do bairro, com exposições, projetos, cursos e oficinas, apresentações musicais e artísticas.\n\nConheça em: https://prceu.usp.br/centro/centro-de-preservacao-cultural/",
+      images: ["https://res.cloudinary.com/dxatyucj2/image/upload/v1627432393/museu-bixiga/yaya/casa_dna_yaya_qurmip.jpg"]
     },
     
 

@@ -395,6 +395,10 @@ const MENU = {
               item: "MLO - Movimento Laical Orionita",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_25,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_25,
+            }, {
+              item: "Comunidade Betel",
+              route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_26,
+              resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_26,
             }
           ],
         }, 
@@ -731,10 +735,17 @@ const MENU = {
         {
           item: "Espaços culturais",
           route: ROUTES.BIXIGA_CULTURA_ESPACOS,
-          subitems: [],
+          subitems: [
+            {
+              item: "Feira de Antiguidades do Bixiga",
+              route: ROUTES.BIXIGA_CULTURA_ESPACOS_1,
+              resources: CONTENT.BIXIGA_CULTURA_ESPACOS_1,
+            }
+          ],
         }, {
           item: "Teatros",
           route: ROUTES.BIXIGA_CULTURA_TEATROS,
+          resources: CONTENT.BIXIGA_CULTURA_TEATROS,
           subitems: [],
         }
       ],
@@ -746,6 +757,7 @@ const MENU = {
         {
           item: "Vai-vai",
           route: ROUTES.BIXIGA_MUSICA_VAIVAI,
+          resources: CONTENT.BIXIGA_MUSICA_VAIVAI,
           subitems: [],
         }, {
           item: "Blocos Carnavalescos",
@@ -766,11 +778,25 @@ const MENU = {
         }, {
           item: "Adoniram Barbosa",
           route: ROUTES.BIXIGA_PERSONAGENS_2,
-          subitems: [],
+          resources: CONTENT.BIXIGA_PERSONAGENS_2,
+          subitems: [
+            {
+              item: "Conheça Um Samba no Bixiga",
+              route: ROUTES.BIXIGA_PERSONAGENS_2_VIDEO,
+              resources: CONTENT.BIXIGA_PERSONAGENS_2_VIDEO,
+            }
+          ],
         }, {
           item: "Antonio Rago",
           route: ROUTES.BIXIGA_PERSONAGENS_3,
-          subitems: [],
+          resources: CONTENT.BIXIGA_PERSONAGENS_3,
+          subitems: [
+            {
+              item: "Conheça Antônio Rago em Jamais te esquecerei",
+              route: ROUTES.BIXIGA_PERSONAGENS_3_VIDEO,
+              resources: CONTENT.BIXIGA_PERSONAGENS_3_VIDEO,
+            }
+          ],
         }, {
           item: "Sílvio Santos",
           route: ROUTES.BIXIGA_PERSONAGENS_4,
@@ -789,11 +815,21 @@ const MENU = {
     {
       item: "Patrimônio histórico",
       route: ROUTES.BIXIGA_PATRIMONIO,
-      subitems: [],
+      subitems: [
+        {
+          item: "Vila Itororó",
+          route: ROUTES.BIXIGA_PATRIMONIO_1,
+          resources: CONTENT.BIXIGA_PATRIMONIO_1,
+          subitems: [],
+        }, {
+          item: "Casa da Dona Yayá",
+          route: ROUTES.BIXIGA_PATRIMONIO_2,
+          resources: CONTENT.BIXIGA_PATRIMONIO_2,
+          subitems: [],
+        }
+      ],
     }, 
   ],
 };
 
 export default MENU;
-
-// 2.2.2.1 Sementeira Clips
