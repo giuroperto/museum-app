@@ -11,7 +11,7 @@ import Navbar from '../Navbar/Navbar';
 // --------------------------------
 
 
-const Home = () => {
+const Home = (props) => {
 
   const PAGE = "HOME";
 
@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     <>
-      <Navbar page={PAGE} />
+      <Navbar page={PAGE} getHistory={props.getHistory} />
       <div className="home-container">
         <div className="cards-container">
           <CardDeck className="card-deck">

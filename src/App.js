@@ -4,38 +4,33 @@ import AllRoutes from './routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 
-import { HistoryContext, HistoryItemsContext } from './Utils/Context';
+import { HistoryItemsContext } from './Utils/Context';
 
 const App = () => {
-
-  const [ history, setHistory ] = useState({});
+  
+  const [ history, setHistory ] = useState({
+    itemHistory: [],
+    route: "",
+  });
   const [ historyItems, setHistoryItems ] = useState([]);
+  const [ historyRoute, setHistoryRoute ] = useState("");
 
-  const getHistory = (newHistory, newLastPage, newPageCategory) => {
-
-    let newHistoryEntry = {
-      currentPageCategory: newPageCategory,
-      historyArray: newHistory,
-      lastPage: newLastPage,
+  const getHistory = (historyArray, route) => {
+    let obj = {
+      itemHistory: historyArray,
+      route: route,
     };
-
-    setHistory({...history, ...newHistoryEntry});
+    setHistory(obj);
   };
 
-  const updateHistory = (historyObj) => {
-    let newArr = historyItems.push(historyObj);
-    setHistoryItems(newArr);
-  };
-
-  console.log(historyItems);
+  // console.log(historyItems);
+  console.log(history);
 
   return (
     <div className="App">
-      <HistoryContext.Provider value={ history } >
-        <HistoryItemsContext.Provider value={ historyItems } >
-          <AllRoutes historyData={ history } getHistory={ getHistory } updateHistory={updateHistory} historyItems={historyItems} />
-        </HistoryItemsContext.Provider>
-      </HistoryContext.Provider>
+      <HistoryItemsContext.Provider value={ history } >
+        <AllRoutes getHistory={getHistory} history={history} />
+      </HistoryItemsContext.Provider>
     </div>
   );
 }

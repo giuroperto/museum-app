@@ -5,48 +5,74 @@ import { useContext, useEffect, useState } from "react";
 
 import './Navbar.css';
 import ROUTES from '../constants/routes';
-import { HistoryContext, HistoryItemsContext } from '../../Utils/Context/';
+import MENUS from '../constants/menus';
+import { HistoryItemsContext } from '../../Utils/Context/';
+import MENU from "../constants/menus";
 
 const Navbar = (props) => {
-
   console.log(props);
 
-  const historyData = useContext(HistoryContext);
   const historyArray = useContext(HistoryItemsContext);
 
   const [ showBackButton, setShowBackButton ] = useState("back-hide");
-  // const [ lastPage, setLastPage ] = useState("");
+  const [ historyRoutes, setHistoryRoutes ] = useState(props.history);
+  const [ historyItem, setHistoryItem ] = useState(MENU[props.page]);
 
-  // const history = useHistory();
-
-  const [ history, setHistory ] = useState(props.historyItems);
-  // const [ page, setPage ] = useState("");
-
+  
   useEffect(() => {
-    if (historyData.currentPageCategory === "HOME") {
-      setShowBackButton("back-hide");
-    } else {
-      setShowBackButton("back-show");
+    if (props.page) {
+      setHistoryItem(MENU[props.page]);
+      if (props.page === "HOME") {
+        setShowBackButton("back-hide");
+      } else {
+        setShowBackButton("back-show");
+      }
     }
-  }, [historyData]);
-
-  // useEffect(() => {
-  //   if (history.location.pathname) {
-
-  //   }
-  // }, [history]);
-
-  console.log("history" + historyData);
-  // console.log("page" + page);
-  // console.log("props" + props.history);
-
-  // TODO delete all irrelevant data
+  }, [props.page]);
+  
+  useEffect(() => {
+    if (props && props.history) {
+      setHistoryRoutes(props.history);
+    }
+  }, [props.history]);
 
   const goBack = () => {
-    if (props.historyItems.length > 2) {
-      let length = props.historyItems.length;
-      setHistory(props.historyItems.splice(length - 2, 1));
-      historyArray.objectsHistory.push(history);
+    let length = historyRoutes.length;
+    console.log(length);
+
+    if (length > 2) {
+      // deletar ultima entrada e voltar para a penultima
+      let item = historyRoutes[length - 2];
+      if (historyItem.length > 0) {
+        props.getHistory(historyItem.filter((e) => e.route === item), item);
+      }
+      console.log(item);
+    } else if (length === 2) {
+      // go back to one of the categories: ORIONE, BIXIGA or ACHIROPITA
+      let item = historyRoutes[length - 2]
+      switch (item) {
+        case "/achiropita":
+          setHistoryItem(MENU.ACHIROPITA);
+          props.getHistory(MENU.ACHIROPITA, item);
+          break;
+          case "/orione":
+            setHistoryItem(MENU.ORIONE);
+            props.getHistory(MENU.ORIONE, item);
+            break;
+            case "/bixiga":
+              setHistoryItem(MENU.BIXIGA);
+              props.getHistory(MENU.BIXIGA, item);
+          break;
+        default:
+          break;
+        }
+      console.log(props.page);
+      console.log(props.historyItem);
+      console.log(historyRoutes);
+      console.log("length 2");
+    } else if (length === 1) {
+      // go HOME
+      console.log("só um elemento");
     }
   };
 
@@ -62,28 +88,14 @@ const Navbar = (props) => {
         <span className="app-subtitle">no Bixiga</span>
       </div>
       {
-        showBackButton && props.historyItems && props.historyItems.length > 0 && (
+        showBackButton && props.history && props.history.length > 0 && (
           <button className={`navbar-btn ${showBackButton}`} onClick={() => goBack()}>
             <RiArrowGoBackLine className="icon-menu icon" />
           </button>
         )
       }
-      {/* {
-        showBackButton && (
-          <Link to={lastPage} className={`navbar-btn ${showBackButton}`} onClick={() => updateHistory()}>
-            <RiArrowGoBackLine className="icon-menu icon" />
-          </Link>
-        )
-      } */}
     </div>
   )
 };
 
 export default Navbar;
-
-
-// showBackButton && (
-//   <Link to={setPriorPage}>
-//     <RiArrowGoBackLine className="icon-menu icon" />
-//   </Link>
-// )

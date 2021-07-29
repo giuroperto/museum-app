@@ -31,7 +31,7 @@ const Achiropita = (props) => {
   // possible values: MENU (keep showing other buttons) and PAGE (show content)
   const [ pageType, setPageType ] = useState("menu");
   // the type of content the PAGE will show
-  // possible values: PHOTO or TEXT
+  // possible values: PHOTO, TEXT, PDF OR VIDEO
   const [ contentType, setContentType ] = useState(null);
   // the actual resource/content to pass to the PAGE to show
   // for example: title, text and picture urls
@@ -55,11 +55,11 @@ const Achiropita = (props) => {
   
   // this is the logic for when buttons are pressed
   const fetchArray = (newTopic) => {
+    console.log(newTopic);
 
     let newArray = filteredArray.filter(el => el.item === newTopic)[0];
-    setTopics([...topics, newTopic.route]);
-
-    // setHistoryInfo();
+    setTopics([...topics, newArray.route]);
+    console.log(`adding topic ${topics}`);
 
     if (newArray.subitems && newArray.subitems.length > 0) {
       setFilteredArray(newArray.subitems);
@@ -70,14 +70,13 @@ const Achiropita = (props) => {
       setPageType("page");
     }
 
-
     console.log(newArray.resources);
 
     if (newArray.resources) {
 
       let resourceData = newArray.resources;
 
-      console.log(resourceData.type)
+      console.log(resourceData.type);
 
       if (resourceData.type) {
         setTypeOfResource(resourceData.type);
@@ -97,18 +96,7 @@ const Achiropita = (props) => {
     // if the resources property is present, it will be true, if not false
     setSectionResources(newArray.resources);
 
-    // save all data to context
-    // props.updateHistory(historyItems);
   };
-
-  // let setHistoryInfo = () => {
-    
-  //   let lastPageVisited = topics[topics.length - 1];
-  //   let indexLastPage = topics.indexOf(lastPageVisited);
-  //   let goBackToPage = topics[indexLastPage - 1];
-    
-    // props.getHistory(topics, goBackToPage, PAGE);
-  // };
 
   console.log(pageType);
   console.log(content);
@@ -116,12 +104,12 @@ const Achiropita = (props) => {
   console.log(historyItems);
 
   useEffect(() => {
-    setHistoryItems([...historyItems, MENU[PAGE]])
+    setHistoryItems([...historyItems, MENU[PAGE]]);
   }, []);
 
   return (
     <>
-      <Navbar history={topics} page={PAGE} getHistory={props.getHistory} historyItems={historyItems} />
+      <Navbar history={topics} page={PAGE} getHistory={props.getHistory} />
       {
         pageType === "menu" && filteredArray.length > 0 && (
           <div className="achiropita-container">

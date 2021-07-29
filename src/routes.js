@@ -12,18 +12,12 @@ import Bixiga from './Components/Bixiga/Bixiga';
 import ROUTES from './Components/constants/routes';
 
 const AllRoutes = (props) => {
-  console.log(props);
-
-  const [ propsData, setPropsData ] = useState({});
-
-  useEffect(() => {
-    setPropsData(props);
-  }, [props]);
-
   return (
     <>
       <Switch>
-        <Route path={ROUTES.HOME} exact component={Home} />
+        <Route path={ROUTES.HOME} exact render={(props2) => (
+            <Home getHistory={props.getHistory} history={props.history} {...props2} />
+          )} />
 
         {/* ORIONE ROUTES */}
         <Route path={ROUTES.ORIONE} exact component={Orione} />
@@ -92,16 +86,16 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ORIONE_OBRAS_TXT} exact component={Orione} />
 
         {/* ACHIROPITA ROUTES */}
-        <Route path={ROUTES.ACHIROPITA} exact render={(props) => (
-          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} updateHistory={propsData.updateHistory} historyItems={propsData.historyItems} {...props} />
+        <Route path={ROUTES.ACHIROPITA} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} history={props.history} {...props2} />
         )} />
 
-        <Route path={ROUTES.ACHIROPITA_HISTORIA} exact render={(props) => (
-          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} updateHistory={propsData.updateHistory} historyItems={propsData.historyItems} {...props} />
+        <Route path={ROUTES.ACHIROPITA_HISTORIA} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} history={props.history} {...props2} />
         )} />
 
-        <Route path={ROUTES.ACHIROPITA_HISTORIA_1} exact render={(props) => (
-          <Achiropita historyData={propsData.historyData} getHistory={propsData.getHistory} updateHistory={propsData.updateHistory} historyItems={propsData.historyItems} {...props} />
+        <Route path={ROUTES.ACHIROPITA_HISTORIA_1} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} history={props.history} {...props2} />
         )} />
 
         {/* <Route path={ROUTES.ACHIROPITA} exact component={Achiropita} /> */}
