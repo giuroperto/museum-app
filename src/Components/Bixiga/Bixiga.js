@@ -11,6 +11,7 @@ import "./Bixiga.css";
 import TextPage from "../Pages/TextPage";
 import PhotosPage from "../Pages/PhotosPage";
 import PdfPage from "../Pages/PdfPage";
+import VideoPage from "../Pages/VideoPage";
 
 const Bixiga = (props) => {
 
@@ -80,7 +81,7 @@ const Bixiga = (props) => {
 
   return (
     <>
-      <Navbar history={topics} page={PAGE}/>
+      <Navbar history={topics} page={PAGE} getHistory={props.getHistory} />
       {
         pageType === "menu" && filteredArray.length > 0 && (
           <div className="bixiga-container">
@@ -104,8 +105,15 @@ const Bixiga = (props) => {
       }
       {
         pageType === "page" && contentType === "pdf" && (
-          <div className="achiropita-container">
+          <div className="bixiga-container">
             <PdfPage content={content} />
+          </div>
+        )
+      }
+      {
+        pageType === "page" && contentType === "video" && (
+          <div className="bixiga-container">
+            <VideoPage content={content} />
           </div>
         )
       }
