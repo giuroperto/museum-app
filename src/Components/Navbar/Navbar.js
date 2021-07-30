@@ -10,8 +10,6 @@ import { HistoryItemsContext } from '../../Utils/Context/';
 import MENU from "../constants/menus";
 
 const Navbar = (props) => {
-  console.log(props);
-
   const historyArray = useContext(HistoryItemsContext);
 
   const [ showBackButton, setShowBackButton ] = useState("back-hide");
@@ -31,14 +29,13 @@ const Navbar = (props) => {
   }, [props.page]);
   
   useEffect(() => {
-    if (props && props.history) {
+    if (props.history) {
       setHistoryRoutes(props.history);
     }
   }, [props.history]);
 
   const goBack = () => {
     let length = historyRoutes.length;
-    console.log(length);
 
     if (length > 2) {
       // deletar ultima entrada e voltar para a penultima
@@ -49,7 +46,7 @@ const Navbar = (props) => {
       console.log(item);
     } else if (length === 2) {
       // go back to one of the categories: ORIONE, BIXIGA or ACHIROPITA
-      let item = historyRoutes[length - 2]
+      let item = historyRoutes[length - 2];
       switch (item) {
         case "/achiropita":
           setHistoryItem(MENU.ACHIROPITA);
@@ -69,10 +66,11 @@ const Navbar = (props) => {
       console.log(props.page);
       console.log(props.historyItem);
       console.log(historyRoutes);
-      console.log("length 2");
     } else if (length === 1) {
       // go HOME
-      console.log("só um elemento");
+      let route = "/";
+      let homeMenu = ["Achiropita", "Orione", "Bixiga"];
+      props.getHistory(homeMenu, route);
     }
   };
 

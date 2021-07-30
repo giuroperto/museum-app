@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Card } from 'react-bootstrap';
 
@@ -12,10 +12,13 @@ import TextPage from "../Pages/TextPage";
 import PhotosPage from "../Pages/PhotosPage";
 import PdfPage from "../Pages/PdfPage";
 import VideoPage from "../Pages/VideoPage";
+import { HistoryItemsContext } from '../../Utils/Context/';
 
 const Achiropita = (props) => {
 
   console.log(props);
+  const historyArray = useContext(HistoryItemsContext);
+  console.log(historyArray);
 
   const PAGE = "ACHIROPITA";
   // primary root of the section
@@ -41,6 +44,13 @@ const Achiropita = (props) => {
   const [ sectionResources, setSectionResources ] = useState(false);
   // the possible resources to show in a MENU page: PHOTO, VIDEO or TEXT
   const [ typeOfResource, setTypeOfResource ] = useState(null);
+
+  // useEffect to track changes in context
+  useEffect(() => {
+    if (historyArray.route) {
+      
+    }
+  }, historyArray)
 
   // when the button is clicked to go to another section, it passes the new topic to load other buttons or the content page
   const onClickSubmenu = (newTopic) => {
