@@ -12,18 +12,17 @@ const App = () => {
     itemHistory: [],
     route: "",
   });
-  const [ historyItems, setHistoryItems ] = useState([]);
-  const [ historyRoute, setHistoryRoute ] = useState("");
 
-  const getHistory = (historyArray, route) => {
+  const getHistory = (historyArray, route, hasResources, resource) => {
     let obj = {
       itemHistory: historyArray,
       route: route,
+      hasResources: hasResources,
+      resources: resource
     };
     setHistory(obj);
   };
 
-  // console.log(historyItems);
   console.log(history);
 
   return (
