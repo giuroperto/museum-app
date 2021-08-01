@@ -48,9 +48,9 @@ const Achiropita = (props) => {
   // useEffect to track changes in context
   useEffect(() => {
     if (historyArray.route) {
-      
+      renderBack(historyArray.itemHistory);
     }
-  }, historyArray)
+  }, [historyArray]);
 
   // when the button is clicked to go to another section, it passes the new topic to load other buttons or the content page
   const onClickSubmenu = (newTopic) => {
@@ -107,6 +107,58 @@ const Achiropita = (props) => {
     setSectionResources(newArray.resources);
 
   };
+
+  const renderBack = (array) => {
+
+    let newArray;
+
+    if (array.subitems) {
+      newArray = array;
+    } else {
+      newArray = {
+        subitems: array
+      }        
+    }
+
+    console.log(newArray);
+
+    if (newArray.subitems && newArray.subitems.length > 0) {
+      console.log("new array has subitems");
+      setFilteredArray(newArray.subitems);
+      setHistoryItems([...historyItems, newArray.subitems]);
+      setPageType("menu");
+    } else {
+      console.log("new array has NOT subitems");
+      setFilteredArray([]);
+      setPageType("page");
+    }
+
+    console.log(newArray.resources);
+
+    if (newArray.resources) {
+
+      let resourceData = newArray.resources;
+
+      console.log(resourceData.type);
+
+      if (resourceData.type) {
+        setTypeOfResource(resourceData.type);
+        setContent(resourceData);
+        setContentType(resourceData.type);
+      } else {
+        setTypeOfResource(null);
+        setContent(null);
+        setContentType(null);
+      }
+    } else {
+      setTypeOfResource(null);
+      setContent(null);
+      setContentType(null);
+    }
+
+    // if the resources property is present, it will be true, if not false
+    setSectionResources(newArray.resources);
+  }
 
   console.log(pageType);
   console.log(content);
