@@ -229,6 +229,18 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ACHIROPITA_PAROQUIA_HINO} exact render={(props2) => (
           <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
         )} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_HORARIOS} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_SEMENTEIRA} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_ORATORIO} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+        <Route path={ROUTES.ACHIROPITA_PAROQUIA_CONGREGACAO} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
         <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL} exact render={(props2) => (
           <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
         )} />
@@ -296,18 +308,6 @@ const AllRoutes = (props) => {
           <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
         )} />
         <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_22} exact render={(props2) => (
-          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
-        )} />
-        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_23} exact render={(props2) => (
-          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
-        )} />
-        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_24} exact render={(props2) => (
-          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
-        )} />
-        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_25} exact render={(props2) => (
-          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
-        )} />
-        <Route path={ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_26} exact render={(props2) => (
           <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
         )} />
 
