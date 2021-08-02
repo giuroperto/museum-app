@@ -13,8 +13,8 @@ import VideoPage from "../Pages/VideoPage";
 import { HistoryItemsContext } from '../../Utils/Context/';
 
 const Achiropita = (props) => {
-
   console.log(props);
+  
   const historyArray = useContext(HistoryItemsContext);
   console.log(historyArray);
 
@@ -25,7 +25,7 @@ const Achiropita = (props) => {
   // setting the history of accessed pages and initializing with the primary root
   const [ topics, setTopics ] = useState([ROOTROUTE]);
   // passing the filtered array of the section data
-  const [ filteredArray, setFilteredArray ] = useState(MENU[PAGE]);
+  const [ filteredSectionData, setfilteredSectionData ] = useState(MENU[PAGE]);
   // array of history items to reload the menu when going back
   const [ historyItems, setHistoryItems ] = useState([]);
   // tag to control the type of the page to load
@@ -42,6 +42,15 @@ const Achiropita = (props) => {
   const [ sectionResources, setSectionResources ] = useState(false);
   // the possible resources to show in a MENU page: PHOTO, VIDEO or TEXT
   const [ typeOfResource, setTypeOfResource ] = useState(null);
+
+
+  useEffect(() => {
+    setHistoryItems([...historyItems, MENU[PAGE]]);
+    setfilteredSectionData(MENU[PAGE]);
+    setTopics([ROOTROUTE]);
+    // historyArray, route, hasResources, resource
+    props.getHistory(MENU[PAGE], ROOTROUTE, false, null);
+  }, []);
 
   // useEffect to track changes in context
   useEffect(() => {
@@ -63,13 +72,7 @@ const Achiropita = (props) => {
     }
   }, [historyArray]);
 
-  useEffect(() => {
-    setHistoryItems([...historyItems, MENU[PAGE]]);
-    setTopics([ROOTROUTE]);
-    props.getHistory(MENU[PAGE], ROOTROUTE, false, null);
-  }, []);
-
-  console.log(filteredArray);
+  console.log(filteredSectionData);
   console.log(topics);
   console.log(historyItems);
   
@@ -77,13 +80,12 @@ const Achiropita = (props) => {
   // this is the logic for when buttons are pressed
   const fetchItem = (newTopic) => {
     console.log(`new topic: ${newTopic}`);
-    filteredArray.map(e => console.log(e.item));
+    filteredSectionData.map(e => console.log(e.item));
     console.log(newTopic);
 
-    let newItem = filteredArray.filter(el => el.item === newTopic)[0];
+    let newItem = filteredSectionData.filter(el => el.item === newTopic)[0];
     setTopics([...topics, newItem.route]);
     console.log(`adding topic ${topics}`);
-
     console.log(newItem);
 
     checkSubitems(newItem);
@@ -94,12 +96,12 @@ const Achiropita = (props) => {
 
     if (item.subitems && item.subitems.length > 0) {
       console.log("this item has subitems");
-      setFilteredArray(item.subitems);
+      setfilteredSectionData(item.subitems);
       setHistoryItems([...historyItems, item.subitems]);
       setPageType("menu");
     } else {
       console.log("this item has NOT subitems");
-      setFilteredArray([]);
+      setfilteredSectionData([]);
       setPageType("page");
     }
   };
@@ -127,7 +129,7 @@ const Achiropita = (props) => {
     }
 
     // if the resources property is present, it will be true, if not false
-    setSectionResources(!!resourceData);
+    setSectionResources(resourceData);
   };
 
   console.log(pageType);
@@ -139,9 +141,9 @@ const Achiropita = (props) => {
     <>
       <Navbar history={topics} page={PAGE} getHistory={props.getHistory} />
       {
-        pageType === "menu" && filteredArray.length > 0 && (
+        pageType === "menu" && filteredSectionData.length > 0 && (
           <div className="achiropita-container">
-            <SubMenu click={fetchItem} array={filteredArray} resource={sectionResources} pageSection={typeOfResource} />
+            <SubMenu click={fetchItem} array={filteredSectionData} resource={sectionResources} pageSection={typeOfResource} />
           </div>
         )
       }

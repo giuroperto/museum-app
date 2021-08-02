@@ -458,7 +458,7 @@ const MENU = {
       route: ROUTES.ACHIROPITA_PROJETOS,
       subitems: [
         {
-          item: "",
+          item: "Vídeo de Apresentação",
           route: ROUTES.ACHIROPITA_PROJETOS_1,
           resources: CONTENT.ACHIROPITA_PROJETOS_1,
           subitems: [],
