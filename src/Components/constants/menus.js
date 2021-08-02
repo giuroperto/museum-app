@@ -292,113 +292,117 @@ const MENU = {
           resources: CONTENT.ACHIROPITA_PAROQUIA_HINO,
           subitems: [],
         }, {
+          item: "Horário de Missas e terços",
+          route: ROUTES.ACHIROPITA_PAROQUIA_HORARIOS,
+          resources: CONTENT.ACHIROPITA_PAROQUIA_HORARIOS,
+          subitems: [],
+        }, {
+          item: "Sementeira Achiropita Orione",
+          route: ROUTES.ACHIROPITA_PAROQUIA_SEMENTEIRA,
+          resources: CONTENT.ACHIROPITA_PAROQUIA_SEMENTEIRA,
+          subitems: [],
+        }, {
+          item: "Oratório Festivo Achiropita - Orione",
+          route: ROUTES.ACHIROPITA_PAROQUIA_ORATORIO,
+          resources: CONTENT.ACHIROPITA_PAROQUIA_ORATORIO,
+          subitems: [],
+        }, {
+          item: "Congregação Mariana",
+          route: ROUTES.ACHIROPITA_PAROQUIA_CONGREGACAO,
+          resources: CONTENT.ACHIROPITA_PAROQUIA_CONGREGACAO,
+          subitems: [],
+        }, {
           item: "Pastoral",
           route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL,
           subitems: [
             {
-              item: "Horário de Missas e terços",
+              item: "Pastoral da Pessoa Idosa",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_1,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_1,
             }, {
-              item: "Sementeira Achiropita Orione",
+              item: "Pastoral Afro",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_2,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_2,
             }, {
-              item: "Pastoral da Pessoa Idosa",
+              item: "Pastoral do Batismo",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_3,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_3,
             }, {
-              item: "Pastoral Afro",
+              item: "Pastoral da Animação Bíblico Catequética",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_4,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_4,
             }, {
-              item: "Pastoral do Batismo",
+              item: "Pastoral da Comunicação",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_5,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_5,
             }, {
-              item: "Pastoral da Animação Bíblico Catequética",
+              item: "Pastoral do Dizimo",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_6,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_6,
             }, {
-              item: "Oratório Festivo Achiropita - Orione",
+              item: "Pastoral da Juventude",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_7,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_7,
             }, {
-              item: "Pastoral da Comunicação",
+              item: "Pastoral da Saúde",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_8,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_8,
             }, {
-              item: "Pastoral do Dizimo",
+              item: "Apostolado da Oração",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_9,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_9,
             }, {
-              item: "Pastoral da Juventude",
+              item: "Grupo de Oração Nossa Senhora do Cenáculo",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_10,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_10,
             }, {
-              item: "Pastoral da Saúde",
+              item: "Grupo do Terço",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_11,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_11,
             }, {
-              item: "Apostolado da Oração",
+              item: "Pastoral Vocacional",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_12,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_12,
             }, {
-              item: "Congregação Mariana",
+              item: "Pastoral Missionária",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_13,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_13,
             }, {
-              item: "Grupo de Oração Nossa Senhora do Cenáculo",
+              item: "Pastoral dos Noivos",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_14,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_14,
             }, {
-              item: "Grupo do Terço",
+              item: "Pastoral dos Ministros da Eucaristia",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_15,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_15,
             }, {
-              item: "Pastoral Vocacional",
+              item: "Pastoral dos Migrantes",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_16,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_16,
             }, {
-              item: "Pastoral Missionária",
+              item: "Pastoral da Mulher",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_17,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_17,
             }, {
-              item: "Pastoral dos Noivos",
+              item: "Pastoral da Família",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_18,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_18,
             }, {
-              item: "Pastoral dos Ministros da Eucaristia",
+              item: "Pastoral dos Coroinhas",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_19,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_19,
             }, {
-              item: "Pastoral dos Migrantes",
+              item: "Pia União das Filhas de Maria",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_20,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_20,
             }, {
-              item: "Pastoral da Mulher",
+              item: "MLO - Movimento Laical Orionita",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_21,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_21,
             }, {
-              item: "Pastoral da Família",
+              item: "Comunidade Betel",
               route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_22,
               resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_22,
-            }, {
-              item: "Pastoral dos Coroinhas",
-              route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_23,
-              resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_23,
-            }, {
-              item: "Pia União das Filhas de Maria",
-              route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_24,
-              resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_24,
-            }, {
-              item: "MLO - Movimento Laical Orionita",
-              route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_25,
-              resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_25,
-            }, {
-              item: "Comunidade Betel",
-              route: ROUTES.ACHIROPITA_PAROQUIA_PASTORAL_26,
-              resources: CONTENT.ACHIROPITA_PAROQUIA_PASTORAL_26,
             }
           ],
         }, 
