@@ -1,11 +1,10 @@
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
 import { RiArrowGoBackLine } from "react-icons/ri";
 import { useContext, useEffect, useState } from "react";
 
 import './Navbar.css';
 import ROUTES from '../constants/routes';
-import MENUS from '../constants/menus';
 import { HistoryItemsContext } from '../../Utils/Context/';
 import MENU from "../constants/menus";
 
@@ -39,6 +38,7 @@ const Navbar = (props) => {
   }, [props.history]);
 
   // TODO check if we need to update all the time the historyItem or not -> to filter
+  // TODO check why navbar context is coming null
   const goBack = () => {
     let length = historyRoutes.length;
 
@@ -58,6 +58,7 @@ const Navbar = (props) => {
       // go back to one of the categories: ORIONE, BIXIGA or ACHIROPITA
 
       let item = historyRoutes[length - 2];
+      console.log(item);
       let resources = null;
 
       switch (item) {
@@ -67,7 +68,7 @@ const Navbar = (props) => {
           case "/orione":
             props.getHistory(MENU.ORIONE, item, !!resources, resources);
             break;
-            case "/bixiga":
+          case "/bixiga":
               props.getHistory(MENU.BIXIGA, item, !!resources, resources);
           break;
         default:
@@ -78,10 +79,10 @@ const Navbar = (props) => {
       console.log(historyRoutes);
     } else if (length === 1) {
       // go HOME
-      // TODO adjust homemenu
+      console.log("go home");
       let resources = null;
+      let homeMenu = [];
       let route = "/";
-      let homeMenu = ["Achiropita", "Orione", "Bixiga"];
       props.getHistory(homeMenu, route, !!resources, resources);
     }
   };

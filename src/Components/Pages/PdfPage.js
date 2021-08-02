@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import { Button } from "react-bootstrap";
 import { useEffect, useState } from "react";
 
 import PDF from '../../Utils/Components/pdf/single-page';

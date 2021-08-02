@@ -1,6 +1,4 @@
 import { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { Card } from 'react-bootstrap';
 
 import Footer from "../Footer/Footer";
 import Navbar from '../Navbar/Navbar';
@@ -48,99 +46,71 @@ const Achiropita = (props) => {
   // useEffect to track changes in context
   useEffect(() => {
     if (historyArray.route) {
-      renderBack(historyArray.itemHistory);
+      if (historyArray.route === "/") {
+        props.history.replace("/");
+        // historyArray, route, hasResources, resource
+        props.getHistory(null, null, null, null);
+      } else if (historyArray.route === ROUTES.ACHIROPITA || 
+        historyArray.route === ROUTES.ORIONE ||
+        historyArray.route === ROUTES.BIXIGA) {
+          // setHistoryItems([...historyItems, MENU[PAGE]]);
+          // setTopics([ROOTROUTE]);
+          // props.getHistory(MENU[PAGE], ROOTROUTE, false, null);
+      } else {
+        fetchItem(historyArray.itemHistory.item);
+        // props.getHistory(, topics, )
+      }
     }
   }, [historyArray]);
 
-  // when the button is clicked to go to another section, it passes the new topic to load other buttons or the content page
-  const onClickSubmenu = (newTopic) => {
-    console.log(`new topic: ${newTopic}`);
-    fetchArray(newTopic);
-    filteredArray.map(e => console.log(e.item))
-  };
+  useEffect(() => {
+    setHistoryItems([...historyItems, MENU[PAGE]]);
+    setTopics([ROOTROUTE]);
+    props.getHistory(MENU[PAGE], ROOTROUTE, false, null);
+  }, []);
 
   console.log(filteredArray);
   console.log(topics);
   console.log(historyItems);
   
+  // when the button is clicked to go to another section, it passes the new topic to load other buttons or the content page
   // this is the logic for when buttons are pressed
-  const fetchArray = (newTopic) => {
+  const fetchItem = (newTopic) => {
+    console.log(`new topic: ${newTopic}`);
+    filteredArray.map(e => console.log(e.item));
     console.log(newTopic);
 
-    let newArray = filteredArray.filter(el => el.item === newTopic)[0];
-    setTopics([...topics, newArray.route]);
+    let newItem = filteredArray.filter(el => el.item === newTopic)[0];
+    setTopics([...topics, newItem.route]);
     console.log(`adding topic ${topics}`);
 
-    if (newArray.subitems && newArray.subitems.length > 0) {
-      setFilteredArray(newArray.subitems);
-      setHistoryItems([...historyItems, newArray.subitems]);
-      setPageType("menu");
-    } else {
-      setFilteredArray([]);
-      setPageType("page");
-    }
+    console.log(newItem);
 
-    console.log(newArray.resources);
-
-    if (newArray.resources) {
-
-      let resourceData = newArray.resources;
-
-      console.log(resourceData.type);
-
-      if (resourceData.type) {
-        setTypeOfResource(resourceData.type);
-        setContent(resourceData);
-        setContentType(resourceData.type);
-      } else {
-        setTypeOfResource(null);
-        setContent(null);
-        setContentType(null);
-      }
-    } else {
-      setTypeOfResource(null);
-      setContent(null);
-      setContentType(null);
-    }
-
-    // if the resources property is present, it will be true, if not false
-    setSectionResources(newArray.resources);
-
+    checkSubitems(newItem);
+    checkResources(newItem);
   };
 
-  const renderBack = (array) => {
+  const checkSubitems = (item) => {
 
-    let newArray;
-
-    if (array.subitems) {
-      newArray = array;
-    } else {
-      newArray = {
-        subitems: array
-      }        
-    }
-
-    console.log(newArray);
-
-    if (newArray.subitems && newArray.subitems.length > 0) {
-      console.log("new array has subitems");
-      setFilteredArray(newArray.subitems);
-      setHistoryItems([...historyItems, newArray.subitems]);
+    if (item.subitems && item.subitems.length > 0) {
+      console.log("this item has subitems");
+      setFilteredArray(item.subitems);
+      setHistoryItems([...historyItems, item.subitems]);
       setPageType("menu");
     } else {
-      console.log("new array has NOT subitems");
+      console.log("this item has NOT subitems");
       setFilteredArray([]);
       setPageType("page");
     }
+  };
 
-    console.log(newArray.resources);
+  const checkResources = (item) => {
+    console.log(item.resources);
+    
+    let resourceData = item.resources;
 
-    if (newArray.resources) {
-
-      let resourceData = newArray.resources;
-
+    if (resourceData) {
       console.log(resourceData.type);
-
       if (resourceData.type) {
         setTypeOfResource(resourceData.type);
         setContent(resourceData);
@@ -157,17 +127,13 @@ const Achiropita = (props) => {
     }
 
     // if the resources property is present, it will be true, if not false
-    setSectionResources(newArray.resources);
-  }
+    setSectionResources(!!resourceData);
+  };
 
   console.log(pageType);
   console.log(content);
   console.log(contentType);
   console.log(historyItems);
-
-  useEffect(() => {
-    setHistoryItems([...historyItems, MENU[PAGE]]);
-  }, []);
 
   return (
     <>
@@ -175,7 +141,7 @@ const Achiropita = (props) => {
       {
         pageType === "menu" && filteredArray.length > 0 && (
           <div className="achiropita-container">
-            <SubMenu click={onClickSubmenu} array={filteredArray} resource={sectionResources} pageSection={typeOfResource} />
+            <SubMenu click={fetchItem} array={filteredArray} resource={sectionResources} pageSection={typeOfResource} />
           </div>
         )
       }

@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { Card } from 'react-bootstrap';
+import { useState } from "react";
 
 import Footer from "../Footer/Footer";
 import Navbar from '../Navbar/Navbar';

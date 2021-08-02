@@ -3,7 +3,6 @@ import { Button } from "react-bootstrap";
 import { useEffect, useState } from "react";
 
 import "./SubMenu.css";
-import videoDonOrione from './centenário - vinheta PT -  AMON - orione - cc.mp4';
 
 const MainSubMenu = (props) => {
 

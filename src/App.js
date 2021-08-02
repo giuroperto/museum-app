@@ -28,7 +28,7 @@ const App = () => {
   return (
     <div className="App">
       <HistoryItemsContext.Provider value={ history } >
-        <AllRoutes getHistory={getHistory} history={history} />
+        <AllRoutes getHistory={getHistory} historyObject={history} />
       </HistoryItemsContext.Provider>
     </div>
   );
