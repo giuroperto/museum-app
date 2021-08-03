@@ -14,6 +14,8 @@ const Navbar = (props) => {
 
   // className to show or hide the back button
   const [ showBackButton, setShowBackButton ] = useState("back-hide");
+  // className to show or hide the transparent element (used to align page)
+  const [ showSquare, setShowSquare ] = useState("square-hide");
   // history routes that user clicked
   const [ historyRoutes, setHistoryRoutes ] = useState(props.history);
   // section data
@@ -25,8 +27,11 @@ const Navbar = (props) => {
       setHistoryItem(MENU[props.page]);
       if (props.page === "HOME") {
         setShowBackButton("back-hide");
+        setShowSquare("square-show");
       } else {
-        setShowBackButton("back-show");
+        // setShowBackButton("back-show");
+        setShowBackButton("back-hide");
+        setShowSquare("square-hide");
       }
     }
   }, [props.page]);
@@ -98,6 +103,11 @@ const Navbar = (props) => {
         <h1 className="app-title">MEMORIAL ACHIROPITA - DON ORIONE</h1>
         <span className="app-subtitle">no Bixiga</span>
       </div>
+      {
+        showSquare && (
+          <div className={`navbar-square ${showBackButton}`}></div>
+        )
+      }
       {
         showBackButton && props.history && props.history.length > 0 && (
           <button className={`navbar-btn ${showBackButton}`} onClick={() => goBack()}>

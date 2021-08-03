@@ -8,6 +8,10 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  background-image: url("https://res.cloudinary.com/dxatyucj2/image/upload/v1627933834/museu-bixiga/logo_museu_wnbyyk.png");
+  background-position: left;
+  background-size: 500px;
+  background-repeat: no-repeat;
 }
 
 .submenu-text-container {

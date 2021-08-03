@@ -65,6 +65,10 @@
   height: 75vh;
 }
 
+.carousel-control-prev-icon {
+  height: 60px !important;
+}
+
 /* responsivity to small screens */
 @media only screen and (max-width: 640px) {
   .item-container {

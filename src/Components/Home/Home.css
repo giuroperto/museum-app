@@ -6,6 +6,10 @@
   padding-top: 8vh;
   display: flex;
   justify-content: center;
+  background-image: url("https://res.cloudinary.com/dxatyucj2/image/upload/v1627933834/museu-bixiga/logo_museu_wnbyyk.png");
+  background-position: right bottom;
+  background-size: 200px;
+  background-repeat: no-repeat;
 }
 
 .cards-container {
