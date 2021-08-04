@@ -54,6 +54,7 @@ const Achiropita = (props) => {
 
   // useEffect to track changes in context
   useEffect(() => {
+
     if (historyArray.route) {
       if (historyArray.route === "/") {
         props.history.replace("/");
@@ -62,12 +63,12 @@ const Achiropita = (props) => {
       } else if (historyArray.route === ROUTES.ACHIROPITA || 
         historyArray.route === ROUTES.ORIONE ||
         historyArray.route === ROUTES.BIXIGA) {
-          // setHistoryItems([...historyItems, MENU[PAGE]]);
-          // setTopics([ROOTROUTE]);
-          // props.getHistory(MENU[PAGE], ROOTROUTE, false, null);
+          console.log("ACHIROPITA page");
+          setfilteredSectionData(historyArray.itemHistory);
+          setTopics([historyArray.route]);
+          setHistoryItems([...historyItems, historyArray.itemHistory]);
       } else {
-        fetchItem(historyArray.itemHistory.item);
-        // props.getHistory(, topics, )
+        fetchItem(historyArray.itemHistory[0].item);
       }
     }
   }, [historyArray]);
@@ -75,21 +76,32 @@ const Achiropita = (props) => {
   console.log(filteredSectionData);
   console.log(topics);
   console.log(historyItems);
+
+  // ARRAY DOESNT START WITH HOME
   
   // when the button is clicked to go to another section, it passes the new topic to load other buttons or the content page
   // this is the logic for when buttons are pressed
   const fetchItem = (newTopic) => {
+
     console.log(`new topic: ${newTopic}`);
     filteredSectionData.map(e => console.log(e.item));
     console.log(newTopic);
 
-    let newItem = filteredSectionData.filter(el => el.item === newTopic)[0];
-    setTopics([...topics, newItem.route]);
-    console.log(`adding topic ${topics}`);
+    let newItem;
+
+    console.log(filteredSectionData);
+    if (filteredSectionData.length > 0) {
+      console.log("inside filteredSection true");
+      newItem = filteredSectionData.filter(el => el.item === newTopic)[0];
+    } else if (historyArray.itemHistory) {
+      console.log("inside filteredSection false");
+      newItem = historyArray.itemHistory[0];
+    }
+
+    console.log(filteredSectionData);
     console.log(newItem);
 
     checkSubitems(newItem);
-    checkResources(newItem);
   };
 
   const checkSubitems = (item) => {
@@ -104,6 +116,8 @@ const Achiropita = (props) => {
       setfilteredSectionData([]);
       setPageType("page");
     }
+
+    checkResources(item);
   };
 
   const checkResources = (item) => {
@@ -132,6 +146,12 @@ const Achiropita = (props) => {
     setSectionResources(resourceData);
   };
 
+  const onClickSubmenu = (newTopic) => {
+    setTopics([...topics, newTopic.route]);
+    console.log(`adding topic ${topics}`);
+    fetchItem(newTopic);
+  };
+
   console.log(pageType);
   console.log(content);
   console.log(contentType);
@@ -143,7 +163,7 @@ const Achiropita = (props) => {
       {
         pageType === "menu" && filteredSectionData.length > 0 && (
           <div className="achiropita-container">
-            <SubMenu click={fetchItem} array={filteredSectionData} resource={sectionResources} pageSection={typeOfResource} />
+            <SubMenu click={onClickSubmenu} array={filteredSectionData} resource={sectionResources} pageSection={typeOfResource} />
           </div>
         )
       }

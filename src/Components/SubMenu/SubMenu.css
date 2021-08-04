@@ -28,7 +28,7 @@
   width: 90vw;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   max-height: 84vh;
 }
 

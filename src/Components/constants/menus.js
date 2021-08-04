@@ -558,7 +558,7 @@ const MENU = {
       route: ROUTES.ACHIROPITA_FILMES,
       subitems: [
         {
-          item: "Estrela Luminosa, Vida e Milagres de Santa Beatriz da Silva",
+          item: "Vida e Milagres de Santa Beatriz da Silva",
           route: ROUTES.ACHIROPITA_FILMES_1,
           resources: CONTENT.ACHIROPITA_FILMES_1,
           subitems: [],
@@ -574,15 +574,15 @@ const MENU = {
             }
           ],
         }, {
-          item: "Memórias do Coração, Vida e Obra de Santo Eugênio de Mazenod",
+          item: "Vida e Obra de Santo Eugênio de Mazenod",
           route: ROUTES.ACHIROPITA_FILMES_3,
           resources: CONTENT.ACHIROPITA_FILMES_3,
           subitems: [],
         }, {
-          item: "Socorra meu povo",
-          route: ROUTES.ACHIROPITA_FILMES_4,
-          subitems: [],
-        }, {
+        //   item: "Socorra meu povo",
+        //   route: ROUTES.ACHIROPITA_FILMES_4,
+        //   subitems: [],
+        // }, {
           item: "São José, o bom carpinteiro",
           route: ROUTES.ACHIROPITA_FILMES_5,
           resources: CONTENT.ACHIROPITA_FILMES_5,
@@ -593,7 +593,7 @@ const MENU = {
           resources: CONTENT.ACHIROPITA_FILMES_6,
           subitems: [],
         }, {
-          item: "Coração Imaculado - A Vida e a Obra de Bárbara Maix",
+          item: "A Vida e a Obra de Bárbara Maix",
           route: ROUTES.ACHIROPITA_FILMES_7,
           resources: CONTENT.ACHIROPITA_FILMES_7,
           subitems: [],
@@ -603,10 +603,10 @@ const MENU = {
           resources: CONTENT.ACHIROPITA_FILMES_8,
           subitems: [],
         }, {
-          item: "Sangue no Sertão",
-          route: ROUTES.ACHIROPITA_FILMES_9,
-          subitems: [],
-        }, {
+        //   item: "Sangue no Sertão",
+        //   route: ROUTES.ACHIROPITA_FILMES_9,
+        //   subitems: [],
+        // }, {
           item: "Santo Antônio e o milagre eucarístico",
           route: ROUTES.ACHIROPITA_FILMES_10,
           resources: CONTENT.ACHIROPITA_FILMES_10,
@@ -617,14 +617,14 @@ const MENU = {
           resources: CONTENT.ACHIROPITA_FILMES_11,
           subitems: [],
         }, {
-          item: "Zilda Arns: via sacra da solidariedade",
-          route: ROUTES.ACHIROPITA_FILMES_12,
-          subitems: [],
-        }, {
-          item: "Maria Mãe de Deus",
-          route: ROUTES.ACHIROPITA_FILMES_13,
-          subitems: [],
-        }, {
+        //   item: "Zilda Arns: via sacra da solidariedade",
+        //   route: ROUTES.ACHIROPITA_FILMES_12,
+        //   subitems: [],
+        // }, {
+          // item: "Maria Mãe de Deus",
+          // route: ROUTES.ACHIROPITA_FILMES_13,
+          // subitems: [],
+        // }, {
           item: "Perfume de Jasmim",
           route: ROUTES.ACHIROPITA_FILMES_14,
           subitems: [

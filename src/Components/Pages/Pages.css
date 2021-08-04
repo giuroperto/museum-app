@@ -67,6 +67,12 @@
 
 .carousel-control-prev-icon {
   height: 60px !important;
+  width: 60px !important;
+}
+
+.carousel-control-next-icon {
+  height: 60px !important;
+  width: 60px !important;
 }
 
 /* responsivity to small screens */

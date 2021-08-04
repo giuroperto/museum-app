@@ -21,7 +21,7 @@ const Navbar = (props) => {
   // section data
   const [ historyItem, setHistoryItem ] = useState(MENU[props.page]);
 
-  
+  // logic to show or hide back btn
   useEffect(() => {
     if (props.page) {
       setHistoryItem(MENU[props.page]);
@@ -29,13 +29,14 @@ const Navbar = (props) => {
         setShowBackButton("back-hide");
         setShowSquare("square-show");
       } else {
-        // setShowBackButton("back-show");
-        setShowBackButton("back-hide");
+        setShowBackButton("back-show");
+        // setShowBackButton("back-hide");
         setShowSquare("square-hide");
       }
     }
   }, [props.page]);
   
+  // receiving routes history as props
   useEffect(() => {
     if (props.history) {
       setHistoryRoutes(props.history);
@@ -46,15 +47,32 @@ const Navbar = (props) => {
   // TODO check why navbar context is coming null
   const goBack = () => {
     let length = historyRoutes.length;
+    console.log(length);
 
+    // user has navigated in more than 2 pages -> can't go back to home or categories
+    // then we should get length - 2 to go back to the appropriate route
     if (length > 2) {
-      // user has navigated in more than 2 pages -> can't go back to home or categories
-      // then we should get length - 2 to go back to the appropriate route
       let item = historyRoutes[length - 2];
+      console.log(`item: ${item}`);
+      // use the previous item to show if the page has a resource or not
       let previousItem = historyRoutes[length - 3];
+      console.log(`previousItem: ${previousItem}`);
+      console.log(`historyItem: ${historyItem}`);
       if (historyItem.length > 0) {
-        let findPreviousItem = historyItem.filter((e) => e.route === previousItem);
-        let resources = findPreviousItem.resource ? findPreviousItem.resource : null;
+        let resources;
+
+        // to find if the page contains resources
+        // first check if it is one of the categories
+        if (previousItem === "/achiropita" || previousItem === "/orione" || previousItem === "/bixiga") {
+          resources = null;
+        } else {
+          let findPreviousItem = historyItem.filter((e) => e.route === previousItem);
+          resources = findPreviousItem.resource ? findPreviousItem.resource : null;
+
+          console.log(findPreviousItem);
+        }
+
+        console.log(resources);
         
         props.getHistory(historyItem.filter((e) => e.route === item), item, !!resources, resources);
       }
@@ -79,19 +97,20 @@ const Navbar = (props) => {
         default:
           break;
         }
-      console.log(props.page);
-      console.log(props.historyItem);
-      console.log(historyRoutes);
-    } else if (length === 1) {
-      // go HOME
-      console.log("go home");
-      let resources = null;
-      let homeMenu = [];
-      let route = "/";
-      props.getHistory(homeMenu, route, !!resources, resources);
-    }
-  };
-
+        console.log(props.page);
+        console.log(props.historyItem);
+        console.log(historyRoutes);
+      } else if (length === 1) {
+        // go HOME
+        console.log("go home");
+        let resources = null;
+        let homeMenu = [];
+        let route = "/";
+        props.getHistory(homeMenu, route, !!resources, resources);
+      }
+    };
+    
+    console.log(props);
   console.log(historyArray);
 
   return (
