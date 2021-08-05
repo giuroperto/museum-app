@@ -12,6 +12,10 @@ import PdfPage from "../Pages/PdfPage";
 import VideoPage from "../Pages/VideoPage";
 import { HistoryItemsContext } from '../../Utils/Context/';
 
+
+// TODO item history is getting null in the last page
+// TODO routes are getting undefined
+
 const Achiropita = (props) => {
   console.log(props);
   
@@ -147,8 +151,14 @@ const Achiropita = (props) => {
   };
 
   const onClickSubmenu = (newTopic) => {
-    setTopics([...topics, newTopic.route]);
-    console.log(`adding topic ${topics}`);
+    console.log("CLICKED");
+    let length = historyItems.length - 1
+    let getItem = historyItems[length].filter((e) => e.item === newTopic)[0];
+    console.log(historyItems);
+    console.log(getItem);
+    console.log(getItem.route);
+    setTopics([...topics, getItem.route]);
+    console.log(`adding topic`, topics);
     fetchItem(newTopic);
   };
 

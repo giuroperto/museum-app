@@ -6,6 +6,8 @@ import "./SubMenu.css";
 
 const MainSubMenu = (props) => {
 
+  console.log(props);
+
   const [ menuArray, setMenuArray ] = useState(props.array);
   // whether there is going to be another section (picture or movie) in the page.
   // type of resource
@@ -70,6 +72,7 @@ const MainSubMenu = (props) => {
   }, [props]);
 
   console.log(props);
+  console.log(menuArray);
   console.log(pageSection);
   console.log(sectionResource);
   console.log(isImage);

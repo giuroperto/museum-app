@@ -53,11 +53,12 @@ const Navbar = (props) => {
     // then we should get length - 2 to go back to the appropriate route
     if (length > 2) {
       let item = historyRoutes[length - 2];
-      console.log(`item: ${item}`);
+      console.log(`item: `, item);
       // use the previous item to show if the page has a resource or not
       let previousItem = historyRoutes[length - 3];
-      console.log(`previousItem: ${previousItem}`);
-      console.log(`historyItem: ${historyItem}`);
+      console.log(`previousItem: `, previousItem);
+      console.log(`historyItem: `, historyItem);
+
       if (historyItem.length > 0) {
         let resources;
 
@@ -66,17 +67,18 @@ const Navbar = (props) => {
         if (previousItem === "/achiropita" || previousItem === "/orione" || previousItem === "/bixiga") {
           resources = null;
         } else {
+          // TODO adjust for cases when you have to go deeper into the array
           let findPreviousItem = historyItem.filter((e) => e.route === previousItem);
-          resources = findPreviousItem.resource ? findPreviousItem.resource : null;
+          console.log(`findPreviousItem: `, findPreviousItem);
 
-          console.log(findPreviousItem);
+          resources = findPreviousItem.resource ? findPreviousItem.resource : null;
         }
 
-        console.log(resources);
+        console.log(`resources: `, resources);
         
         props.getHistory(historyItem.filter((e) => e.route === item), item, !!resources, resources);
+        console.log(item);
       }
-      console.log(item);
     } else if (length === 2) {
       // go back to one of the categories: ORIONE, BIXIGA or ACHIROPITA
 
@@ -97,9 +99,9 @@ const Navbar = (props) => {
         default:
           break;
         }
-        console.log(props.page);
-        console.log(props.historyItem);
-        console.log(historyRoutes);
+        console.log(`props.page: `, props.page);
+        console.log(`props.historyItem: `, props.historyItem);
+        console.log(`historyRoutes: `, historyRoutes);
       } else if (length === 1) {
         // go HOME
         console.log("go home");
@@ -110,8 +112,8 @@ const Navbar = (props) => {
       }
     };
     
-    console.log(props);
-  console.log(historyArray);
+    console.log(`props: `, props);
+    console.log(`historyArray: `, historyArray);
 
   return (
     <div className="navbar-container">
