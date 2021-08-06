@@ -16,11 +16,6 @@ const PhotosPage = (props) => {
     setContent(props.content);
   }, [props]);
 
-  console.log(content);
-  console.log(content.images);
-  console.log(content.images[0]);
-  console.log(props.content);
-
   return (
     <div className="page-container">
       <div className="photo-page-container">
@@ -45,16 +40,3 @@ const PhotosPage = (props) => {
 };
 
 export default PhotosPage;
-
-
-
-// {/* <Carousel.Item>
-    //   <img
-    //   className="d-block w-100"
-    //   src={props.content.images[0]}
-    //   alt="Fotos sobre o tema" />
-    //   <Carousel.Caption>
-    //     <h3>{props.content.title}</h3>
-    //     <p>.</p>
-    //   </Carousel.Caption>
-    // </Carousel.Item>

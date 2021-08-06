@@ -11,8 +11,6 @@ const PdfPage = (props) => {
     setContent(props.content);
   }, [props]);
 
-  console.log(content);
-
   return (
     <div className="page-container">
       <div className="pdf-container">

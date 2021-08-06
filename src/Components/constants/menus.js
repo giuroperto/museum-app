@@ -204,27 +204,35 @@ const MENU = {
             {
               item: "A vida é como um rio",
               route: ROUTES.ORIONE_FILMES_BOGAZ_1,
+              resources: CONTENT.ORIONE_FILMES_BOGAZ_1
             }, {
               item: "Universo Orione",
               route: ROUTES.ORIONE_FILMES_BOGAZ_2,
+              resources: CONTENT.ORIONE_FILMES_BOGAZ_2
             }, {
               item: "Memórias de uma aliança",
               route: ROUTES.ORIONE_FILMES_BOGAZ_3,
+              resources: CONTENT.ORIONE_FILMES_BOGAZ_3
             }, {
               item: "Perfume de Jasmim",
               route: ROUTES.ORIONE_FILMES_BOGAZ_4,
+              resources: CONTENT.ORIONE_FILMES_BOGAZ_4
             }, {
               item: "Qualquer coisa de Don Orione",
               route: ROUTES.ORIONE_FILMES_BOGAZ_5,
+              resources: CONTENT.ORIONE_FILMES_BOGAZ_5
             }, {
               item: "Vocação: tocar na orquestra de Deus",
               route: ROUTES.ORIONE_FILMES_BOGAZ_6,
+              resources: CONTENT.ORIONE_FILMES_BOGAZ_6
             }, {
               item: "Orione Apóstolo da Caridade",
               route: ROUTES.ORIONE_FILMES_BOGAZ_7,
+              resources: CONTENT.ORIONE_FILMES_BOGAZ_7
             }, {
               item: "Recordações de um santo",
               route: ROUTES.ORIONE_FILMES_BOGAZ_8,
+              resources: CONTENT.ORIONE_FILMES_BOGAZ_8
             }
           ],
         }, {
@@ -237,9 +245,11 @@ const MENU = {
             }, {
               item: "Caminhando nas terras do pau-brasil",
               route: ROUTES.ORIONE_FILMES_ORIONITAS_2,
+              resources: CONTENT.ORIONE_FILMES_ORIONITAS_2
             }, {
               item: "Se Don Orione vivesse em nossos dias",
               route: ROUTES.ORIONE_FILMES_ORIONITAS_3,
+              resources: CONTENT.ORIONE_FILMES_ORIONITAS_3
             }
           ],
         }
@@ -579,10 +589,11 @@ const MENU = {
           resources: CONTENT.ACHIROPITA_FILMES_3,
           subitems: [],
         }, {
-        //   item: "Socorra meu povo",
-        //   route: ROUTES.ACHIROPITA_FILMES_4,
-        //   subitems: [],
-        // }, {
+          item: "Socorra meu povo",
+          route: ROUTES.ACHIROPITA_FILMES_4,
+          resources: CONTENT.ACHIROPITA_FILMES_4,
+          subitems: [],
+        }, {
           item: "São José, o bom carpinteiro",
           route: ROUTES.ACHIROPITA_FILMES_5,
           resources: CONTENT.ACHIROPITA_FILMES_5,
@@ -603,10 +614,11 @@ const MENU = {
           resources: CONTENT.ACHIROPITA_FILMES_8,
           subitems: [],
         }, {
-        //   item: "Sangue no Sertão",
-        //   route: ROUTES.ACHIROPITA_FILMES_9,
-        //   subitems: [],
-        // }, {
+          item: "Sangue no Sertão",
+          route: ROUTES.ACHIROPITA_FILMES_9,
+          resources: CONTENT.ACHIROPITA_FILMES_9,
+          subitems: [],
+        }, {
           item: "Santo Antônio e o milagre eucarístico",
           route: ROUTES.ACHIROPITA_FILMES_10,
           resources: CONTENT.ACHIROPITA_FILMES_10,
@@ -617,14 +629,16 @@ const MENU = {
           resources: CONTENT.ACHIROPITA_FILMES_11,
           subitems: [],
         }, {
-        //   item: "Zilda Arns: via sacra da solidariedade",
-        //   route: ROUTES.ACHIROPITA_FILMES_12,
-        //   subitems: [],
-        // }, {
-          // item: "Maria Mãe de Deus",
-          // route: ROUTES.ACHIROPITA_FILMES_13,
-          // subitems: [],
-        // }, {
+          item: "Zilda Arns: via sacra da solidariedade",
+          route: ROUTES.ACHIROPITA_FILMES_12,
+          resources: CONTENT.ACHIROPITA_FILMES_12,
+          subitems: [],
+        }, {
+          item: "Maria Mãe de Deus",
+          route: ROUTES.ACHIROPITA_FILMES_13,
+          resources: CONTENT.ACHIROPITA_FILMES_13,
+          subitems: [],
+        }, {
           item: "Perfume de Jasmim",
           route: ROUTES.ACHIROPITA_FILMES_14,
           subitems: [

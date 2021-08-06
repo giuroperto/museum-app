@@ -269,50 +269,50 @@ const CONTENT = {
   },
   ORIONE_FILMES_BOGAZ_1: {
     title: "A vida é como um rio",
-    type: "",
-    text: "",
+    type: "video",
+    text: "https://www.youtube.com/embed/b-OUJcZsfrQ",
     images: []
   },
   ORIONE_FILMES_BOGAZ_2: {
     title: "Universo Orione",
-    type: "",
-    text: "",
+    type: "video",
+    text: "https://www.youtube.com/embed/k0zRf9d_eA8",
     images: []
   },
   ORIONE_FILMES_BOGAZ_3: {
     title: "Memórias de uma aliança",
-    type: "",
-    text: "",
+    type: "video",
+    text: "https://www.youtube.com/embed/P1ssQvd4Un4",
     images: []
   },
   ORIONE_FILMES_BOGAZ_4: {
     title: "Perfume de Jasmim",
-    type: "",
-    text: "",
+    type: "video",
+    text: "https://www.youtube.com/embed/M1J5FpVPXMU",
     images: []
   },
   ORIONE_FILMES_BOGAZ_5: {
     title: "Qualquer coisa de Don Orione",
-    type: "",
-    text: "",
+    type: "video",
+    text: "https://www.youtube.com/embed/RL0ja35G2i0",
     images: []
   },
   ORIONE_FILMES_BOGAZ_6: {
     title: "Vocação: tocar na orquestra de Deus",
-    type: "",
-    text: "",
+    type: "video",
+    text: "https://www.youtube.com/embed/tM_Ta9_Gsvo",
     images: []
   },
   ORIONE_FILMES_BOGAZ_7: {
     title: "Orione Apóstolo da Caridade",
-    type: "",
-    text: "",
+    type: "video",
+    text: "https://www.youtube.com/embed/ElayAJgh_pQ",
     images: []
   },
   ORIONE_FILMES_BOGAZ_8: {
     title: "Recordações de um santo",
-    type: "",
-    text: "",
+    type: "video",
+    text: "https://www.youtube.com/embed/kqTjxkZywkE",
     images: []
   },
   ORIONE_FILMES_ORIONITAS: {
@@ -329,14 +329,14 @@ const CONTENT = {
   },
   ORIONE_FILMES_ORIONITAS_2: {
     title: "Caminhando nas terras do pau-brasil",
-    type: "",
-    text: "",
+    type: "video",
+    text: "https://www.youtube.com/embed/Ia2j9zPxd9I",
     images: []
   },
   ORIONE_FILMES_ORIONITAS_3: {
     title: "Se Don Orione vivesse em nossos dias",
-    type: "",
-    text: "",
+    type: "video",
+    text: "https://www.youtube.com/embed/p6FX75M1CbI",
     images: []
   },
   ACHIROPITA: {
@@ -767,8 +767,8 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_4: {
       title: "Socorra meu povo",
-      type: "",
-      text: "",
+      type: "video",
+      text: "https://www.youtube.com/embed/8-DaQv-LI1k",
       images: []
     },
     ACHIROPITA_FILMES_5: {
@@ -797,8 +797,8 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_9: {
       title: "Sangue no Sertão",
-      type: "",
-      text: "",
+      type: "video",
+      text: "https://www.youtube.com/embed/Ou2hluCrEdE",
       images: []
     },
     ACHIROPITA_FILMES_10: {
@@ -815,14 +815,14 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_12: {
       title: "Zilda Arns: via sacra da solidariedade",
-      type: "",
-      text: "",
+      type: "video",
+      text: "https://www.youtube.com/embed/Iln2-4pdvUo",
       images: []
     },
     ACHIROPITA_FILMES_13: {
       title: "Maria Mãe de Deus",
-      type: "",
-      text: "",
+      type: "video",
+      text: "https://www.youtube.com/embed/xyN6Jx9WUgw",
       images: []
     },
     ACHIROPITA_FILMES_14: {

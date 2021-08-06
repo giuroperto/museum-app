@@ -47,9 +47,9 @@ const Achiropita = (props) => {
   // the possible resources to show in a MENU page: PHOTO, VIDEO or TEXT
   const [ typeOfResource, setTypeOfResource ] = useState(null);
 
-
+// getting states initialized
   useEffect(() => {
-    setHistoryItems([...historyItems, MENU[PAGE]]);
+    setHistoryItems([MENU[PAGE]]);
     setfilteredSectionData(MENU[PAGE]);
     setTopics([ROOTROUTE]);
     // historyArray, route, hasResources, resource
@@ -58,7 +58,7 @@ const Achiropita = (props) => {
 
   // useEffect to track changes in context
   useEffect(() => {
-
+    console.log('historyArray updated');
     if (historyArray.route) {
       if (historyArray.route === "/") {
         props.history.replace("/");
@@ -67,10 +67,12 @@ const Achiropita = (props) => {
       } else if (historyArray.route === ROUTES.ACHIROPITA || 
         historyArray.route === ROUTES.ORIONE ||
         historyArray.route === ROUTES.BIXIGA) {
+          // TODO dar push nas rotas de todas as opcoes
           console.log("ACHIROPITA page");
-          setfilteredSectionData(historyArray.itemHistory);
-          setTopics([historyArray.route]);
-          setHistoryItems([...historyItems, historyArray.itemHistory]);
+          console.log(historyArray.itemHistory);
+          // setfilteredSectionData(historyArray.itemHistory);
+          // setTopics([...topics, historyArray.route]);
+          // setHistoryItems([...historyItems, historyArray.itemHistory]);
       } else {
         fetchItem(historyArray.itemHistory[0].item);
       }
@@ -152,6 +154,7 @@ const Achiropita = (props) => {
 
   const onClickSubmenu = (newTopic) => {
     console.log("CLICKED");
+    console.log('historyItems', historyItems);
     let length = historyItems.length - 1
     let getItem = historyItems[length].filter((e) => e.item === newTopic)[0];
     console.log(historyItems);
@@ -169,7 +172,11 @@ const Achiropita = (props) => {
 
   return (
     <>
-      <Navbar history={topics} page={PAGE} getHistory={props.getHistory} />
+    {
+      historyItems.length > 0 && (
+        <Navbar history={topics} page={PAGE} getHistory={props.getHistory} allItemsHistory={historyItems} />
+      )
+    }
       {
         pageType === "menu" && filteredSectionData.length > 0 && (
           <div className="achiropita-container">

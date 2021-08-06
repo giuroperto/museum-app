@@ -10,8 +10,6 @@ const VideoPage = (props) => {
     setContent(props.content);
   }, [props]);
 
-  console.log(content);
-
   return (
     <div className="page-container">
       <div className="video-container">
@@ -26,7 +24,6 @@ const VideoPage = (props) => {
               title={content.title}
               className="iframe-video">
               </iframe>
-            {/* <video src={content.text} controls="controls" width="60%"/> */}
           </>
         )
       }
@@ -35,12 +32,4 @@ const VideoPage = (props) => {
   )
 };
 
-
 export default VideoPage;
-
-
-// {/* <iframe
-//       width="853"
-//       height="480"
-//       frameBorder="0"
-//     /> */}

@@ -36,9 +36,6 @@ const SinglePage = (props) => {
     changePage(1);
   };
 
-  console.log(pdfFile);
-  // console.log(FASC1);
-
   return (
     <div className="pdf-view-container">
       <Document
@@ -76,6 +73,3 @@ const SinglePage = (props) => {
 }
 
 export default SinglePage;
-
-// file="https://drive.google.com/file/d/1N2vPZsnaEDS4NPktj-UzwOqF4RdO5bFh/view?usp=sharing"
-        // options={{ workerSrc: "/pdf.worker.js" }}

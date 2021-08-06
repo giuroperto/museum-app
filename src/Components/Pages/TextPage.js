@@ -10,8 +10,8 @@ const TextPage = (props) => {
     setContent(props.content);
   }, [props]);
 
-  console.log(content);
-  console.log(content.images);
+  console.log('content text page', content);
+  console.log('content.images text page', content.images);
 
   return (
     <div className="page-container">

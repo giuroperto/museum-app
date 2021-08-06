@@ -2,7 +2,7 @@ import React from 'react';
 
 const HistoryItemsContext = React.createContext({
     itemHistory: [],
-    route: "",
+    route: [],
     hasResources: false,
     resources: {},
 });
