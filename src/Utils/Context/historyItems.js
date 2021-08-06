@@ -5,6 +5,7 @@ const HistoryItemsContext = React.createContext({
     route: [],
     hasResources: false,
     resources: {},
+    isOriginNavbar: false,
 });
 
 export default HistoryItemsContext;
