@@ -62,9 +62,9 @@ const MainSubMenu = (props) => {
         setIsImage(false);
         setIsVideo(false);
         setIsText(false);
-        // setContainerClassName("submenu-container");
-        // setMenuClassName("submenu-item-container");
-        // setBtnClassName("btn-container");
+        setContainerClassName("submenu-container");
+        setMenuClassName("submenu-item-container");
+        setBtnClassName("btn-menu");
         setBtnContainerClassName("btn-container");
       break;
     }

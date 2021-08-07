@@ -13,12 +13,13 @@ const App = () => {
     route: "",
   });
 
-  const getHistory = (historyArray, route, hasResources, resource) => {
+  const getHistory = (historyArray, route, hasResources, resource, isOriginNavbar) => {
     let obj = {
       itemHistory: historyArray,
       route: route,
       hasResources: hasResources,
-      resources: resource
+      resources: resource,
+      isOriginNavbar: isOriginNavbar,
     };
     setHistory(obj);
   };
