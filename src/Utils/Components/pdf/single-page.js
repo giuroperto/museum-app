@@ -17,7 +17,7 @@ const SinglePage = (props) => {
 
   useEffect(() => {
     setPdfFile(props.pdfFile);
-  });
+  }, [props.pdfFile]);
 
   const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);
@@ -44,8 +44,7 @@ const SinglePage = (props) => {
       onLoadSuccess={onDocumentLoadSuccess} 
       className="pdf-document">
         <Page pageNumber={pageNumber} 
-          className="pdf-page"
-        />
+          className="pdf-page" />
       </Document>
       <div className="pdf-page-control">
         <p className="pdf-page-text">

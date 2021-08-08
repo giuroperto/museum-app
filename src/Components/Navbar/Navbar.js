@@ -25,7 +25,6 @@ const Navbar = (props) => {
         setShowSquare("square-show");
       } else {
         setShowBackButton("back-show");
-        // setShowBackButton("back-hide");
         setShowSquare("square-hide");
       }
     }
@@ -102,7 +101,7 @@ const Navbar = (props) => {
           console.log('historyArray: ', historyArray);
 
           // removing last item of array so now the last item is the new current one
-          let previousItemPosition = itemsLength - 3;
+          let previousItemPosition = itemsLength - 4;
           console.log('previousItemPosition: ', previousItemPosition);
           let findPreviousItem = historyArray.itemHistory[previousItemPosition].filter((e) => e.route === previousItem)[0];
           console.log('findPreviousItem: ', findPreviousItem);

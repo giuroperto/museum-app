@@ -323,8 +323,8 @@ const CONTENT = {
   },
   ORIONE_FILMES_ORIONITAS_1: {
     title: "A grande pescaria",
-    type: "",
-    text: "",
+    type: "text",
+    text: "Conteúdo indisponível no momento!",
     images: []
   },
   ORIONE_FILMES_ORIONITAS_2: {
@@ -575,8 +575,8 @@ const CONTENT = {
     }, 
     ACHIROPITA_FESTA_PRESENCIAL: {
       title: "Festa Presencial e Delivery",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     ACHIROPITA_FESTA_MATERIAL: {
@@ -587,8 +587,8 @@ const CONTENT = {
     },
     ACHIROPITA_FESTA_MATERIAL_1: {
       title: "Clipping",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     ACHIROPITA_FESTA_MATERIAL_2: {
@@ -611,8 +611,8 @@ const CONTENT = {
     },
     ACHIROPITA_FESTA_MATERIAL_5: {
       title: "Vídeos",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     ACHIROPITA_PROJETOS: {
@@ -623,8 +623,8 @@ const CONTENT = {
     },
     ACHIROPITA_PROJETOS_1: {
       title: "Vídeo de Apresentação",
-      type: "video",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     ACHIROPITA_PROJETOS_2: {
@@ -653,20 +653,20 @@ const CONTENT = {
     },
     ACHIROPITA_PROJETOS_6: {
       title: "Casa Don Orione",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     ACHIROPITA_PROJETOS_7: {
       title: "Centro Jurídico",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     ACHIROPITA_PROJETOS_8: {
       title: "MOVA – Movimento de Alfabetização para adultos",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     ACHIROPITA_LIVROS: {
@@ -923,8 +923,8 @@ const CONTENT = {
     },
     ACHIROPITA_PATRIMONIO_IGREJA: {
       title: "Igreja",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     ACHIROPITA_PATRIMONIO_PINTURAS: {
@@ -1001,8 +1001,8 @@ const CONTENT = {
     },
     BIXIGA_MUSICA_BLOCOS: {
       title: "Blocos Carnavalescos",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     BIXIGA_PERSONAGENS: {
@@ -1043,20 +1043,20 @@ const CONTENT = {
     },
     BIXIGA_PERSONAGENS_4: {
       title: "Sílvio Santos",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     BIXIGA_PERSONAGENS_5: {
       title: "Emanuel Araújo",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     BIXIGA_PERSONAGENS_6: {
       title: "Sérgio Mamberti",
-      type: "",
-      text: "",
+      type: "text",
+      text: "Conteúdo indisponível no momento.",
       images: []
     },
     BIXIGA_PATRIMONIO: {

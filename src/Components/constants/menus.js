@@ -242,6 +242,7 @@ const MENU = {
             {
               item: "A grande pescaria",
               route: ROUTES.ORIONE_FILMES_ORIONITAS_1,
+              resources: CONTENT.ORIONE_FILMES_ORIONITAS_1
             }, {
               item: "Caminhando nas terras do pau-brasil",
               route: ROUTES.ORIONE_FILMES_ORIONITAS_2,
@@ -435,6 +436,7 @@ const MENU = {
         }, {
           item: "Festa Presencial e Delivery",
           route: ROUTES.ACHIROPITA_FESTA_PRESENCIAL,
+          resources: CONTENT.ACHIROPITA_FESTA_PRESENCIAL,
           subitems: [],
         }, {
           item: "Material Promocional",
@@ -443,6 +445,7 @@ const MENU = {
             {
               item: "Clipping",
               route: ROUTES.ACHIROPITA_FESTA_MATERIAL_1,
+              resources: CONTENT.ACHIROPITA_FESTA_MATERIAL_1,
             }, {
               item: "Publicações",
               route: ROUTES.ACHIROPITA_FESTA_MATERIAL_2,
@@ -458,6 +461,7 @@ const MENU = {
             }, {
               item: "Vídeos",
               route: ROUTES.ACHIROPITA_FESTA_MATERIAL_5,
+              resources: CONTENT.ACHIROPITA_FESTA_MATERIAL_5,
             }
           ],
         }
@@ -485,6 +489,7 @@ const MENU = {
         }, {
           item: "C.E.D.O. – Centro Educacional Don Orione",
           route: ROUTES.ACHIROPITA_PROJETOS_4,
+          resources: CONTENT.ACHIROPITA_PROJETOS_4,
           subitems: [],
         }, {
           item: "Casa Rainha da Paz",
@@ -494,14 +499,17 @@ const MENU = {
         }, {
           item: "Casa Don Orione",
           route: ROUTES.ACHIROPITA_PROJETOS_6,
+          resources: CONTENT.ACHIROPITA_PROJETOS_6,
           subitems: [],
         }, {
           item: "Centro Jurídico",
           route: ROUTES.ACHIROPITA_PROJETOS_7,
+          resources: CONTENT.ACHIROPITA_PROJETOS_7,
           subitems: [],
         }, {
           item: "MOVA – Movimento de Alfabetização para adultos",
           route: ROUTES.ACHIROPITA_PROJETOS_8,
+          resources: CONTENT.ACHIROPITA_PROJETOS_8,
           subitems: [],
         }
       ]
@@ -711,6 +719,7 @@ const MENU = {
         {
           item: "Igreja",
           route: ROUTES.ACHIROPITA_PATRIMONIO_IGREJA,
+          resources: CONTENT.ACHIROPITA_PATRIMONIO_IGREJA,
           subitems: [],
         }, {
           item: "Pinturas",
@@ -780,6 +789,7 @@ const MENU = {
         }, {
           item: "Blocos Carnavalescos",
           route: ROUTES.BIXIGA_MUSICA_BLOCOS,
+          resources: CONTENT.BIXIGA_MUSICA_BLOCOS,
           subitems: [],
         }
       ],
@@ -818,14 +828,17 @@ const MENU = {
         }, {
           item: "Sílvio Santos",
           route: ROUTES.BIXIGA_PERSONAGENS_4,
+          resources: CONTENT.BIXIGA_PERSONAGENS_4,
           subitems: [],
         }, {
           item: "Emanuel Araújo",
           route: ROUTES.BIXIGA_PERSONAGENS_5,
+          resources: CONTENT.BIXIGA_PERSONAGENS_5,
           subitems: [],
         }, {
           item: "Sérgio Mamberti",
           route: ROUTES.BIXIGA_PERSONAGENS_6,
+          resources: CONTENT.BIXIGA_PERSONAGENS_6,
           subitems: [],
         }
       ],

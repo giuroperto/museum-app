@@ -15,46 +15,16 @@
 }
 
 /* responsivity to medium screens */
-@media only screen and (min-width: 641px) and (max-width: 1007px) {
-  
+@media only screen and (min-width: 641px) and (max-width: 1030px) {
+  .orione-container {
+    min-height: 85vh;
+    align-items: flex-start;
+  }
 }
 
-
-/* made to be big screen first which is >1008px */
-
-/* .orione-container {
-  height: 85vh;
-  width: 100%;
-  display: flex;
-  padding: 5vh 6vw;
-  justify-content: space-evenly;
+@media only screen and (min-width: 1031px) and (max-width: 1450px) {
+  .orione-container {
+    min-height: 86vh;
+    align-items: flex-start;
+  }
 }
-
-.picture-background {
-  height: 100%;
-  width: 50%;
-  background: url(https://res.cloudinary.com/dxatyucj2/image/upload/v1620871539/museu-bixiga/p._36_ikeey2.jpg) no-repeat center;
-  background-size: cover;
-  opacity: 0.6;
-}
-
-.menu-block {
-  height: 100%;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.btn-menu {
-  width: 20vw;
-}*/
-
-/* responsivity to small screens */
-/* @media only screen and (max-width: 640px) { */
-/* } */
-
-/* responsivity to medium screens */
-/* @media only screen and (min-width: 641px) and (max-width: 1007px) { */
-/* } */

@@ -35,7 +35,6 @@ const Achiropita = (props) => {
   // MENU resource type: PHOTO, VIDEO or TEXT
   const [ menuResourceType, setMenuResourceType ] = useState(null);
 
-  // TODO check if routes dont get messed up
 // getting states initialized
   useEffect(() => {
     setCurrentSectionData(MENU[PAGE]);
@@ -43,7 +42,6 @@ const Achiropita = (props) => {
     props.getHistory([MENU[PAGE]], ["/", ROOTROUTE], false, null, false);
   }, []);
 
-  // TODO check loop call and remove it
   // useEffect to track changes in context
   useEffect(() => {
     console.log('historyArray updated');
