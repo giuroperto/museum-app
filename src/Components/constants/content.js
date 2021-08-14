@@ -575,8 +575,8 @@ const CONTENT = {
     }, 
     ACHIROPITA_FESTA_PRESENCIAL: {
       title: "Festa Presencial e Delivery",
-      type: "text",
-      text: "Conteúdo indisponível no momento.",
+      type: "video",
+      text: "https://www.youtube.com/embed/qFl28ASNwVM",
       images: []
     },
     ACHIROPITA_FESTA_MATERIAL: {
@@ -611,8 +611,8 @@ const CONTENT = {
     },
     ACHIROPITA_FESTA_MATERIAL_5: {
       title: "Vídeos",
-      type: "text",
-      text: "Conteúdo indisponível no momento.",
+      type: "video",
+      text: "https://www.youtube.com/embed/7k1hiCOyc0k",
       images: []
     },
     ACHIROPITA_PROJETOS: {
@@ -653,8 +653,44 @@ const CONTENT = {
     },
     ACHIROPITA_PROJETOS_6: {
       title: "Casa Don Orione",
-      type: "text",
-      text: "Conteúdo indisponível no momento.",
+      type: "",
+      text: "",
+      images: []
+    },
+    ACHIROPITA_PROJETOS_6_EP1: {
+      title: "Apresentação 1o Andar Espaço Social",
+      type: "video",
+      text: "https://www.youtube.com/embed/0Vqc6C6DFAE",
+      images: []
+    },
+    ACHIROPITA_PROJETOS_6_EP2: {
+      title: "Apresentação 2o Andar Espaço Social",
+      type: "video",
+      text: "https://www.youtube.com/embed/4FRvQBYn8hs",
+      images: []
+    },
+    ACHIROPITA_PROJETOS_6_EP3: {
+      title: "Apresentação Espaço Social",
+      type: "video",
+      text: "https://www.youtube.com/embed/i_-PVcIZ2lw",
+      images: []
+    },
+    ACHIROPITA_PROJETOS_6_EP4: {
+      title: "Refeitório Espaço Social",
+      type: "video",
+      text: "https://www.youtube.com/embed/gnRvcmyb0Nw",
+      images: []
+    },
+    ACHIROPITA_PROJETOS_6_EP5: {
+      title: "Casa Espaço Social",
+      type: "video",
+      text: "https://www.youtube.com/embed/gocxYMJrllM",
+      images: []
+    },
+    ACHIROPITA_PROJETOS_6_EP6: {
+      title: "Entrada Espaço Social",
+      type: "video",
+      text: "https://www.youtube.com/embed/ncCQpEIZn8Q",
       images: []
     },
     ACHIROPITA_PROJETOS_7: {

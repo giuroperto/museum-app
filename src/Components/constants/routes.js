@@ -128,6 +128,12 @@ const ROUTES = {
   ACHIROPITA_PROJETOS_4: '/achiropita/projetos/cedo',
   ACHIROPITA_PROJETOS_5: '/achiropita/projetos/casa-rainha-da-paz',
   ACHIROPITA_PROJETOS_6: '/achiropita/projetos/casa-don-orione',
+  ACHIROPITA_PROJETOS_6_EP1: '/achiropita/projetos/casa-don-orione/ep1',
+  ACHIROPITA_PROJETOS_6_EP2: '/achiropita/projetos/casa-don-orione/ep2',
+  ACHIROPITA_PROJETOS_6_EP3: '/achiropita/projetos/casa-don-orione/ep3',
+  ACHIROPITA_PROJETOS_6_EP4: '/achiropita/projetos/casa-don-orione/ep4',
+  ACHIROPITA_PROJETOS_6_EP5: '/achiropita/projetos/casa-don-orione/ep5',
+  ACHIROPITA_PROJETOS_6_EP6: '/achiropita/projetos/casa-don-orione/ep6',
   ACHIROPITA_PROJETOS_7: '/achiropita/projetos/centro-juridico',
   ACHIROPITA_PROJETOS_8: '/achiropita/projetos/mova',
 

@@ -499,8 +499,38 @@ const MENU = {
         }, {
           item: "Casa Don Orione",
           route: ROUTES.ACHIROPITA_PROJETOS_6,
-          resources: CONTENT.ACHIROPITA_PROJETOS_6,
-          subitems: [],
+          subitems: [
+            {
+              item: "Apresentação 1o Andar Espaço Social",
+              route: ROUTES.ACHIROPITA_PROJETOS_6_EP1,
+              resources: CONTENT.ACHIROPITA_PROJETOS_6_EP1,
+            },
+            {
+              item: "Apresentação 2o Andar Espaço Social",
+              route: ROUTES.ACHIROPITA_PROJETOS_6_EP2,
+              resources: CONTENT.ACHIROPITA_PROJETOS_6_EP2,
+            },
+            {
+              item: "Apresentação Espaço Social",
+              route: ROUTES.ACHIROPITA_PROJETOS_6_EP3,
+              resources: CONTENT.ACHIROPITA_PROJETOS_6_EP3,
+            },
+            {
+              item: "Refeitório Espaço Social",
+              route: ROUTES.ACHIROPITA_PROJETOS_6_EP4,
+              resources: CONTENT.ACHIROPITA_PROJETOS_6_EP4,
+            },
+            {
+              item: "Casa Espaço Social",
+              route: ROUTES.ACHIROPITA_PROJETOS_6_EP5,
+              resources: CONTENT.ACHIROPITA_PROJETOS_6_EP5,
+            },
+            {
+              item: "Entrada Espaço Social",
+              route: ROUTES.ACHIROPITA_PROJETOS_6_EP6,
+              resources: CONTENT.ACHIROPITA_PROJETOS_6_EP6,
+            },
+          ],
         }, {
           item: "Centro Jurídico",
           route: ROUTES.ACHIROPITA_PROJETOS_7,

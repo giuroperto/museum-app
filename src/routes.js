@@ -363,6 +363,24 @@ const AllRoutes = (props) => {
         <Route path={ROUTES.ACHIROPITA_PROJETOS_6} exact render={(props2) => (
           <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
         )} />
+        <Route path={ROUTES.ACHIROPITA_PROJETOS_6_EP1} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+        <Route path={ROUTES.ACHIROPITA_PROJETOS_6_EP2} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+        <Route path={ROUTES.ACHIROPITA_PROJETOS_6_EP3} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+        <Route path={ROUTES.ACHIROPITA_PROJETOS_6_EP4} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+        <Route path={ROUTES.ACHIROPITA_PROJETOS_6_EP5} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+        <Route path={ROUTES.ACHIROPITA_PROJETOS_6_EP6} exact render={(props2) => (
+          <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
         <Route path={ROUTES.ACHIROPITA_PROJETOS_7} exact render={(props2) => (
           <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
         )} />
