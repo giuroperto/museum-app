@@ -38,34 +38,33 @@ const SinglePage = (props) => {
 
   return (
     <div className="pdf-view-container">
+      <div className="btn-control-container">
+      <button
+        className="pdf-btn"
+        type="button"
+        disabled={pageNumber <= 1}
+        onClick={previousPage}>
+        &lt;
+      </button>
       <Document
       file={pdfFile}
-      // file={FASC1}
       onLoadSuccess={onDocumentLoadSuccess} 
       className="pdf-document">
         <Page pageNumber={pageNumber} 
           className="pdf-page" />
       </Document>
+      <button
+        className="pdf-btn"
+        type="button"
+        disabled={pageNumber >= numPages}
+        onClick={nextPage}>
+        &gt;
+      </button>
+      </div>
       <div className="pdf-page-control">
         <p className="pdf-page-text">
           Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
         </p>
-        <div className="btn-control-container">
-          <button
-            className="pdf-btn"
-            type="button"
-            disabled={pageNumber <= 1}
-            onClick={previousPage}>
-            Anterior
-          </button>
-          <button
-            className="pdf-btn"
-            type="button"
-            disabled={pageNumber >= numPages}
-            onClick={nextPage}>
-            Próxima
-          </button>
-        </div>
       </div>
     </div>
   );
