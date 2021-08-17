@@ -55,6 +55,12 @@
   margin-bottom: 5vh;
 }
 
+.text-page-video {
+  margin-bottom: 5vh;
+  width: 75vw;
+  height: 75vh;
+}
+
 .img-format {
   max-height: 75vh;
   margin: 0 auto;

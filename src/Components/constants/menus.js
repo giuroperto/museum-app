@@ -490,13 +490,7 @@ const MENU = {
           item: "C.E.D.O. – Centro Educacional Don Orione",
           route: ROUTES.ACHIROPITA_PROJETOS_4,
           resources: CONTENT.ACHIROPITA_PROJETOS_4,
-          subitems: [
-          {
-            item: "Vídeo de Apresentação",
-            route: ROUTES.ACHIROPITA_PROJETOS_4_VIDEO,
-            resources: CONTENT.ACHIROPITA_PROJETOS_4_VIDEO,
-          },
-        ],
+          subitems: [],
         }, {
           item: "Casa Rainha da Paz",
           route: ROUTES.ACHIROPITA_PROJETOS_5,

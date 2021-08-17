@@ -750,13 +750,6 @@ const CONTENT = {
       type: "text",
       text: "O Centro Educacional Dom Orione - CEDO, núcleo das Obras Sociais Nossa Senhora Achiropita, atende a 360 crianças e adolescentes no contra turno escolar, com idade entre 6 e 18 anos. Essas crianças vêm de famílias de baixa renda e necessitam de um respaldo enquanto os pais trabalham, pois durante o dia ficariam sozinhas em casa ou soltas nas ruas em total vulnerabilidade.\nNosso projeto é essencialmente preventivo, e desenvolve várias atividades que proporcionam um crescimento, pessoal, social, cultural, espiritual e profissional, encaminhando e incluindo adolescentes a partir de 15 anos de idade no mercado de trabalho, com o programa Jovem Aprendiz.\nNo CEDO os jovens têm a oportunidade de obter conhecimento e prática com instrumentos de orquestra, coral, iniciação e teoria musical; esportes em geral; orientação nas atividades escolares; literatura; raciocínio lógico; artes e artesanato, entre outras atividades. Recebem também 2 refeições por período.\nUma das principais marcas do projeto CEDO é o trabalho de reflexão em filosofia e espiritualidade, realizado diariamente, buscando fortalecer a ligação de todos os educadores e alunos com os valores cristãos. Promover uma cidadania responsável com uma educação reflexiva, desenvolvendo a boa auto-estima, auto-conhecimento e autonomia do pensar, podendo através do senso crítico, antecipar e escolher sempre o que for melhor para si.\nSobre a famosa frase de São Luís Orione, queremos que estes jovens sejam o sol do amanhã e que este sol venha a iluminar a vida de tantos outros.\n\nENDEREÇO\nRua Dr. Luiz Barreto, 315 - CEP: 01328-020\nE-mail: contato@achiropita.org.br",
       images: [],
-      video: "",
-    },
-    ACHIROPITA_PROJETOS_4_VIDEO: {
-      title: "Vídeo de Apresentação",
-      type: "video",
-      text: "",
-      images: [],
       video: "https://www.youtube.com/embed/J8VpkgDLhfI",
     },
     ACHIROPITA_PROJETOS_5: {

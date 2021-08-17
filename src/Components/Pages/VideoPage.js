@@ -18,7 +18,7 @@ const VideoPage = (props) => {
           <>
             <h2 className="video-page-title"> {content.title} </h2>
             <iframe 
-              src={content.text}
+              src={content.video}
               allowFullScreen
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               title={content.title}
