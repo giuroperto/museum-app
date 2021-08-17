@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600&family=Pinyon+Script&family=Roboto:wght@100;300;400;500&display=swap');
 
+/* colors
+PINK
+dark: #890034
+medium: #bf265d 
+light: #f65e8a
+GREEN
+dark: #008e77
+rgb(37, 147, 117)
+medium: #36bfa6
+light: #72f2d7
+
+RED
+rgb(235, 72, 72)*/
+
 /* made to be big screen first which is >1008px */
 .App {
   width: 100vw;

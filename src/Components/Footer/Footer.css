@@ -1,7 +1,7 @@
 /* made to be big screen first which is >1008px */
 
 .footer {
-  background-color: rgb(37, 147, 117);
+  background-color: #008e77;
   height: 4vh;
   display: flex;
   align-items: baseline;

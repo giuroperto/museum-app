@@ -8,7 +8,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="/museu-temp">
+    <Router basename="/memorial">
       <App />
     </Router>
   </React.StrictMode>,
