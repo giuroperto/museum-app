@@ -11,7 +11,7 @@
 }
 
 .react-pdf__Page__canvas {
-  height: 100vh !important;
+  height: 150vh !important;
   width: auto !important;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .pdf-btn {
-  width: 6vw;
+  width: 5vw;
   font-size: 3rem;
   border-radius: 15px;
   color: white;
