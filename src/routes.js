@@ -3,17 +3,18 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from './Components/Home/Home';
 
-import Orione from './Components/Orione/Orione';
-
 import Achiropita from './Components/Achiropita/Achiropita';
-
+import Orione from './Components/Orione/Orione';
 import Bixiga from './Components/Bixiga/Bixiga';
+
+// import SideMenu from './Utils/Components/SideMenu/SideMenu';
 
 import ROUTES from './Components/constants/routes';
 
 const AllRoutes = (props) => {
   return (
     <>
+      {/* <SideMenu /> */}
       <Switch>
         <Route path={ROUTES.HOME} exact render={(props2) => (
             <Home getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />

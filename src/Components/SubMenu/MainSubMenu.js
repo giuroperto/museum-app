@@ -80,51 +80,53 @@ const MainSubMenu = (props) => {
   console.log(isText);
 
   return (
-    <div className={containerClassName}>
-      {
-        sectionResource && isImage && (
-          <div className={menuClassName}>
-            <img src={sectionResource} alt="foto relativa a seção" className="submenu-image" />
-          </div>
-        )
-      }
-      {
-        sectionResource && isVideo && (
-          <div className={menuClassName}>
-            <iframe 
-              src={sectionResource.text}
-              allowFullScreen
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              title={sectionResource.title}
-              className="iframe-video-menu">
-              </iframe>
-          </div>
-        )
-      }
-      <div className={btnContainerClassName}>
+    <>
+      <div className={containerClassName}>
         {
-          menuArray.length > 0 && menuArray.map(item => {
-            return (
-              <div className={menuClassName} key={`${item.item}-${item.route}`}>
-                <Link to={item.route} className="btn-link">
-                  <Button variant="secondary" size="lg" className={btnClassName} onClick={() => props.click(item.item)} > { item.item } </Button>
-                </Link>
+          sectionResource && isImage && (
+            <div className={menuClassName}>
+              <img src={sectionResource} alt="foto relativa a seção" className="submenu-image" />
+            </div>
+          )
+        }
+        {
+          sectionResource && isVideo && (
+            <div className={menuClassName}>
+              <iframe 
+                src={sectionResource.text}
+                allowFullScreen
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                title={sectionResource.title}
+                className="iframe-video-menu">
+                </iframe>
+            </div>
+          )
+        }
+        <div className={btnContainerClassName}>
+          {
+            menuArray.length > 0 && menuArray.map(item => {
+              return (
+                <div className={menuClassName} key={`${item.item}-${item.route}`}>
+                  <Link to={item.route} className="btn-link">
+                    <Button variant="secondary" size="lg" className={btnClassName} onClick={() => props.click(item.item)} > { item.item } </Button>
+                  </Link>
+                </div>
+              )
+            })
+          }
+        </div>
+        {
+          sectionResource && isText && (
+            <div className="text-resource">
+              <div className={menuClassName}>
+                <h2 className="page-title"> {sectionResource.title} </h2>
+                <p className="page-text"> {sectionResource.text} </p>
               </div>
-            )
-          })
+            </div>
+          )
         }
       </div>
-      {
-        sectionResource && isText && (
-          <div className="text-resource">
-            <div className={menuClassName}>
-              <h2 className="page-title"> {sectionResource.title} </h2>
-              <p className="page-text"> {sectionResource.text} </p>
-            </div>
-          </div>
-        )
-      }
-    </div>
+    </>
   )
 };
 
