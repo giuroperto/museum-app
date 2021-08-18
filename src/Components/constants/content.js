@@ -915,17 +915,10 @@ const CONTENT = {
     },
     ACHIROPITA_FILMES_2: {
       title: "A relíquia",
-      type: "video",
-      text: "",
+      type: "text",
+      text: "SINOPSE\nPara maior conhecimento da devoção e da história de Nossa Senhora Achiropita, sob a direção do Pe. Antônio S. Bogaz, foi realizado um filme, contando a história de forma poética e envolvente.  O roteiro conta a história de um menininho que é criado por sua vovó Luiza, uma vez que foi rejeitado por sua mãe desde o nascimento. Ele vê sua querida vovó em grande enfermidade e pede socorro ao padre Giuseppe pedindo um milagre para salvar a mulher. O padre conta-lhe uma lenda que diz que para conseguir um milagre, o interessado deveria encontrar a relíquia de Nossa Senhora Achiropita. O menino fica impressionado e quer saber quais são as relíquias, mas tampouco o sacerdote a conhece. Ele adormece e acorda num lugar desconhecido, onde se depara com uma senhora, com uma criança no colo. Era a cidade de Rossano Cálabro, na Calábria/Itália, que o ajuda na busca da relíquia. Assim, caminha e revive a história da santa, com seus personagens num tempo e lugar distante. Haverá de encontrar a relíquia, mas o milagre é a grande surpresa do filme.  O filme pode ser visto e adquirido na comunidade Achiropita da Bela Vista.",
       images: [],
       video: "https://www.youtube.com/embed/D7MuNzYf1vM",
-    },
-    ACHIROPITA_FILMES_2_SINOPSE: {
-      title: "Sinopse de A Relíquia",
-      type: "text",
-      text: "Para maior conhecimento da devoção e da história de Nossa Senhora Achiropita, sob a direção do Pe. Antônio S. Bogaz, foi realizado um filme, contando a história de forma poética e envolvente.  O roteiro conta a história de um menininho que é criado por sua vovó Luiza, uma vez que foi rejeitado por sua mãe desde o nascimento. Ele vê sua querida vovó em grande enfermidade e pede socorro ao padre Giuseppe pedindo um milagre para salvar a mulher. O padre conta-lhe uma lenda que diz que para conseguir um milagre, o interessado deveria encontrar a relíquia de Nossa Senhora Achiropita. O menino fica impressionado e quer saber quais são as relíquias, mas tampouco o sacerdote a conhece. Ele adormece e acorda num lugar desconhecido, onde se depara com uma senhora, com uma criança no colo. Era a cidade de Rossano Cálabro, na Calábria/Itália, que o ajuda na busca da relíquia. Assim, caminha e revive a história da santa, com seus personagens num tempo e lugar distante. Haverá de encontrar a relíquia, mas o milagre é a grande surpresa do filme.  O filme pode ser visto e adquirido na comunidade Achiropita da Bela Vista.",
-      images: [],
-      video: "",
     },
     ACHIROPITA_FILMES_3: {
       title: "Memórias do Coração, Vida e Obra de Santo Eugênio de Mazenod",

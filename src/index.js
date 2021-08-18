@@ -14,7 +14,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
   );
-
-  // {/* <Router basename="/temp-museu"> */}
-
-  // "homepage": "http://www.bixiga.com.br/temp-museu",

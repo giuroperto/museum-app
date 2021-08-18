@@ -2,7 +2,6 @@ import CONTENT from "./content";
 import ROUTES from "./routes";
 
 const MENU = {
-  // TODO ORIONE --------------------------------------------------------------
   ORIONE: [
     {
       item: "Biografia",
@@ -257,7 +256,6 @@ const MENU = {
       ],
     }, 
   ],
-  // TODO ACHIROPITA ----------------------------------------------------------
   ACHIROPITA: [
     {
       item: "História",
@@ -614,13 +612,7 @@ const MENU = {
           item: "A relíquia",
           route: ROUTES.ACHIROPITA_FILMES_2,
           resources: CONTENT.ACHIROPITA_FILMES_2,
-          subitems: [
-            {
-              item: "Sinopse de A Relíquia",
-              route: ROUTES.ACHIROPITA_FILMES_2_SINOPSE,
-              resources: CONTENT.ACHIROPITA_FILMES_2_SINOPSE,
-            }
-          ],
+          subitems: [],
         }, {
           item: "Vida e Obra de Santo Eugênio de Mazenod",
           route: ROUTES.ACHIROPITA_FILMES_3,
@@ -770,7 +762,6 @@ const MENU = {
       ],
     }, 
   ],
-  // TODO BIXIGA --------------------------------------------------------------
   BIXIGA: [
     {
       item: "História do Bairro",
