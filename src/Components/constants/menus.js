@@ -578,6 +578,7 @@ const MENU = {
         }, {
           item: "Clipping",
           route: ROUTES.ACHIROPITA_LIVROS_5,
+          resources: CONTENT.ACHIROPITA_LIVROS_5,
           subitems: [],
         }
       ],
