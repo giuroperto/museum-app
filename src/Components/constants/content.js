@@ -395,6 +395,13 @@ const CONTENT = {
     images: [],
     video: "https://www.youtube.com/embed/p6FX75M1CbI",
   },
+  ORIONE_RELIQUIAS: {
+    title: "Relíquias",
+    type: "",
+    text: "",
+    images: [],
+    video: "",
+  },
   ACHIROPITA: {
     title: "Achiropita",
     type: "",

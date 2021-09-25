@@ -69,6 +69,8 @@ const ROUTES = {
   ORIONE_FILMES_ORIONITAS_1: '/orione/filmes/orionitas/a-grande-pescaria',
   ORIONE_FILMES_ORIONITAS_2: '/orione/filmes/orionitas/caminhando-nas-terras-do-pau-brasil',
   ORIONE_FILMES_ORIONITAS_3: '/orione/filmes/orionitas/se-don-orione-vivesse-em-nossos-dias',
+  
+  ORIONE_RELIQUIAS: '/orione/reliquias',
 
   // achiropita routes
   ACHIROPITA: '/achiropita',

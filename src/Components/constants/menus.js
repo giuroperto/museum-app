@@ -254,6 +254,12 @@ const MENU = {
           ],
         }
       ],
+    },
+    {
+      item: "Relíquias",
+      route: ROUTES.ORIONE_RELIQUIAS,
+      resources: CONTENT.ORIONE_RELIQUIAS,
+      subitems: [],
     }, 
   ],
   ACHIROPITA: [
