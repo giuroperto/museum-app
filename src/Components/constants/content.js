@@ -402,6 +402,20 @@ const CONTENT = {
     images: [],
     video: "",
   },
+  ORIONE_RELIQUIAS_FOTOS: {
+    title: "Relíquias",
+    type: "",
+    text: "",
+    images: [],
+    video: "",
+  },
+  ORIONE_RELIQUIAS_TEXTO: {
+    title: "Relíquias",
+    type: "",
+    text: "",
+    images: [],
+    video: "",
+  },
   ACHIROPITA: {
     title: "Achiropita",
     type: "",

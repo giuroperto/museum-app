@@ -71,6 +71,8 @@ const ROUTES = {
   ORIONE_FILMES_ORIONITAS_3: '/orione/filmes/orionitas/se-don-orione-vivesse-em-nossos-dias',
   
   ORIONE_RELIQUIAS: '/orione/reliquias',
+  ORIONE_RELIQUIAS_FOTOS: '/orione/reliquias/fotos',
+  ORIONE_RELIQUIAS_TEXTO: '/orione/reliquias/texto',
 
   // achiropita routes
   ACHIROPITA: '/achiropita',
