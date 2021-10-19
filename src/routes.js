@@ -200,6 +200,16 @@ const AllRoutes = (props) => {
           <Orione getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
         )} />
 
+        <Route path={ROUTES.ORIONE_RELIQUIAS} exact render={(props2) => (
+          <Orione getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+        <Route path={ROUTES.ORIONE_RELIQUIAS_FOTOS} exact render={(props2) => (
+          <Orione getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+        <Route path={ROUTES.ORIONE_RELIQUIAS_TEXTO} exact render={(props2) => (
+          <Orione getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
+        )} />
+
         {/* ACHIROPITA ROUTES */}
         <Route path={ROUTES.ACHIROPITA} exact render={(props2) => (
           <Achiropita getHistory={props.getHistory} historyObject={props.historyObject} {...props2} />
